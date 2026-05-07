@@ -87,7 +87,32 @@
   .remover-btn { font-size: 12px; color: var(--red); cursor: pointer; white-space: nowrap; padding: 2px 6px; border-radius: 6px; border: 1px solid #f5c6c2; background: transparent; flex-shrink: 0; }
   .pedido-vazio { text-align: center; padding: 24px; color: var(--text3); font-size: 14px; }
 
-  .modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 200; align-items: flex-end; justify-content: center; }
+  /* MOTOS */
+  .moto-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .moto-header h2 { font-size: 16px; font-weight: bold; color: var(--text); }
+  .moto-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; }
+  .moto-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+  .moto-modelo { font-size: 15px; font-weight: bold; color: var(--text); }
+  .moto-cliente { font-size: 13px; color: var(--text2); margin-top: 3px; }
+  .moto-tel { font-size: 13px; color: #185FA5; margin-top: 2px; }
+  .moto-desc { font-size: 13px; color: var(--text); margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); line-height: 1.5; }
+  .moto-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 10px; flex-wrap: wrap; gap: 6px; }
+  .moto-data { font-size: 11px; color: var(--text3); }
+  .moto-status { font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 20px; cursor: pointer; }
+  .moto-status.pendente { background: #FDF3DC; color: #6B4700; }
+  .moto-status.pronto { background: #E6F2E8; color: #1a4d23; }
+  .moto-acoes { display: flex; gap: 6px; }
+  .moto-empty { text-align: center; padding: 40px 16px; color: var(--text3); font-size: 14px; }
+
+  .form-nova-moto { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-bottom: 16px; display: none; }
+  .form-nova-moto.open { display: block; }
+  .form-nova-moto h3 { font-size: 15px; font-weight: bold; margin-bottom: 14px; color: var(--text); }
+  .form-field { margin-bottom: 10px; }
+  .form-field label { display: block; font-size: 11px; font-weight: bold; color: var(--text3); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .form-field input, .form-field textarea { width: 100%; padding: 11px 12px; font-size: 15px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); outline: none; font-family: Arial, sans-serif; }
+  .form-field input:focus, .form-field textarea:focus { border-color: #000; background: #fff; }
+  .form-field textarea { height: 80px; resize: none; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
   .modal-bg.open { display: flex; }
   .modal { background: var(--surface); border-radius: 16px 16px 0 0; padding: 20px 16px 32px; width: 100%; max-width: 500px; }
   .modal h3 { font-size: 16px; margin-bottom: 14px; }
@@ -116,7 +141,7 @@
 </div>
 
 <!-- ESTOQUE -->
-<div class="view active" id="view-estoque">
+<div class="view" id="view-estoque">
   <input class="search-box" id="search1" placeholder="Buscar peça ou localização..." oninput="buscarEstoque()" autocomplete="off" autocorrect="off" spellcheck="false">
   <div id="resultado-count" class="result-count"></div>
   <div id="lista1"></div>
@@ -159,9 +184,39 @@
   </div>
 </div>
 
+<!-- MOTOS -->
+<div class="view active" id="view-motos">
+  <div class="moto-header">
+    <h2>Motos em serviço</h2>
+    <button class="btn btn-black" onclick="toggleFormMoto()">+ Nova moto</button>
+  </div>
+
+  <div class="form-nova-moto" id="form-nova-moto">
+    <h3 id="form-moto-titulo">Nova moto</h3>
+    <div class="form-row">
+      <div class="form-field"><label>Modelo da moto</label><input type="text" id="m-modelo" placeholder="Ex: Honda CG 160"></div>
+      <div class="form-field"><label>Placa</label><input type="text" id="m-placa" placeholder="Ex: ABC-1234"></div>
+    </div>
+    <div class="form-row">
+      <div class="form-field"><label>Nome do cliente</label><input type="text" id="m-cliente" placeholder="Nome completo"></div>
+      <div class="form-field"><label>Telefone</label><input type="tel" id="m-tel" placeholder="(99) 99999-9999"></div>
+    </div>
+    <div class="form-field"><label>O que fazer</label><textarea id="m-desc" placeholder="Descreva o serviço ou problema..."></textarea></div>
+    <div style="display:flex;gap:8px;margin-top:4px;">
+      <button class="btn" style="flex:1" onclick="fecharFormMoto()">Cancelar</button>
+      <button class="btn btn-black" style="flex:1" onclick="salvarMoto()">Salvar</button>
+    </div>
+  </div>
+
+  <div id="moto-lista"></div>
+</div>
+
 <!-- BOTTOM NAV -->
 <div class="bottom-nav">
-  <div class="nav-btn active" id="nav-estoque" onclick="mudarView('estoque')">
+  <div class="nav-btn active" id="nav-motos" onclick="mudarView('motos')">
+    <span class="nav-icon">🏍️</span>Motos
+  </div>
+  <div class="nav-btn" id="nav-estoque" onclick="mudarView('estoque')">
     <span class="nav-icon">🔍</span>Estoque
   </div>
   <div class="nav-btn" id="nav-prateleiras" onclick="mudarView('prateleiras')">
@@ -524,7 +579,122 @@ function excluirTodosPedidos() {
 
 document.getElementById('modal-renomear').addEventListener('click', function(e) {
   if (e.target === this) fecharRenomear();
-});
+});// ---- MOTOS ----
+let motos = JSON.parse(localStorage.getItem("rm_motos") || '[]');
+let motoEditId = null;
+
+function salvarMotos() {
+  localStorage.setItem("rm_motos", JSON.stringify(motos));
+}
+
+function toggleFormMoto() {
+  motoEditId = null;
+  document.getElementById('form-moto-titulo').textContent = 'Nova moto';
+  ['m-modelo','m-placa','m-cliente','m-tel','m-desc'].forEach(id => document.getElementById(id).value = '');
+  const form = document.getElementById('form-nova-moto');
+  form.classList.toggle('open');
+  if (form.classList.contains('open')) document.getElementById('m-modelo').focus();
+}
+
+function fecharFormMoto() {
+  document.getElementById('form-nova-moto').classList.remove('open');
+  motoEditId = null;
+}
+
+function salvarMoto() {
+  const modelo = document.getElementById('m-modelo').value.trim();
+  const cliente = document.getElementById('m-cliente').value.trim();
+  if (!modelo || !cliente) { alert('Preencha pelo menos o modelo e o cliente.'); return; }
+  const dados = {
+    modelo,
+    placa: document.getElementById('m-placa').value.trim(),
+    cliente,
+    tel: document.getElementById('m-tel').value.trim(),
+    desc: document.getElementById('m-desc').value.trim(),
+    status: 'pendente',
+    data: motoEditId ? motos.find(m => m.id === motoEditId).data : Date.now(),
+    id: motoEditId || Date.now()
+  };
+  if (motoEditId) {
+    const idx = motos.findIndex(m => m.id === motoEditId);
+    motos[idx] = { ...motos[idx], ...dados };
+  } else {
+    motos.unshift(dados);
+  }
+  salvarMotos();
+  fecharFormMoto();
+  renderMotos();
+}
+
+function editarMoto(id) {
+  const m = motos.find(x => x.id === id);
+  if (!m) return;
+  motoEditId = id;
+  document.getElementById('form-moto-titulo').textContent = 'Editar moto';
+  document.getElementById('m-modelo').value = m.modelo || '';
+  document.getElementById('m-placa').value = m.placa || '';
+  document.getElementById('m-cliente').value = m.cliente || '';
+  document.getElementById('m-tel').value = m.tel || '';
+  document.getElementById('m-desc').value = m.desc || '';
+  const form = document.getElementById('form-nova-moto');
+  form.classList.add('open');
+  form.scrollIntoView({ behavior: 'smooth' });
+}
+
+function excluirMoto(id) {
+  if (!confirm('Excluir esta moto?')) return;
+  motos = motos.filter(m => m.id !== id);
+  salvarMotos();
+  renderMotos();
+}
+
+function toggleStatusMoto(id) {
+  const m = motos.find(x => x.id === id);
+  if (!m) return;
+  m.status = m.status === 'pendente' ? 'pronto' : 'pendente';
+  salvarMotos();
+  renderMotos();
+}
+
+function renderMotos() {
+  const el = document.getElementById('moto-lista');
+  if (!motos.length) {
+    el.innerHTML = '<div class="moto-empty">Nenhuma moto cadastrada.<br>Toque em <strong>+ Nova moto</strong> para começar.</div>';
+    return;
+  }
+  el.innerHTML = motos.map(m => {
+    const data = new Date(m.data).toLocaleDateString('pt-BR');
+    const statusLabel = m.status === 'pronto' ? 'Pronto ✓' : 'Pendente';
+    const telLink = m.tel ? `<div class="moto-tel" onclick="ligarCliente('${m.tel}')">💬 WhatsApp: ${m.tel}</div>` : '';
+    const placa = m.placa ? ` · ${m.placa}` : '';
+    return `<div class="moto-card">
+      <div class="moto-card-top">
+        <div>
+          <div class="moto-modelo">${m.modelo}${placa}</div>
+          <div class="moto-cliente">${m.cliente}</div>
+          ${telLink}
+        </div>
+        <span class="moto-status ${m.status}" onclick="toggleStatusMoto(${m.id})">${statusLabel}</span>
+      </div>
+      ${m.desc ? `<div class="moto-desc">${m.desc}</div>` : ''}
+      <div class="moto-footer">
+        <span class="moto-data">${data}</span>
+        <div class="moto-acoes">
+          <button class="btn" style="font-size:12px;padding:5px 10px" onclick="editarMoto(${m.id})">Editar</button>
+          <button class="btn btn-red" style="font-size:12px;padding:5px 10px" onclick="excluirMoto(${m.id})">Excluir</button>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function ligarCliente(tel) {
+  const num = '55' + tel.replace(/\D/g, '');
+  window.location.href = 'https://wa.me/' + num;
+}
+
+renderMotos();
+
 </script>
 </body>
 </html>
