@@ -224,7 +224,11 @@ function construirSecoes() {
   secoes = {};
   dados.forEach(p => {
     const loc = p.localizacao || '';
-    if (!loc || loc === 'nan') return;
+    if (!loc || loc === 'nan') {
+      if (!secoes['SEM CÓDIGO']) secoes['SEM CÓDIGO'] = [];
+      secoes['SEM CÓDIGO'].push(p);
+      return;
+    }
     const m = loc.match(/^([A-Za-z]+)/);
     const chave = m ? m[1].toUpperCase() : 'OUTROS';
     if (!secoes[chave]) secoes[chave] = [];
@@ -237,6 +241,7 @@ function construirSecoes() {
 }
 
 function iconeSecao(k) {
+  if (k === 'SEM CÓDIGO') return '❓';
   if (k.startsWith('DEP')) return '🏭';
   if (k.startsWith('LOJA')) return '🏪';
   if (k.startsWith('CX')) return '📦';
@@ -245,9 +250,10 @@ function iconeSecao(k) {
 }
 
 function renderSecoes() {
-  const familias = { 'Depósito': [], 'Loja': [], 'Caixas': [], 'Outros': [] };
+  const familias = { 'Depósito': [], 'Loja': [], 'Caixas': [], 'Outros': [], 'Sem código': [] };
   Object.keys(secoes).sort().forEach(k => {
-    if (k.startsWith('DEP')) familias['Depósito'].push(k);
+    if (k === 'SEM CÓDIGO') familias['Sem código'].push(k);
+    else if (k.startsWith('DEP')) familias['Depósito'].push(k);
     else if (k.startsWith('LOJA')) familias['Loja'].push(k);
     else if (k.startsWith('CX')) familias['Caixas'].push(k);
     else familias['Outros'].push(k);
