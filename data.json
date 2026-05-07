@@ -103,7 +103,7 @@
   },
   {
     "nome": "ACIONADOR DO TENSOR NXR 150/CBX/XR/TWIST C/TV",
-    "localizacao": "276232",
+    "localizacao": "nan",
     "preco": 60.0,
     "estoque": -1.0
   },
@@ -139,7 +139,7 @@
   },
   {
     "nome": "ADESIVO COMPLETO BROS 125",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 40.0,
     "estoque": -1.0
   },
@@ -187,15 +187,9 @@
   },
   {
     "nome": "ADESIVO GERAL",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 5.0,
     "estoque": -20.0
-  },
-  {
-    "nome": "ADESIVO GRAVATA - TITAN",
-    "localizacao": "EXPOSITOR",
-    "preco": 25.0,
-    "estoque": 14.0
   },
   {
     "nome": "ADESIVO HONDA POP 100 ( MODELO GRANDE )",
@@ -211,13 +205,13 @@
   },
   {
     "nome": "ADESIVO MONSTER - GRANDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 15.0,
     "estoque": -5.0
   },
   {
     "nome": "ADESIVO MONSTER - PEQUENO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 10.0,
     "estoque": 9.0
   },
@@ -289,7 +283,7 @@
   },
   {
     "nome": "ALCA TRASEIRA SUPORTE MAO BROS 160 - PRETO",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 310.0,
     "estoque": 0.0
   },
@@ -1555,7 +1549,7 @@
   },
   {
     "nome": "BOMBA COMBUSTIVEL TITAN/FAN/NXR 160 18/20",
-    "localizacao": "275741",
+    "localizacao": "nan",
     "preco": 480.0,
     "estoque": 2.0
   },
@@ -1615,7 +1609,7 @@
   },
   {
     "nome": "BOMBA DE OLEO  TITAN 150 04-15 / FAN 150 10-15 / FAN 125 09-18 /BROS 150 06-14 - MHX",
-    "localizacao": "36239",
+    "localizacao": "nan",
     "preco": 120.0,
     "estoque": 1.0
   },
@@ -1741,7 +1735,7 @@
   },
   {
     "nome": "BORRACHA BALANCA XR200 - GUIA CORRENTE",
-    "localizacao": "DEP1C14",
+    "localizacao": "nan",
     "preco": 55.0,
     "estoque": 6.0
   },
@@ -1777,7 +1771,7 @@
   },
   {
     "nome": "BORRACHA ESTRIBO (VARIOS MODELOS) - UNIDADE",
-    "localizacao": "DEP1D13",
+    "localizacao": "nan",
     "preco": 7.0,
     "estoque": 0.0
   },
@@ -2853,13 +2847,13 @@
     "nome": "CAMARA DE AR 18 - MXX",
     "localizacao": "PN18",
     "preco": 35.0,
-    "estoque": -16.0
+    "estoque": -39.0
   },
   {
     "nome": "CAMARA DE AR 18 - MXX",
     "localizacao": "PN18",
     "preco": 35.0,
-    "estoque": -39.0
+    "estoque": -16.0
   },
   {
     "nome": "CAMARA DE AR 19 - MXX",
@@ -2923,7 +2917,7 @@
   },
   {
     "nome": "CAPA  BANCO EMBORRACHADA 3D - PRETA REDBULL",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 17.0
   },
@@ -2935,55 +2929,55 @@
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D -  PRETA FIXA",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": -4.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D -  PRETA FOX",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 2.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D -  PRETA MONSTER",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 14.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D -  PRETA SPORT",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": -1.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D - BEGE HONDA",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 1.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D - BEGE YAMAHA",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 2.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D - PRETA BIZ",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 0.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D - PRETA BROS",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": -7.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D - PRETA FACTOR",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 0.0
   },
@@ -3001,13 +2995,13 @@
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D - PRETA TITAN",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": -2.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D - PRETA YAMAHA",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 0.0
   },
@@ -3331,265 +3325,139 @@
   },
   {
     "nome": "CAPACETE GOW 56 PRETO/PRATA",
-    "localizacao": "239067",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": -70.0
   },
   {
     "nome": "CAPACETE GOW 56 VERMELHO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 4.0
   },
   {
     "nome": "CAPACETE GOW 58 - BRANCO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 9.0
   },
   {
     "nome": "CAPACETE GOW 58 - ROSA",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 0.0,
     "estoque": -3.0
   },
   {
-    "nome": "CAPACETE GOW 58 - VERDE",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": 3.0
-  },
-  {
     "nome": "CAPACETE GOW 58 - VERMELHO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 9.0
   },
   {
     "nome": "CAPACETE GOW 58 PRETO/PRATA",
-    "localizacao": "239068",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 2.0
   },
   {
-    "nome": "CAPACETE GOW CLASSICP -  56 PRETO FOSCO",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": 9.0
-  },
-  {
     "nome": "CAPACETE GOW INTERLAGOS - 58 PRETO/AZUL",
-    "localizacao": "LOJA",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": -1.0
   },
   {
-    "nome": "CAPACETE HONDA ABERTO BRANCO 58",
-    "localizacao": "nan",
-    "preco": 550.0,
-    "estoque": -3.0
-  },
-  {
-    "nome": "CAPACETE HONDA ABERTO HONDA PRETO SVS 58",
-    "localizacao": "nan",
-    "preco": 80.0,
-    "estoque": 1.0
-  },
-  {
-    "nome": "CAPACETE INFANTIL GOW 54 PRETO / VERMELHO",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": -3.0
-  },
-  {
-    "nome": "CAPACETE INFANTIL GOW HERO BOY 54 PTO/VERD",
-    "localizacao": "225447",
-    "preco": 125.0,
-    "estoque": 1.0
-  },
-  {
-    "nome": "CAPACETE INFANTIL HERO GIRL 54 PTO/ROSA",
-    "localizacao": "225448",
-    "preco": 125.0,
-    "estoque": 0.0
-  },
-  {
     "nome": "CAPACETE INTERLAGOS GOW - 58 PRETO/VERMELHO",
-    "localizacao": "239065",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 22.0
   },
   {
-    "nome": "CAPACETE MODELO ABERTO PRETO - GOW",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": 3.0
-  },
-  {
-    "nome": "CAPACETE MODELO CROSS 58 AZUL",
-    "localizacao": "214671",
-    "preco": 350.0,
-    "estoque": 1.0
-  },
-  {
-    "nome": "CAPACETE MODELO CROSS 58 BRANCO",
-    "localizacao": "214672",
-    "preco": 350.0,
-    "estoque": 1.0
-  },
-  {
-    "nome": "CAPACETE MODELO CROSS 58 PRETO FOSCO",
-    "localizacao": "236297",
-    "preco": 350.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "CAPACETE MODELO CROSS 60 PRETO",
-    "localizacao": "214679",
-    "preco": 350.0,
-    "estoque": 1.0
-  },
-  {
-    "nome": "CAPACETE NEW LIBERTY ABERTO 58 PRETO",
-    "localizacao": "nan",
-    "preco": 180.0,
-    "estoque": -1.0
-  },
-  {
     "nome": "CAPACETE NEW SPORT  56 PRETO/AZUL -PROTORK",
-    "localizacao": "35860",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": -5.0
   },
   {
     "nome": "CAPACETE NEW SPORT  58 PRETO/AZUL -PROTORK",
-    "localizacao": "35865",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": -3.0
   },
   {
     "nome": "CAPACETE NEW SPORT  58 PRETO/VERMELHO -PROTORK",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": -2.0
-  },
-  {
-    "nome": "CAPACETE NEW SPORT 56 PRETO FOSCO/CINZA -PROTORK",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": 3.0
-  },
-  {
-    "nome": "CAPACETE NEW SPORT 56 PRETO/ROSA -PROTORK",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": -2.0
-  },
-  {
-    "nome": "CAPACETE NEW SPORT 58 PRETO FOSCO/CINZA -PROTORK",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": 1.0
   },
   {
     "nome": "CAPACETE NEW SPORT 58 PRETO/VERDE -PROTORK",
-    "localizacao": "35867",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 0.0
   },
   {
-    "nome": "CAPACETE PATRIOTA 58 PRETO / VERDE",
-    "localizacao": "5008206501",
-    "preco": 250.0,
-    "estoque": 1.0
-  },
-  {
     "nome": "CAPACETE PRO TORK 56 PRETO FOSCO/CINZA",
-    "localizacao": "37864",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 5.0
   },
   {
-    "nome": "CAPACETE PRO TORK AZUL 58",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": -1.0
-  },
-  {
-    "nome": "CAPACETE PRO TORK MOTOCROSS 58 VERMELHO",
-    "localizacao": "nan",
-    "preco": 350.0,
-    "estoque": -2.0
-  },
-  {
-    "nome": "CAPACETE PROTORK 56 PRETO / VERMELHO",
-    "localizacao": "nan",
-    "preco": 160.0,
-    "estoque": 3.0
-  },
-  {
     "nome": "CAPACETE PROTORK 56 PRETO/ROSA",
-    "localizacao": "35861",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 2.0
   },
   {
     "nome": "CAPACETE PROTORK 58 PRETO FOSCO/CINZA",
-    "localizacao": "37865",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 12.0
   },
   {
     "nome": "CAPACETE PROTORK 58 PRETO/VERMELHO",
-    "localizacao": "35868",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 3.0
   },
   {
     "nome": "CAPACETE SAN MARINO 56 - BRANCO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 260.0,
     "estoque": -10.0
   },
   {
     "nome": "CAPACETE SAN MARINO 56 - PRETO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 281.93,
     "estoque": 5.0
   },
   {
     "nome": "CAPACETE SAN MARINO 56 - ROSA",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 260.0,
     "estoque": 0.0
   },
   {
     "nome": "CAPACETE SAN MARINO 56 - VERMELHO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 260.0,
     "estoque": -1.0
   },
   {
     "nome": "CAPACETE SAN MARINO 58 - PRETO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 260.0,
     "estoque": -60.0
   },
   {
     "nome": "CAPACETE SAN MARINO 58 - VERMELHO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 260.0,
     "estoque": -1.0
   },
   {
     "nome": "CAPACETE SAN MARINO 58 VERMELHO",
-    "localizacao": "nan",
-    "preco": 260.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "CAPACETE SAN MARINO 62 - PRETO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 260.0,
     "estoque": 0.0
   },
@@ -3991,7 +3859,7 @@
   },
   {
     "nome": "CARENAGEM FAROL BROS 160",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 70.0,
     "estoque": -1.0
   },
@@ -4039,7 +3907,7 @@
   },
   {
     "nome": "CARENAGEM RABETA BROS 160 - VERMELHA",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 140.0,
     "estoque": -1.0
   },
@@ -4113,12 +3981,6 @@
     "nome": "CARENAGEM TAMPA LATERAL FAN 125 09-D - PRETA",
     "localizacao": "4762",
     "preco": 220.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "CARENAGEM TAMPA LATERAL PRETA (SEM ADESIVO) TITAN 160 16-24",
-    "localizacao": "nan",
-    "preco": 230.0,
     "estoque": 0.0
   },
   {
@@ -4597,7 +4459,7 @@
   },
   {
     "nome": "CHAVE IGNICAO FAN 150 10 ESI",
-    "localizacao": "275459",
+    "localizacao": "nan",
     "preco": 90.0,
     "estoque": -2.0
   },
@@ -4615,7 +4477,7 @@
   },
   {
     "nome": "CHAVE IGNICAO LANDER 250 07-15 - MAGNETRON",
-    "localizacao": "275462",
+    "localizacao": "nan",
     "preco": 160.0,
     "estoque": -3.0
   },
@@ -4771,7 +4633,7 @@
   },
   {
     "nome": "CHAVEIRO PERSONALIZADO",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 10.0,
     "estoque": -29.0
   },
@@ -6241,7 +6103,7 @@
   },
   {
     "nome": "DISCO EMBREAGEM  TITAN 150 / POP 100-110 / XLR / XR 200/ XRE 190 / BROS NXR -125 -05/FAN125 -08",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 55.0,
     "estoque": -2.0
   },
@@ -6283,7 +6145,7 @@
   },
   {
     "nome": "DISCO EMBREAGEM TITAN 00-125-150-160 / BROS 125-150-160  - GEAR",
-    "localizacao": "LOJA",
+    "localizacao": "nan",
     "preco": 50.0,
     "estoque": -4.0
   },
@@ -7255,7 +7117,7 @@
   },
   {
     "nome": "ESCAPE POP 110 16 FORTUNA - CROMADO",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 320.0,
     "estoque": -5.0
   },
@@ -8641,19 +8503,19 @@
   },
   {
     "nome": "GUIA OLEO CILINDRO CG150 8X14 -TRILHA",
-    "localizacao": "29691",
+    "localizacao": "nan",
     "preco": 10.0,
     "estoque": -3.0
   },
   {
     "nome": "GUIA OLEO CILINDRO TITAN GRANDE 10X20 -TRILHA",
-    "localizacao": "19448",
+    "localizacao": "nan",
     "preco": 5.0,
     "estoque": 1.0
   },
   {
     "nome": "GUIA OLEO CILINDRO TITAN PEQUENO 10X14 -TRILHA",
-    "localizacao": "19449",
+    "localizacao": "nan",
     "preco": 10.0,
     "estoque": 8.0
   },
@@ -8862,12 +8724,6 @@
     "estoque": 3.0
   },
   {
-    "nome": "INTERCAP SD 40 X BB-50",
-    "localizacao": "1182",
-    "preco": 500.0,
-    "estoque": 0.0
-  },
-  {
     "nome": "INTERRUPTOR BOTAO BUZINA BIZ 100-110 -125 - TRILHA",
     "localizacao": "DEPC123",
     "preco": 10.0,
@@ -9073,7 +8929,7 @@
   },
   {
     "nome": "INTERRUPTOR PARTIDA EMERG XTZ 125 03/12",
-    "localizacao": "275560",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": 2.0
   },
@@ -9091,7 +8947,7 @@
   },
   {
     "nome": "INTERRUPTOR PARTIDA FAN 125 09/12 - SCT",
-    "localizacao": "275561",
+    "localizacao": "nan",
     "preco": 55.0,
     "estoque": 0.0
   },
@@ -11040,90 +10896,6 @@
     "estoque": 4.0
   },
   {
-    "nome": "LUVA ADV NXR 160 15/18 PTO",
-    "localizacao": "246218",
-    "preco": 25.0,
-    "estoque": -4.0
-  },
-  {
-    "nome": "LUVA CIRCUIT I PTO",
-    "localizacao": "218820",
-    "preco": 55.0,
-    "estoque": 8.0
-  },
-  {
-    "nome": "LUVA CIRCUIT IV PRETO",
-    "localizacao": "218828",
-    "preco": 55.0,
-    "estoque": 5.0
-  },
-  {
-    "nome": "LUVA CIRCUIT IV VERM",
-    "localizacao": "218829",
-    "preco": 55.0,
-    "estoque": 4.0
-  },
-  {
-    "nome": "LUVA CIRCUIT JUPITER PRETO/ROSA FLUOR",
-    "localizacao": "239344",
-    "preco": 55.0,
-    "estoque": -1.0
-  },
-  {
-    "nome": "LUVA CLASSICA SCOOTER PRETO/TITANIUM",
-    "localizacao": "247791",
-    "preco": 55.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "LUVA INTERLAGOS BICOM II PTO/AZUL",
-    "localizacao": "239115",
-    "preco": 55.0,
-    "estoque": 10.0
-  },
-  {
-    "nome": "LUVA INTERLAGOS BICOM II PTO/ROSA",
-    "localizacao": "239117",
-    "preco": 55.0,
-    "estoque": 8.0
-  },
-  {
-    "nome": "LUVA INTERLAGOS BICOM II PTO/VERM",
-    "localizacao": "239330",
-    "preco": 55.0,
-    "estoque": 22.0
-  },
-  {
-    "nome": "LUVA JUPITER EVERYDAY PTO/BCO",
-    "localizacao": "243916",
-    "preco": 55.0,
-    "estoque": 5.0
-  },
-  {
-    "nome": "LUVA JUPITER EVERYDAY PTO/VERD",
-    "localizacao": "243917",
-    "preco": 55.0,
-    "estoque": 7.0
-  },
-  {
-    "nome": "LUVA JUPITER PTO/AMAR",
-    "localizacao": "240952",
-    "preco": 55.0,
-    "estoque": 2.0
-  },
-  {
-    "nome": "LUVA JUPITER PTO/CINZA",
-    "localizacao": "239106",
-    "preco": 55.0,
-    "estoque": 13.0
-  },
-  {
-    "nome": "LUVA MODELO ORIGINAL (PR) BIZ 125",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -2.0
-  },
-  {
     "nome": "LUVA MODELO ORIGINAL (PR) TITAN 00-125-150 / POP 100-110",
     "localizacao": "DEP115",
     "preco": 30.0,
@@ -11140,78 +10912,6 @@
     "localizacao": "DEPE37",
     "preco": 35.0,
     "estoque": -49.0
-  },
-  {
-    "nome": "LUVA PARA PILOTO MCS01C PTO (G)",
-    "localizacao": "274616",
-    "preco": 85.0,
-    "estoque": -1.0
-  },
-  {
-    "nome": "LUVA PARA PILOTO MCS01C PTO (GG)",
-    "localizacao": "274617",
-    "preco": 85.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "LUVA PARA PILOTO MCS01C PTO/AZUL (G)",
-    "localizacao": "274614",
-    "preco": 85.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "LUVA PARA PILOTO MCS01C PTO/VERM (G)",
-    "localizacao": "274618",
-    "preco": 85.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "LUVA PARA PILOTO MCS01D PTO (G)",
-    "localizacao": "274408",
-    "preco": 80.0,
-    "estoque": 2.0
-  },
-  {
-    "nome": "LUVA PRO (PROTAPER) PTO/AMAR",
-    "localizacao": "277094",
-    "preco": 55.0,
-    "estoque": 5.0
-  },
-  {
-    "nome": "LUVA PRO (PROTAPER) PTO/AZUL",
-    "localizacao": "277095",
-    "preco": 40.0,
-    "estoque": 3.0
-  },
-  {
-    "nome": "LUVA PRO (PROTAPER) PTO/VERM",
-    "localizacao": "277096",
-    "preco": 55.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "LUVA PROTECTION GRANDE AZUL MHX",
-    "localizacao": "43526",
-    "preco": 75.0,
-    "estoque": -7.0
-  },
-  {
-    "nome": "LUVA SMART FOX - VERMELHA",
-    "localizacao": "nan",
-    "preco": 45.0,
-    "estoque": -2.0
-  },
-  {
-    "nome": "LUVA SPEED EVERYDAY FECHADA PTO/VERM",
-    "localizacao": "243919",
-    "preco": 55.0,
-    "estoque": 4.0
-  },
-  {
-    "nome": "LUVA SPEED PTO/AZUL",
-    "localizacao": "240811",
-    "preco": 55.0,
-    "estoque": 3.0
   },
   {
     "nome": "MANETE (PR) C/REGULAGEM NXR150/FAL/TOR PTO",
@@ -11874,12 +11574,6 @@
     "estoque": -46.0
   },
   {
-    "nome": "OLEO MOTOR ELAION 4T 20W-50",
-    "localizacao": "EXPOSITOR",
-    "preco": 25.0,
-    "estoque": -2.0
-  },
-  {
     "nome": "OLEO MOTOR FORTOIL 20W50",
     "localizacao": "EXPOSITOR",
     "preco": 25.0,
@@ -11896,12 +11590,6 @@
     "localizacao": "EXPOSITOR",
     "preco": 35.0,
     "estoque": -117.0
-  },
-  {
-    "nome": "OLEO MOTOR GT4 20W50",
-    "localizacao": "EXPOSITOR",
-    "preco": 25.0,
-    "estoque": 10.0
   },
   {
     "nome": "OLEO MOTOR GULF PRIDE 4T PLUS 20W50",
@@ -11923,7 +11611,7 @@
   },
   {
     "nome": "OLEO MOTOR LUBRAX 10W-30 PROFISSIONAL",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 60.0,
     "estoque": 3.0
   },
@@ -11944,12 +11632,6 @@
     "localizacao": "EXPOSITOR",
     "preco": 35.0,
     "estoque": -190.0
-  },
-  {
-    "nome": "OLEO MOTOR PASEO 4T SAE40",
-    "localizacao": "EXPOSITOR",
-    "preco": 25.0,
-    "estoque": 10.0
   },
   {
     "nome": "OLEO MOTOR PRO HONDA 20W50",
@@ -11974,12 +11656,6 @@
     "localizacao": "EXPOSITOR",
     "preco": 45.0,
     "estoque": -7.0
-  },
-  {
-    "nome": "OLEO MOTUL 10W30",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -2.0
   },
   {
     "nome": "OLEO QUEIMADO",
@@ -12103,7 +11779,7 @@
   },
   {
     "nome": "PAINEL COMPLETO START 160",
-    "localizacao": "275718",
+    "localizacao": "nan",
     "preco": 550.0,
     "estoque": 0.0
   },
@@ -12787,7 +12463,7 @@
   },
   {
     "nome": "PASTILHA DE FREIO DIANTEIRA TITAN 150 14-15 CBS",
-    "localizacao": "276838",
+    "localizacao": "nan",
     "preco": 45.0,
     "estoque": -6.0
   },
@@ -13603,7 +13279,7 @@
   },
   {
     "nome": "PNEU 100/90-17 GARRA CROSS BROS - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 240.0,
     "estoque": 6.0
   },
@@ -13615,7 +13291,7 @@
   },
   {
     "nome": "PNEU 100/90-17 INTERMEDIARIO BROS - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 240.0,
     "estoque": 0.0
   },
@@ -13633,7 +13309,7 @@
   },
   {
     "nome": "PNEU 100/90-17 LISO BROS - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 240.0,
     "estoque": 4.0
   },
@@ -13651,7 +13327,7 @@
   },
   {
     "nome": "PNEU 2.75-18 GARRA CROSS - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 150.0,
     "estoque": 4.0
   },
@@ -13663,7 +13339,7 @@
   },
   {
     "nome": "PNEU 2.75-18 INTERMEDIARIO - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 7.0
   },
@@ -13675,7 +13351,7 @@
   },
   {
     "nome": "PNEU 2.75-18 LISO - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 160.0,
     "estoque": 8.0
   },
@@ -13687,7 +13363,7 @@
   },
   {
     "nome": "PNEU 21 GARRA CROSS - RINALDI",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 420.0,
     "estoque": -8.0
   },
@@ -13699,7 +13375,7 @@
   },
   {
     "nome": "PNEU 60/100-17 GARRA CROSS BROS - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 140.0,
     "estoque": 4.0
   },
@@ -13717,7 +13393,7 @@
   },
   {
     "nome": "PNEU 60/100-17 LISO  - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 140.0,
     "estoque": 3.0
   },
@@ -13747,13 +13423,13 @@
   },
   {
     "nome": "PNEU 90 / 90 - 18 LISO - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 150.0,
     "estoque": 8.0
   },
   {
     "nome": "PNEU 90/90-18 GARRA CROSS - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 150.0,
     "estoque": 2.0
   },
@@ -13765,7 +13441,7 @@
   },
   {
     "nome": "PNEU 90/90-18 INTERMEDIARIO - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 150.0,
     "estoque": 9.0
   },
@@ -13789,7 +13465,7 @@
   },
   {
     "nome": "PNEU 90/90-19 GARRA CROSS - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 240.0,
     "estoque": 7.0
   },
@@ -13807,7 +13483,7 @@
   },
   {
     "nome": "PNEU 90/90-19 INTERMEDIARIO - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 240.0,
     "estoque": 3.0
   },
@@ -13819,7 +13495,7 @@
   },
   {
     "nome": "PNEU 90/90-19 LISO - REMOLDE",
-    "localizacao": "nan",
+    "localizacao": "EXPOSITOR",
     "preco": 240.0,
     "estoque": 4.0
   },
@@ -14299,7 +13975,7 @@
   },
   {
     "nome": "REDINHA  P/ CAPACETE PRETA",
-    "localizacao": "nan",
+    "localizacao": "DEPE128",
     "preco": 25.0,
     "estoque": -9.0
   },
@@ -14568,12 +14244,6 @@
     "estoque": 71.0
   },
   {
-    "nome": "REPARO CAPACETE SAN MARINO",
-    "localizacao": "nan",
-    "preco": 20.0,
-    "estoque": 0.0
-  },
-  {
     "nome": "REPARO CARBURADOR CRF 230",
     "localizacao": "nan",
     "preco": 0.0,
@@ -14773,7 +14443,7 @@
   },
   {
     "nome": "RETENTOR DA BENGALA LANDER250 16-9 / LANDER250 ABS 19-22",
-    "localizacao": "DEP1CC3",
+    "localizacao": "nan",
     "preco": 15.0,
     "estoque": 9.0
   },
@@ -15799,7 +15469,7 @@
   },
   {
     "nome": "TAMPA LATERAL VERDE (SEM ADESIVO) \\ TITAN125KS/ES 2004(E)",
-    "localizacao": "46572",
+    "localizacao": "nan",
     "preco": 140.0,
     "estoque": 0.0
   },
