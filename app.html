@@ -194,6 +194,7 @@
 
   <div class="form-nova-moto" id="form-nova-moto">
     <h3 id="form-moto-titulo">Nova moto</h3>
+    <div class="form-field"><label>O que fazer</label><textarea id="m-desc" placeholder="Descreva o serviço ou problema..."></textarea></div>
     <div class="form-row">
       <div class="form-field"><label>Modelo da moto</label><input type="text" id="m-modelo" placeholder="Ex: Honda CG 160"></div>
       <div class="form-field"><label>Placa</label><input type="text" id="m-placa" placeholder="Ex: ABC-1234"></div>
@@ -202,7 +203,6 @@
       <div class="form-field"><label>Nome do cliente</label><input type="text" id="m-cliente" placeholder="Nome completo"></div>
       <div class="form-field"><label>Telefone</label><input type="tel" id="m-tel" placeholder="(99) 99999-9999"></div>
     </div>
-    <div class="form-field"><label>O que fazer</label><textarea id="m-desc" placeholder="Descreva o serviço ou problema..."></textarea></div>
     <div style="display:flex;gap:8px;margin-top:4px;">
       <button class="btn" style="flex:1" onclick="fecharFormMoto()">Cancelar</button>
       <button class="btn btn-black" style="flex:1" onclick="salvarMoto()">Salvar</button>
@@ -594,7 +594,7 @@ function toggleFormMoto() {
   ['m-modelo','m-placa','m-cliente','m-tel','m-desc'].forEach(id => document.getElementById(id).value = '');
   const form = document.getElementById('form-nova-moto');
   form.classList.toggle('open');
-  if (form.classList.contains('open')) document.getElementById('m-modelo').focus();
+  if (form.classList.contains('open')) document.getElementById('m-desc').focus();
 }
 
 function fecharFormMoto() {
