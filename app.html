@@ -90,7 +90,8 @@
   /* MOTOS */
   .moto-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
   .moto-header h2 { font-size: 16px; font-weight: bold; color: var(--text); }
-  .moto-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; }
+  .moto-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; transition: background 0.2s, border-color 0.2s; }
+  .moto-card.pronto { background: #E6F2E8; border-color: #a8d5ae; }
   .moto-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
   .moto-modelo { font-size: 15px; font-weight: bold; color: var(--text); }
   .moto-cliente { font-size: 13px; color: var(--text2); margin-top: 3px; }
@@ -668,7 +669,7 @@ function renderMotos() {
     const statusLabel = m.status === 'pronto' ? 'Pronto ✓' : 'Pendente';
     const telLink = m.tel ? `<div class="moto-tel" onclick="ligarCliente('${m.tel}')">💬 WhatsApp: ${m.tel}</div>` : '';
     const placa = m.placa ? ` · ${m.placa}` : '';
-    return `<div class="moto-card">
+    return `<div class="moto-card ${m.status === 'pronto' ? 'pronto' : ''}">
       <div class="moto-card-top">
         <div>
           <div class="moto-modelo">${m.modelo}${placa}</div>
