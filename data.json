@@ -1885,7 +1885,7 @@
   },
   {
     "nome": "BRACO OSCILANTE BIZ/DREAM  (CX2)",
-    "localizacao": "LOJAU30",
+    "localizacao": "nan",
     "preco": 0.0,
     "estoque": 4.0
   },
@@ -6222,12 +6222,6 @@
     "estoque": -2.0
   },
   {
-    "nome": "DISCO CORTE 4.1/2X3/64X7X8 -115X1,0X22,2",
-    "localizacao": "004186800P",
-    "preco": 5.0,
-    "estoque": 10.0
-  },
-  {
     "nome": "DISCO DE EMBREAGEM BIZ 125 - SCT",
     "localizacao": "DEPE53",
     "preco": 50.0,
@@ -7261,7 +7255,7 @@
   },
   {
     "nome": "ESCAPE POP 110 16 FORTUNA - CROMADO",
-    "localizacao": "ESPOSITOR",
+    "localizacao": "nan",
     "preco": 320.0,
     "estoque": -5.0
   },
@@ -8839,7 +8833,7 @@
   },
   {
     "nome": "GULF MOTOR GULF 4T 10W30",
-    "localizacao": "BALCAI",
+    "localizacao": "nan",
     "preco": 55.0,
     "estoque": -146.0
   },
@@ -9247,13 +9241,13 @@
   },
   {
     "nome": "JOGO JUNTA COMPLETO MOTOR POP 110 / BIZ110 - MHX",
-    "localizacao": "DEP88",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": -19.0
   },
   {
     "nome": "JOGO JUNTA COMPLETO MOTOR POP 110 / BIZ110 - VEDAMOTORS",
-    "localizacao": "DEP88",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": -9.0
   },
@@ -10747,7 +10741,7 @@
   },
   {
     "nome": "LENTE LANTERNA FREIO BROS 160 - STYLO",
-    "localizacao": "LOJAG42",
+    "localizacao": "nan",
     "preco": 45.0,
     "estoque": 0.0
   },
@@ -14575,7 +14569,7 @@
   },
   {
     "nome": "REPARO CAPACETE SAN MARINO",
-    "localizacao": "LOJAV34",
+    "localizacao": "nan",
     "preco": 20.0,
     "estoque": 0.0
   },
