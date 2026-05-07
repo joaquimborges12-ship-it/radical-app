@@ -55,11 +55,15 @@
   .prat-titulo { font-size: 16px; font-weight: bold; color: var(--text); }
   .prat-count { font-size: 12px; color: var(--text3); margin-left: auto; }
 
-  .prat-item { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; }
+  .prat-item { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+  .prat-item-body { flex: 1; min-width: 0; }
   .prat-item-nome { font-size: 14px; font-weight: bold; color: var(--text); line-height: 1.4; }
   .prat-item-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 6px; flex-wrap: wrap; gap: 4px; }
   .prat-item-loc { font-size: 12px; font-family: monospace; color: #555; background: #f0f0f0; padding: 2px 8px; border-radius: 6px; border: 1px solid var(--border); }
   .prat-item-preco { font-size: 13px; color: #1a6b1a; font-weight: bold; }
+  .prat-add-btn { width: 36px; height: 36px; border-radius: 50%; border: 2px solid #000; background: #fff; color: #000; font-size: 22px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background 0.15s, color 0.15s, transform 0.1s; }
+  .prat-add-btn:active { transform: scale(0.9); }
+  .prat-add-btn.adicionado { background: #1a6b1a; border-color: #1a6b1a; color: #fff; }
   .subloc-titulo { font-size: 12px; font-weight: bold; color: #555; background: #ebebeb; border-radius: 6px; padding: 5px 10px; margin: 12px 0 6px; font-family: monospace; display: inline-block; }
 
   /* PEDIDOS */
@@ -201,6 +205,19 @@ fetch("data.json")
     document.getElementById('loading').innerHTML = '<p style="color:#f66;padding:20px;text-align:center">Erro ao carregar data.json.</p>';
   });
 
+function adicionarDaPrateleira(btn, nome) {
+  const item = dados.find(p => p.nome === nome);
+  if (!item) return;
+  const jaExiste = pedidos[pedidoAtual].some(p => p.nome === nome);
+  if (!jaExiste) {
+    pedidos[pedidoAtual].push(item);
+    salvar();
+    atualizarChips();
+  }
+  btn.textContent = '✓';
+  btn.classList.add('adicionado');
+}
+
 function naturalSort(a, b) {
   const re = /(\d+)|(\D+)/g;
   const pa = String(a).toUpperCase().match(re) || [];
@@ -335,9 +352,15 @@ function renderDetalhe(lista) {
     grupos[loc].forEach(p => {
       const preco = p.preco && p.preco > 0 ? `<span class="prat-item-preco">R$ ${p.preco.toFixed(2).replace('.', ',')}</span>` : '';
       const locTag = !temGrupos ? `<span class="prat-item-loc">${p.localizacao || '—'}</span>` : '';
+      const jaAdicionado = pedidos[pedidoAtual] && pedidos[pedidoAtual].some(x => x.nome === p.nome);
+      const btnClass = jaAdicionado ? 'prat-add-btn adicionado' : 'prat-add-btn';
+      const btnLabel = jaAdicionado ? '✓' : '+';
       html += `<div class="prat-item">
-        <div class="prat-item-nome">${p.nome}</div>
-        <div class="prat-item-footer">${locTag}${preco}</div>
+        <div class="prat-item-body">
+          <div class="prat-item-nome">${p.nome}</div>
+          <div class="prat-item-footer">${locTag}${preco}</div>
+        </div>
+        <button class="${btnClass}" onclick="adicionarDaPrateleira(this, '${p.nome.replace(/'/g, "\\'")}')">  ${btnLabel}</button>
       </div>`;
     });
   });
