@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Radical Moto Peças</title>
+<link rel="manifest" href="manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Radical Motos">
+<meta name="theme-color" content="#000000">
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+img {
+  width: 180px;
+  border-radius: 24px;
+  animation: pulse 1.2s ease-in-out infinite alternate;
+}
+@keyframes pulse {
+  from { opacity: 0.85; transform: scale(0.97); }
+  to   { opacity: 1;    transform: scale(1);    }
+}
+#name {
+  margin-top: 22px;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+</style>
+<script>
+  setTimeout(function(){ window.location.href = "app.html"; }, 1400);
+</script>
+</head>
+<body>
+  <img src="icon-180.png" alt="Radical Motos">
+  <div id="name">Radical Moto Peças</div>
+</body>
+</html>
