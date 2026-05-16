@@ -162,6 +162,43 @@
   .org-resumo-info { font-size: 13px; color: var(--text2); }
   .org-resumo-info strong { color: var(--text); }
   .org-footer { margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap; }
+
+  /* ETIQUETAS */
+  .etq-search-result { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s; }
+  .etq-search-result:active { background: #f9f9f9; }
+  .etq-result-nome { font-size: 14px; font-weight: bold; color: var(--text); line-height: 1.4; }
+  .etq-result-loc { font-size: 12px; color: var(--text2); margin-top: 4px; display: flex; align-items: center; gap: 6px; }
+  .etq-fila-titulo { font-size: 11px; font-weight: bold; color: var(--text3); text-transform: uppercase; letter-spacing: 0.08em; margin: 16px 0 10px; padding-left: 2px; display: flex; align-items: center; justify-content: space-between; }
+  .etq-fila-badge { background: #000; color: #fff; border-radius: 999px; padding: 2px 9px; font-size: 11px; }
+  .etq-item { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 11px 14px; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+  .etq-item-body { flex: 1; min-width: 0; }
+  .etq-item-loc { font-size: 15px; font-weight: bold; color: var(--text); font-family: monospace; }
+  .etq-item-nome { font-size: 13px; color: var(--text2); margin-top: 3px; line-height: 1.4; }
+  .etq-item-del { background: transparent; border: 1px solid #f5c6c2; color: var(--red); border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; flex-shrink: 0; }
+  .etq-editar-btn { background: #f0f0f0; border: 1px solid var(--border); color: #555; border-radius: 8px; padding: 5px 10px; font-size: 12px; cursor: pointer; flex-shrink: 0; }
+  .etq-empty { text-align: center; padding: 30px 16px; color: var(--text3); font-size: 14px; }
+  .etq-modal-bg { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.55); z-index: 200; align-items: flex-end; justify-content: center; }
+  .etq-modal-bg.open { display: flex; }
+  .etq-modal { background: var(--surface); border-radius: 16px 16px 0 0; padding: 20px 16px 36px; width: 100%; max-width: 500px; }
+  .etq-modal h3 { font-size: 15px; font-weight: bold; margin-bottom: 14px; color: var(--text); }
+  .etq-modal .ef-label { display: block; font-size: 11px; font-weight: bold; color: var(--text3); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
+  .etq-modal input, .etq-modal textarea { width: 100%; padding: 11px 12px; font-size: 15px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); outline: none; font-family: Arial, sans-serif; margin-bottom: 12px; }
+  .etq-modal input:focus, .etq-modal textarea:focus { border-color: #000; background: #fff; }
+  .etq-modal textarea { height: 80px; resize: none; }
+  .etq-modal-btns { display: flex; gap: 8px; }
+  .etq-print-area { display: none; }
+  @media print {
+    .topbar, .bottom-nav, #loading, .etq-ui { display: none !important; }
+    body { background: #fff; padding: 0; }
+    .view { display: none !important; }
+    #view-etiquetas { display: block !important; padding: 0; }
+    .etq-print-area { display: block !important; }
+    .etq-a4 { box-shadow: none; margin: 0; padding: 10mm 10mm; width: 210mm; page-break-after: always; }
+    .etq-grande { height: 88mm; }
+    .etq-g-cod { font-size: 52pt !important; }
+    .etq-g-desc { font-size: 13pt !important; }
+    .etq-g-qr { width: 50mm !important; min-width: 50mm !important; }
+  }
 </style>
 </head>
 <body>
@@ -288,6 +325,42 @@
     </div>
   </div>
 </div>
+<!-- ETIQUETAS -->
+<div class="view" id="view-etiquetas">
+  <div class="etq-ui">
+    <input class="search-box" id="etq-search" placeholder="Buscar peça ou código para etiqueta..." oninput="buscarEtq()" autocomplete="off" autocorrect="off" spellcheck="false">
+    <div id="etq-resultados"></div>
+    <div id="etq-fila-section">
+      <div class="etq-fila-titulo">
+        <span>🏷️ Fila de impressão</span>
+        <span class="etq-fila-badge" id="etq-count">0</span>
+      </div>
+      <div id="etq-lista"></div>
+      <div class="etq-empty" id="etq-vazio">Nenhuma etiqueta na fila.<br>Use a busca acima para adicionar.</div>
+    </div>
+    <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap;">
+      <button class="btn btn-black" onclick="imprimirEtiquetas()">🖨️ Imprimir etiquetas</button>
+      <button class="btn btn-red" onclick="limparEtq()">🗑️ Limpar fila</button>
+    </div>
+  </div>
+  <div class="etq-print-area" id="etq-print-area"></div>
+</div>
+
+<!-- MODAL EDITAR ETIQUETA -->
+<div class="etq-modal-bg" id="etq-modal">
+  <div class="etq-modal">
+    <h3>Editar etiqueta</h3>
+    <label style="display:block;font-size:11px;font-weight:bold;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">Código de localização</label>
+    <input type="text" id="etq-modal-cod" placeholder="Ex: E 172" style="font-family:monospace;font-weight:bold;text-transform:uppercase">
+    <label style="display:block;font-size:11px;font-weight:bold;color:var(--text3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">Descrição do produto</label>
+    <textarea id="etq-modal-desc" placeholder="Descrição do produto..."></textarea>
+    <div class="etq-modal-btns">
+      <button class="btn" style="flex:1" onclick="fecharEtqModal()">Cancelar</button>
+      <button class="btn btn-black" style="flex:1" onclick="salvarEtqModal()">Salvar</button>
+    </div>
+  </div>
+</div>
+
 <div class="bottom-nav">
   <div class="nav-btn active" id="nav-motos" onclick="mudarView('motos')">
     <span class="nav-icon">🏍️</span>Motos
@@ -303,6 +376,9 @@
   </div>
   <div class="nav-btn" id="nav-organizacao" onclick="mudarView('organizacao')">
     <span class="nav-icon">📦</span>Organização
+  </div>
+  <div class="nav-btn" id="nav-etiquetas" onclick="mudarView('etiquetas')">
+    <span class="nav-icon">🏷️</span>Etiquetas
   </div>
 </div>
 
@@ -924,6 +1000,202 @@ document.getElementById('org-novo-cod').addEventListener('keydown', function(e) 
 });
 
 renderOrgLista();
+
+// ---- ETIQUETAS ----
+let etqFila = JSON.parse(localStorage.getItem('rm_etq_fila') || '[]');
+let etqEditandoId = null;
+
+function salvarEtqLocal() {
+  localStorage.setItem('rm_etq_fila', JSON.stringify(etqFila));
+}
+
+function buscarEtq() {
+  const q = normalizar(document.getElementById('etq-search').value.trim());
+  const el = document.getElementById('etq-resultados');
+  el.innerHTML = '';
+  if (!q) return;
+  const termos = q.split(' ').filter(t => t.length > 0);
+  const resultado = dados.filter(i =>
+    termos.every(t => normalizar(i.nome).includes(t) || normalizar(i.localizacao || '').includes(t))
+  ).slice(0, 50);
+  resultado.forEach(i => {
+    const d = document.createElement('div');
+    d.className = 'etq-search-result';
+    const loc = i.localizacao && i.localizacao !== 'nan'
+      ? '<span class="loc-badge">' + i.localizacao + '</span>'
+      : '<span style="color:#bbb;font-size:12px">sem código</span>';
+    d.innerHTML = '<div class="etq-result-nome">' + i.nome + '</div><div class="etq-result-loc">' + loc + '</div>';
+    d.onclick = () => adicionarEtq(i);
+    el.appendChild(d);
+  });
+  if (!resultado.length) {
+    el.innerHTML = '<div class="empty-msg">Nenhum produto encontrado.</div>';
+  }
+}
+
+function adicionarEtq(item) {
+  const jaExiste = etqFila.some(e => e.nome === item.nome);
+  if (jaExiste) { alert('Este produto já está na fila de etiquetas.'); return; }
+  etqFila.push({
+    id: Date.now(),
+    cod: item.localizacao && item.localizacao !== 'nan' ? item.localizacao.toUpperCase() : '',
+    nome: item.nome
+  });
+  salvarEtqLocal();
+  document.getElementById('etq-search').value = '';
+  document.getElementById('etq-resultados').innerHTML = '';
+  renderEtqLista();
+}
+
+function removerEtq(id) {
+  etqFila = etqFila.filter(e => e.id !== id);
+  salvarEtqLocal();
+  renderEtqLista();
+}
+
+function limparEtq() {
+  if (!etqFila.length) return;
+  if (confirm('Limpar toda a fila de etiquetas?')) {
+    etqFila = [];
+    salvarEtqLocal();
+    renderEtqLista();
+  }
+}
+
+function abrirEtqModal(id) {
+  const item = etqFila.find(e => e.id === id);
+  if (!item) return;
+  etqEditandoId = id;
+  document.getElementById('etq-modal-cod').value = item.cod;
+  document.getElementById('etq-modal-desc').value = item.nome;
+  document.getElementById('etq-modal').classList.add('open');
+  setTimeout(() => document.getElementById('etq-modal-cod').focus(), 150);
+}
+
+function fecharEtqModal() {
+  document.getElementById('etq-modal').classList.remove('open');
+  etqEditandoId = null;
+}
+
+function salvarEtqModal() {
+  if (!etqEditandoId) return;
+  const cod = document.getElementById('etq-modal-cod').value.trim().toUpperCase();
+  const nome = document.getElementById('etq-modal-desc').value.trim();
+  if (!cod || !nome) { alert('Preencha o código e a descrição.'); return; }
+  const item = etqFila.find(e => e.id === etqEditandoId);
+  if (item) { item.cod = cod; item.nome = nome; }
+  salvarEtqLocal();
+  fecharEtqModal();
+  renderEtqLista();
+}
+
+function renderEtqLista() {
+  const lista = document.getElementById('etq-lista');
+  const vazio = document.getElementById('etq-vazio');
+  const badge = document.getElementById('etq-count');
+  badge.textContent = etqFila.length;
+  if (!etqFila.length) {
+    lista.innerHTML = '';
+    vazio.style.display = 'block';
+    return;
+  }
+  vazio.style.display = 'none';
+  lista.innerHTML = etqFila.map(e => `
+    <div class="etq-item">
+      <div class="etq-item-body">
+        <div class="etq-item-loc">${e.cod || '<span style="color:#bbb">sem código</span>'}</div>
+        <div class="etq-item-nome">${e.nome}</div>
+      </div>
+      <button class="etq-editar-btn" onclick="abrirEtqModal(${e.id})">✏️ Editar</button>
+      <button class="etq-item-del" onclick="removerEtq(${e.id})">✕</button>
+    </div>
+  `).join('');
+}
+
+function imprimirEtiquetas() {
+  if (!etqFila.length) { alert('Adicione ao menos uma etiqueta antes de imprimir.'); return; }
+  const area = document.getElementById('etq-print-area');
+  area.innerHTML = '';
+  const PER_PAGE = 3;
+  const pages = Math.ceil(etqFila.length / PER_PAGE);
+
+  let qrPendentes = [];
+
+  for (let p = 0; p < pages; p++) {
+    const pageDiv = document.createElement('div');
+    pageDiv.className = 'etq-a4';
+    pageDiv.style.cssText = 'background:#fff;width:794px;padding:28px 24px;display:flex;flex-direction:column;margin-bottom:24px;';
+    const slice = etqFila.slice(p * PER_PAGE, p * PER_PAGE + PER_PAGE);
+    slice.forEach((e, idx) => {
+      const borda = idx === 0 ? '2.5px solid #111' : 'none';
+      const etDiv = document.createElement('div');
+      etDiv.className = 'etq-grande';
+      etDiv.style.cssText = 'border:2.5px solid #111;' + (idx > 0 ? 'border-top:none;' : '') + 'width:100%;height:330px;display:flex;align-items:stretch;flex-shrink:0;';
+
+      const infoDiv = document.createElement('div');
+      infoDiv.style.cssText = 'flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:18px 24px;text-align:center;';
+
+      const codDiv = document.createElement('div');
+      codDiv.className = 'etq-g-cod';
+      codDiv.style.cssText = 'font-size:140px;font-weight:900;color:#111;line-height:1;margin-bottom:20px;letter-spacing:-3px;word-break:break-all;font-family:Arial,sans-serif;';
+      codDiv.textContent = e.cod;
+
+      const descDiv = document.createElement('div');
+      descDiv.className = 'etq-g-desc';
+      descDiv.style.cssText = 'font-size:32px;font-weight:700;color:#111;line-height:1.4;text-align:center;text-transform:uppercase;font-family:Arial,sans-serif;';
+      descDiv.innerHTML = e.nome.replace(/\n/g,'<br>');
+
+      infoDiv.appendChild(codDiv);
+      infoDiv.appendChild(descDiv);
+
+      const qrDiv = document.createElement('div');
+      qrDiv.className = 'etq-g-qr';
+      qrDiv.style.cssText = 'width:150px;min-width:150px;border-left:2.5px solid #111;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:12px;background:#fafafa;';
+
+      const qrLabel = document.createElement('div');
+      qrLabel.style.cssText = 'font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#888;text-align:center;font-family:Arial,sans-serif;';
+      qrLabel.textContent = 'Localização';
+
+      const qrContainer = document.createElement('div');
+      qrContainer.style.cssText = 'width:110px;height:110px;display:flex;align-items:center;justify-content:center;';
+
+      qrDiv.appendChild(qrLabel);
+      qrDiv.appendChild(qrContainer);
+      etDiv.appendChild(infoDiv);
+      etDiv.appendChild(qrDiv);
+      pageDiv.appendChild(etDiv);
+
+      qrPendentes.push({ container: qrContainer, data: 'COD:' + e.cod + '\nDESC:' + e.nome });
+    });
+    area.appendChild(pageDiv);
+  }
+
+  // Carrega QRCode.js se necessário e gera QRs
+  function gerarQRsEImprimir() {
+    qrPendentes.forEach(q => {
+      try {
+        new QRCode(q.container, { text: q.data, width: 108, height: 108, colorDark: '#111', colorLight: '#fafafa', correctLevel: QRCode.CorrectLevel.M });
+      } catch(e) {}
+    });
+    setTimeout(() => window.print(), 400);
+  }
+
+  if (typeof QRCode === 'undefined') {
+    const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
+    s.onload = gerarQRsEImprimir;
+    document.head.appendChild(s);
+  } else {
+    gerarQRsEImprimir();
+  }
+}
+
+document.getElementById('etq-modal').addEventListener('click', function(e) {
+  if (e.target === this) fecharEtqModal();
+});
+
+renderEtqLista();
+
 
 </script>
 </body>
