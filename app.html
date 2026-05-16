@@ -189,15 +189,13 @@
   .etq-print-area { display: none; }
   @media print {
     .topbar, .bottom-nav, #loading, .etq-ui { display: none !important; }
-    body { background: #fff; padding: 0; }
+    body { background: #fff; padding: 0; margin: 0; }
     .view { display: none !important; }
     #view-etiquetas { display: block !important; padding: 0; }
     .etq-print-area { display: block !important; }
-    .etq-a4 { box-shadow: none; margin: 0; padding: 8mm 8mm; width: 210mm; min-height: 297mm; page-break-after: always; display: flex; flex-direction: column; gap: 4mm; }
-    .etq-grande { flex: 1; border: 2.5pt solid #111 !important; border-radius: 4pt !important; }
-    .etq-g-cod { font-size: 56pt !important; margin-bottom: 4pt !important; }
-    .etq-g-desc { font-size: 14pt !important; }
-    .etq-g-qr { width: 48mm !important; min-width: 48mm !important; border: none !important; }
+    .etq-g-cod { font-size: 56pt !important; }
+    .etq-g-desc { font-size: 15pt !important; }
+    .etq-g-qr { width: 42mm !important; min-width: 42mm !important; }
   }
 </style>
 </head>
@@ -1116,6 +1114,7 @@ function imprimirEtiquetas() {
   if (!etqFila.length) { alert('Adicione ao menos uma etiqueta antes de imprimir.'); return; }
   const area = document.getElementById('etq-print-area');
   area.innerHTML = '';
+
   const PER_PAGE = 3;
   const pages = Math.ceil(etqFila.length / PER_PAGE);
 
@@ -1123,60 +1122,75 @@ function imprimirEtiquetas() {
 
   for (let p = 0; p < pages; p++) {
     const pageDiv = document.createElement('div');
-    pageDiv.className = 'etq-a4';
-    pageDiv.style.cssText = 'background:#fff;width:794px;padding:24px;display:flex;flex-direction:column;gap:12px;margin-bottom:24px;';
+    pageDiv.style.cssText = 'background:#fff;width:794px;padding:20px 24px;display:flex;flex-direction:column;gap:10px;margin-bottom:24px;box-sizing:border-box;';
+
     const slice = etqFila.slice(p * PER_PAGE, p * PER_PAGE + PER_PAGE);
-    slice.forEach((e, idx) => {
-      const borda = idx === 0 ? '2.5px solid #111' : 'none';
+
+    for (let idx = 0; idx < PER_PAGE; idx++) {
+      const e = slice[idx];
+
       const etDiv = document.createElement('div');
-      etDiv.className = 'etq-grande';
-      etDiv.style.cssText = 'border:2.5px solid #111;border-radius:6px;width:100%;height:330px;display:flex;align-items:stretch;flex-shrink:0;overflow:hidden;';
+      etDiv.style.cssText = 'border:2.5px solid #111;border-radius:6px;width:100%;height:calc((297mm - 40px - 20px) / 3);min-height:240px;max-height:260px;display:flex;align-items:stretch;overflow:hidden;box-sizing:border-box;';
+
+      if (!e) {
+        etDiv.style.visibility = 'hidden';
+        pageDiv.appendChild(etDiv);
+        continue;
+      }
 
       const infoDiv = document.createElement('div');
-      infoDiv.style.cssText = 'flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:14px 20px;text-align:center;overflow:hidden;';
+      infoDiv.style.cssText = 'flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:12px 20px 12px;text-align:center;overflow:hidden;box-sizing:border-box;';
 
       const codDiv = document.createElement('div');
       codDiv.className = 'etq-g-cod';
-      codDiv.style.cssText = 'font-size:140px;font-weight:900;color:#111;line-height:1;margin-bottom:10px;letter-spacing:-3px;word-break:break-all;font-family:Arial,sans-serif;flex-shrink:0;width:100%;';
-      codDiv.textContent = (e.cod || '').replace(/^DEP\s*/i, '');
+      const rawCod = (e.cod || '').replace(/^DEP\s*/i, '');
+      codDiv.textContent = rawCod;
+      codDiv.style.cssText = 'font-size:110px;font-weight:900;color:#111;line-height:1;letter-spacing:-2px;font-family:Arial,sans-serif;flex-shrink:0;width:100%;text-align:center;';
 
       const descDiv = document.createElement('div');
       descDiv.className = 'etq-g-desc';
-      descDiv.style.cssText = 'font-size:30px;font-weight:700;color:#111;line-height:1.35;text-align:center;text-transform:uppercase;font-family:Arial,sans-serif;flex:1;display:flex;align-items:center;justify-content:center;width:100%;word-break:break-word;overflow-wrap:break-word;';
-      descDiv.textContent = e.nome.replace(/\n/g,' ');
+      descDiv.textContent = e.nome.replace(/\n/g, ' ');
+      descDiv.style.cssText = 'font-size:26px;font-weight:700;color:#111;line-height:1.3;text-align:center;text-transform:uppercase;font-family:Arial,sans-serif;flex:1;display:flex;align-items:center;justify-content:center;width:100%;word-break:break-word;overflow-wrap:break-word;margin-top:8px;';
 
       infoDiv.appendChild(codDiv);
       infoDiv.appendChild(descDiv);
 
       const qrDiv = document.createElement('div');
       qrDiv.className = 'etq-g-qr';
-      qrDiv.style.cssText = 'width:140px;min-width:140px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:12px;background:#fafafa;flex-shrink:0;';
+      qrDiv.style.cssText = 'width:130px;min-width:130px;flex-shrink:0;display:flex;align-items:center;justify-content:center;padding:10px;background:#fafafa;';
 
       const qrContainer = document.createElement('div');
-      qrContainer.style.cssText = 'width:110px;height:110px;display:flex;align-items:center;justify-content:center;';
-
+      qrContainer.style.cssText = 'width:108px;height:108px;';
       qrDiv.appendChild(qrContainer);
+
       etDiv.appendChild(infoDiv);
       etDiv.appendChild(qrDiv);
       pageDiv.appendChild(etDiv);
 
-      qrPendentes.push({ container: qrContainer, data: 'COD:' + e.cod + '\nDESC:' + e.nome });
-    });
+      qrPendentes.push({ container: qrContainer, data: 'COD:' + rawCod + '\nDESC:' + e.nome });
+    }
+
     area.appendChild(pageDiv);
   }
 
-  // Carrega QRCode.js se necessário e gera QRs
   function gerarQRsEImprimir() {
-    qrPendentes.forEach(q => {
+    qrPendentes.forEach(function(q) {
       try {
-        new QRCode(q.container, { text: q.data, width: 108, height: 108, colorDark: '#111', colorLight: '#fafafa', correctLevel: QRCode.CorrectLevel.M });
-      } catch(e) {}
+        new QRCode(q.container, {
+          text: q.data,
+          width: 108,
+          height: 108,
+          colorDark: '#111111',
+          colorLight: '#fafafa',
+          correctLevel: QRCode.CorrectLevel.M
+        });
+      } catch(err) {}
     });
-    setTimeout(() => window.print(), 400);
+    setTimeout(function() { window.print(); }, 600);
   }
 
   if (typeof QRCode === 'undefined') {
-    const s = document.createElement('script');
+    var s = document.createElement('script');
     s.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';
     s.onload = gerarQRsEImprimir;
     document.head.appendChild(s);
