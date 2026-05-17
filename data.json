@@ -312,12 +312,6 @@
     "estoque": 0.0
   },
   {
-    "nome": "ALONGADOR GUIDAO POP",
-    "localizacao": "247321",
-    "preco": 100.0,
-    "estoque": -1.0
-  },
-  {
     "nome": "AMORTECEDOR BIZ100/POP",
     "localizacao": "nan",
     "preco": 140.0,
@@ -565,7 +559,7 @@
   },
   {
     "nome": "ARVORE COMANDO BIZ 125 06-10 - MHX",
-    "localizacao": "DEPA77",
+    "localizacao": "DEPB204",
     "preco": 120.0,
     "estoque": -9.0
   },
@@ -595,7 +589,7 @@
   },
   {
     "nome": "ARVORE COMANDO LANDER 250 / FAZER 250 - WGK",
-    "localizacao": "DEPA81",
+    "localizacao": "DEPB207",
     "preco": 240.0,
     "estoque": 0.0
   },
@@ -763,7 +757,7 @@
   },
   {
     "nome": "BALANCIM VALVULA ADMISSAO / ESCAPE LANDER 250 - WGK",
-    "localizacao": "DEPA80",
+    "localizacao": "DEPB206",
     "preco": 230.0,
     "estoque": -1.0
   },
@@ -961,7 +955,7 @@
   },
   {
     "nome": "BICO INJETOR 6 FUROS BIZ125 11-15",
-    "localizacao": "DEPA102",
+    "localizacao": "DEPB226",
     "preco": 230.0,
     "estoque": -1.0
   },
@@ -1981,12 +1975,6 @@
   },
   {
     "nome": "BUCHA PESINHO",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -1.0
-  },
-  {
-    "nome": "BUCHA PESO GUIDAO",
     "localizacao": "nan",
     "preco": 0.0,
     "estoque": -1.0
@@ -3276,18 +3264,6 @@
     "estoque": -15.0
   },
   {
-    "nome": "CAPA GUIDÃO BIZ 100 - CINZA",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -1.0
-  },
-  {
-    "nome": "CAPA GUIDAO BIZ 125 16 EX PRETO",
-    "localizacao": "246302",
-    "preco": 140.0,
-    "estoque": -1.0
-  },
-  {
     "nome": "CAPA MANETE EMBREAGEM  CG / TITAN / POP 100",
     "localizacao": "DEPB75",
     "preco": 10.0,
@@ -4207,7 +4183,7 @@
   },
   {
     "nome": "CHAVE DE IGNICAO BIZ 125 09-15 - JUNKUN (SJ)",
-    "localizacao": "DEPA87",
+    "localizacao": "DEPB212",
     "preco": 90.0,
     "estoque": -5.0
   },
@@ -4351,7 +4327,7 @@
   },
   {
     "nome": "CHAVE DE LUZ TITAN150 ES-ESD 04-08 / FAN 150 10-13 / FAN 125 ES 09-13 - MHX (SJ)",
-    "localizacao": "DEPA86",
+    "localizacao": "DEPB211",
     "preco": 85.0,
     "estoque": -4.0
   },
@@ -4363,7 +4339,7 @@
   },
   {
     "nome": "CHAVE DE LUZ XLR 125 - GEAR (SJ)",
-    "localizacao": "DEPA85",
+    "localizacao": "DEPB210",
     "preco": 70.0,
     "estoque": -2.0
   },
@@ -4441,13 +4417,13 @@
   },
   {
     "nome": "CHAVE IGNICAO FACTOR  / XTZ 125 / YBR",
-    "localizacao": "DEPA88",
+    "localizacao": "DEPB213",
     "preco": 75.0,
     "estoque": -7.0
   },
   {
     "nome": "CHAVE IGNICAO FAN 125 14-15 - GEAR",
-    "localizacao": "DEPA92",
+    "localizacao": "DEPB217",
     "preco": 75.0,
     "estoque": 1.0
   },
@@ -4555,7 +4531,7 @@
   },
   {
     "nome": "CHAVE LUZ BROS 160 15-16 - GEAR",
-    "localizacao": "DEPA90",
+    "localizacao": "DEPB215",
     "preco": 110.0,
     "estoque": -15.0
   },
@@ -4567,7 +4543,7 @@
   },
   {
     "nome": "CHAVE LUZ FAN 125i / TITAN 150 14-15 / TITAN 160 / FAN 160 - GEAR (SJ)",
-    "localizacao": "DEPA84",
+    "localizacao": "DEPB209",
     "preco": 85.0,
     "estoque": 0.0
   },
@@ -4585,7 +4561,7 @@
   },
   {
     "nome": "CHAVE LUZ POP 110 - MAGNETRON",
-    "localizacao": "DEPA91",
+    "localizacao": "DEPB216",
     "preco": 110.0,
     "estoque": -6.0
   },
@@ -5233,7 +5209,7 @@
   },
   {
     "nome": "COLETOR ADMISSAO BIZ 125 09-15",
-    "localizacao": "DEPA98",
+    "localizacao": "DEPB222",
     "preco": 35.0,
     "estoque": -9.0
   },
@@ -6403,13 +6379,13 @@
   },
   {
     "nome": "EIXO PEDAL DE FREIO POP 110i 16-18",
-    "localizacao": "DEPA105",
+    "localizacao": "DEPB229",
     "preco": 25.0,
     "estoque": -7.0
   },
   {
     "nome": "EIXO PEDAL DE FREIO POP110i 19-23",
-    "localizacao": "DEPA104",
+    "localizacao": "DEPB228",
     "preco": 25.0,
     "estoque": -2.0
   },
@@ -7141,7 +7117,7 @@
   },
   {
     "nome": "ESCOVA MOTOR PARTIDA BIZ110i 16-20 / POP 110 - MAGNETRON",
-    "localizacao": "DEPA103",
+    "localizacao": "DEPB227",
     "preco": 55.0,
     "estoque": -2.0
   },
@@ -7213,7 +7189,7 @@
   },
   {
     "nome": "ESPACADOR RODA ROLAMENTO DIANTEIRA BROS 125-150-160",
-    "localizacao": "DEPA95",
+    "localizacao": "DEPB220",
     "preco": 18.0,
     "estoque": -8.0
   },
@@ -7267,13 +7243,13 @@
   },
   {
     "nome": "ESPACADOR RODA ROLAMENTO TRASEIRA DIREITA POP 100-110",
-    "localizacao": "DEPA97",
+    "localizacao": "DEPB221",
     "preco": 20.0,
     "estoque": -3.0
   },
   {
     "nome": "ESPACADOR RODA ROLAMENTO TRASEIRA ESQUERDA POP 100-110",
-    "localizacao": "DEPA99",
+    "localizacao": "DEPB223",
     "preco": 20.0,
     "estoque": -1.0
   },
@@ -8377,7 +8353,7 @@
   },
   {
     "nome": "GUIA CORRENTE ( BORRACHA BALANCA ) XTZ 125",
-    "localizacao": "DEPA101",
+    "localizacao": "DEPB225",
     "preco": 25.0,
     "estoque": 0.0
   },
@@ -8545,13 +8521,13 @@
   },
   {
     "nome": "GUIA VALVULA TITAN 00 / TITAN 99 / TODAY / XLR - MHX",
-    "localizacao": "DEPA96",
+    "localizacao": "CX5H4",
     "preco": 20.0,
     "estoque": -5.0
   },
   {
     "nome": "GUIA VALVULA TITAN 00 / TITAN 99 / TODAY / XLR - TRILHA",
-    "localizacao": "DEPA96",
+    "localizacao": "CX5H4",
     "preco": 25.0,
     "estoque": -5.0
   },
@@ -8574,100 +8550,88 @@
     "estoque": 0.0
   },
   {
-    "nome": "GUIDAO BIZ 125 09/10 EX/ED",
-    "localizacao": "235934",
-    "preco": 210.0,
-    "estoque": 0.0
+    "nome": "GUIDAO ESPORTIVO BROS - MAX AMARELO",
+    "localizacao": "EXPOSITOR",
+    "preco": 450.0,
+    "estoque": 2.0
   },
   {
-    "nome": "GUIDAO ESPORTIVO PRETO - RT",
-    "localizacao": "nan",
-    "preco": 290.0,
-    "estoque": 4.0
+    "nome": "GUIDAO ESPORTIVO BROS - MAX AZUL",
+    "localizacao": "EXPOSITOR",
+    "preco": 450.0,
+    "estoque": -3.0
   },
   {
-    "nome": "GUIDAO MAX BROS - PRETO",
-    "localizacao": "nan",
+    "nome": "GUIDAO ESPORTIVO BROS - MAX PRETO",
+    "localizacao": "EXPOSITOR",
     "preco": 450.0,
     "estoque": -6.0
   },
   {
+    "nome": "GUIDAO ESPORTIVO BROS - MAX VERMELHO",
+    "localizacao": "EXPOSITOR",
+    "preco": 450.0,
+    "estoque": 0.0
+  },
+  {
     "nome": "GUIDAO MODELO BAIXO TITAN 150 - CROMADO",
-    "localizacao": "230274",
+    "localizacao": "EXPOSITOR",
     "preco": 70.0,
     "estoque": -33.0
   },
   {
-    "nome": "GUIDAO MODELO ORIGINAL BIZ100",
-    "localizacao": "nan",
+    "nome": "GUIDAO MODELO ORIGINAL BIZ 100",
+    "localizacao": "EXPOSITOR",
     "preco": 110.0,
     "estoque": 1.0
   },
   {
     "nome": "GUIDAO MODELO ORIGINAL BROS 125-150 160 - CINZA",
-    "localizacao": "230630",
+    "localizacao": "EXPOSITOR",
     "preco": 90.0,
     "estoque": -10.0
   },
   {
     "nome": "GUIDAO MODELO ORIGINAL BROS 125-150 160 - CROMADO",
-    "localizacao": "230276",
+    "localizacao": "EXPOSITOR",
     "preco": 90.0,
     "estoque": 5.0
   },
   {
     "nome": "GUIDAO MODELO ORIGINAL BROS 125-150-160 - GRAFITE",
-    "localizacao": "225314",
+    "localizacao": "EXPOSITOR",
     "preco": 90.0,
     "estoque": 0.0
   },
   {
     "nome": "GUIDAO MODELO ORIGINAL BROS 125-150-160 - PRETO",
-    "localizacao": "225312",
+    "localizacao": "EXPOSITOR",
     "preco": 90.0,
     "estoque": -7.0
   },
   {
-    "nome": "GUIDAO MODELO ORIGINAL POP 100 PRETO",
-    "localizacao": "278578",
+    "nome": "GUIDAO MODELO ORIGINAL POP 100 - PRETO",
+    "localizacao": "EXPOSITOR",
     "preco": 120.0,
     "estoque": -1.0
   },
   {
-    "nome": "GUIDAO MODELO ORIGINAL POP 110 PRETO",
-    "localizacao": "45334",
+    "nome": "GUIDAO MODELO ORIGINAL POP 110 -  PRETO",
+    "localizacao": "EXPOSITOR",
     "preco": 90.0,
     "estoque": -26.0
   },
   {
     "nome": "GUIDAO MODELO ORIGINAL PRETO BIZ 125 EX 11-17/ BIZ 125+ 09-10",
-    "localizacao": "44505",
+    "localizacao": "EXPOSITOR",
     "preco": 230.0,
     "estoque": 0.0
   },
   {
     "nome": "GUIDAO MODELO ORIGINAL TITAN - CROMADO",
-    "localizacao": "45332",
+    "localizacao": "EXPOSITOR",
     "preco": 70.0,
     "estoque": -8.0
-  },
-  {
-    "nome": "GUIDAO OXXY - AMARELO",
-    "localizacao": "nan",
-    "preco": 480.0,
-    "estoque": -3.0
-  },
-  {
-    "nome": "GUIDAO OXXY - PRETO",
-    "localizacao": "nan",
-    "preco": 480.0,
-    "estoque": 2.0
-  },
-  {
-    "nome": "GUIDAO OXXY - VERMELHO",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": 0.0
   },
   {
     "nome": "GULF MOTOR GULF 4T 10W30",
@@ -8677,7 +8641,7 @@
   },
   {
     "nome": "HASTE TENSOR FLAUTA POP 100 / BIZ 100",
-    "localizacao": "DEPA93",
+    "localizacao": "DEPB218",
     "preco": 32.0,
     "estoque": 0.0
   },
@@ -8719,7 +8683,7 @@
   },
   {
     "nome": "INTERRUPTOR BOTAO DO PISCA BIZ 125 09-17 - TRILHA",
-    "localizacao": "DEPA108",
+    "localizacao": "DEPB230",
     "preco": 15.0,
     "estoque": -35.0
   },
@@ -8761,7 +8725,7 @@
   },
   {
     "nome": "INTERRUPTOR DA PARTIDA BROS 160 ESD-EDD - SMART FOX",
-    "localizacao": "DEPA111",
+    "localizacao": "DEPB232",
     "preco": 80.0,
     "estoque": -10.0
   },
@@ -8971,7 +8935,7 @@
   },
   {
     "nome": "INTERRUPTOR PARTIDA TITAN 150 09/13 ESD/EX - GEAR",
-    "localizacao": "DEPA89",
+    "localizacao": "DEPB214",
     "preco": 45.0,
     "estoque": -4.0
   },
@@ -9811,7 +9775,7 @@
   },
   {
     "nome": "KIT CHAVE DE IGNICAO BIZ125 06-08 - MAGNETRON",
-    "localizacao": "DEPA94",
+    "localizacao": "DEPB219",
     "preco": 130.0,
     "estoque": -8.0
   },
@@ -12054,18 +12018,6 @@
     "estoque": -2.0
   },
   {
-    "nome": "PARALAMA B BROS 160",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -2.0
-  },
-  {
-    "nome": "PARALAMA B TITAN 150 / FAN 150 - 14",
-    "localizacao": "nan",
-    "preco": 140.0,
-    "estoque": -3.0
-  },
-  {
     "nome": "PARALAMA BIZ 125 11/15 BRANCO FOSCO",
     "localizacao": "248087",
     "preco": 0.0,
@@ -12085,7 +12037,7 @@
   },
   {
     "nome": "PARALAMA DIANT FACTOR VERMELHO",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 130.0,
     "estoque": -2.0
   },
@@ -12102,62 +12054,14 @@
     "estoque": -2.0
   },
   {
-    "nome": "PARALAMA DIANTEIRO - AZUL TITAN 160",
-    "localizacao": "nan",
-    "preco": 120.0,
-    "estoque": -10.0
-  },
-  {
-    "nome": "PARALAMA DIANTEIRO - BRANCO TITAN 160",
-    "localizacao": "42620",
-    "preco": 120.0,
-    "estoque": 2.0
-  },
-  {
-    "nome": "PARALAMA DIANTEIRO - CINZA METALICO TITAN 160",
-    "localizacao": "48365",
-    "preco": 120.0,
-    "estoque": -1.0
-  },
-  {
-    "nome": "PARALAMA DIANTEIRO - PRETO TITAN 160",
-    "localizacao": "42621",
-    "preco": 120.0,
-    "estoque": -8.0
-  },
-  {
-    "nome": "PARALAMA DIANTEIRO - TITAN 160 PRATA",
-    "localizacao": "nan",
-    "preco": 120.0,
-    "estoque": 0.0
-  },
-  {
     "nome": "PARALAMA DIANTEIRO - VERMELHO BROS 150-160",
     "localizacao": "DEPF",
     "preco": 130.0,
     "estoque": -5.0
   },
   {
-    "nome": "PARALAMA DIANTEIRO - VERMELHO TITAN 160",
-    "localizacao": "42622",
-    "preco": 120.0,
-    "estoque": -10.0
-  },
-  {
-    "nome": "PARALAMA DIANTEIRO B BIZ 110 - PRETO",
-    "localizacao": "nan",
-    "preco": 85.0,
-    "estoque": -1.0
-  },
-  {
-    "nome": "PARALAMA DIANTEIRO BIZ 125 B",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -1.0
-  },
-  {
     "nome": "PARALAMA DIANTEIRO BROS 150 09-14 - PRETO",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 120.0,
     "estoque": -7.0
   },
@@ -12181,7 +12085,7 @@
   },
   {
     "nome": "PARALAMA DIANTEIRO POP 100 07-12 ( FINO ) - PRETO",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 110.0,
     "estoque": -2.0
   },
@@ -12193,7 +12097,7 @@
   },
   {
     "nome": "PARALAMA DIANTEIRO POP 100 13-15 / POP 110 - VERMELHO",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 140.0,
     "estoque": -3.0
   },
@@ -12202,12 +12106,6 @@
     "localizacao": "nan",
     "preco": 140.0,
     "estoque": 1.0
-  },
-  {
-    "nome": "PARALAMA DIANTEIRO PRETO - TITAN 150 04-08",
-    "localizacao": "46869",
-    "preco": 90.0,
-    "estoque": -9.0
   },
   {
     "nome": "PARALAMA DIANTEIRO PRETO BIZ100 00-05",
@@ -12222,10 +12120,58 @@
     "estoque": -11.0
   },
   {
+    "nome": "PARALAMA DIANTEIRO TITAN 150 04-08 - PRETO",
+    "localizacao": "DEPF",
+    "preco": 90.0,
+    "estoque": -9.0
+  },
+  {
     "nome": "PARALAMA DIANTEIRO TITAN 150 04-08 - PRETO INJETADO",
-    "localizacao": "243534",
+    "localizacao": "DEPF",
     "preco": 90.0,
     "estoque": 1.0
+  },
+  {
+    "nome": "PARALAMA DIANTEIRO TITAN 150 04-08 - VERMELHO",
+    "localizacao": "DEPF",
+    "preco": 90.0,
+    "estoque": 1.0
+  },
+  {
+    "nome": "PARALAMA DIANTEIRO TITAN 160 - AZUL",
+    "localizacao": "DEPF",
+    "preco": 120.0,
+    "estoque": -10.0
+  },
+  {
+    "nome": "PARALAMA DIANTEIRO TITAN 160 - BRANCO",
+    "localizacao": "DEPF",
+    "preco": 120.0,
+    "estoque": 2.0
+  },
+  {
+    "nome": "PARALAMA DIANTEIRO TITAN 160 - CINZA METALICO",
+    "localizacao": "DEPF",
+    "preco": 120.0,
+    "estoque": -1.0
+  },
+  {
+    "nome": "PARALAMA DIANTEIRO TITAN 160 - PRATA",
+    "localizacao": "DEPF",
+    "preco": 120.0,
+    "estoque": 0.0
+  },
+  {
+    "nome": "PARALAMA DIANTEIRO TITAN 160 - PRETO",
+    "localizacao": "DEPF",
+    "preco": 120.0,
+    "estoque": -8.0
+  },
+  {
+    "nome": "PARALAMA DIANTEIRO TITAN 160 - VERMELHO",
+    "localizacao": "DEPF",
+    "preco": 120.0,
+    "estoque": -10.0
   },
   {
     "nome": "PARALAMA DIANTEIRO TITAN 98/99 VERM C/SUP",
@@ -12246,14 +12192,8 @@
     "estoque": 0.0
   },
   {
-    "nome": "PARALAMA DIANTEIRO VERMELHO - TITAN 150 04-08",
-    "localizacao": "46190",
-    "preco": 90.0,
-    "estoque": 1.0
-  },
-  {
     "nome": "PARALAMA DIANTEIRO VERMELHO XLR",
-    "localizacao": "46236",
+    "localizacao": "DEPF",
     "preco": 120.0,
     "estoque": 0.0
   },
@@ -12276,12 +12216,6 @@
     "estoque": 0.0
   },
   {
-    "nome": "PARALAMA DIANTEIRO XRE 300",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -1.0
-  },
-  {
     "nome": "PARALAMA DIANTEIRO XTZ 125 / LANDER 250 - PRETO",
     "localizacao": "42519",
     "preco": 180.0,
@@ -12289,19 +12223,19 @@
   },
   {
     "nome": "PARALAMA FAN 125 PRETO-",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 0.0,
     "estoque": -7.0
   },
   {
     "nome": "PARALAMA PRETO INJETADO YBR",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 0.0,
     "estoque": -1.0
   },
   {
     "nome": "PARALAMA TITAN 160 PRETA",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 120.0,
     "estoque": 2.0
   },
@@ -12337,7 +12271,7 @@
   },
   {
     "nome": "PARALAMA TRASEIRO A PRETO \\ TITAN160 2016 A 2022(E)",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 0.0,
     "estoque": -2.0
   },
@@ -12385,13 +12319,13 @@
   },
   {
     "nome": "PARALAMA TRASEIRO RABETA TITAN 160 16-18",
-    "localizacao": "242847",
+    "localizacao": "DEPF",
     "preco": 90.0,
     "estoque": 1.0
   },
   {
     "nome": "PARALAMA TRASEIRO RABTA TITAN 160 16-18",
-    "localizacao": "243883",
+    "localizacao": "DEPF",
     "preco": 90.0,
     "estoque": 4.0
   },
@@ -12421,7 +12355,7 @@
   },
   {
     "nome": "PARALAMA VERMELHO BROS 160",
-    "localizacao": "nan",
+    "localizacao": "DEPF",
     "preco": 0.0,
     "estoque": -1.0
   },
@@ -13824,12 +13758,6 @@
     "estoque": -1.0
   },
   {
-    "nome": "PROTETOR GUIDAO CIRCUIT EQUIPMENT PTO",
-    "localizacao": "234078",
-    "preco": 55.0,
-    "estoque": 3.0
-  },
-  {
     "nome": "PROTETOR MAO P/GUID FENIX CARB PRETO/PRETO",
     "localizacao": "240070",
     "preco": 210.0,
@@ -14551,7 +14479,7 @@
   },
   {
     "nome": "RETENTOR RODA TRASEIRA BROS 125-150-160 / CRF 230 / TORNADO / XRE 190 - TRILHA",
-    "localizacao": "DEPA109",
+    "localizacao": "DEPB231",
     "preco": 10.0,
     "estoque": -27.0
   },
@@ -14647,7 +14575,7 @@
   },
   {
     "nome": "ROLAMENTO 6000 - ACIONAMENTO EMBREAGEM BIZ 100",
-    "localizacao": "DEPA73",
+    "localizacao": "DEPB201",
     "preco": 18.0,
     "estoque": -1.0
   },
@@ -14659,7 +14587,7 @@
   },
   {
     "nome": "ROLAMENTO 6003 ACIONAMENTO DA EMBREAGEM  TITAN 150 04 -15/ BROS NXR150  - MHX",
-    "localizacao": "DEPA74",
+    "localizacao": "DEPB202",
     "preco": 30.0,
     "estoque": -3.0
   },
@@ -14707,7 +14635,7 @@
   },
   {
     "nome": "ROLAMENTO 6300",
-    "localizacao": "DEPA75",
+    "localizacao": "DEPB203",
     "preco": 40.0,
     "estoque": -3.0
   },
@@ -15037,7 +14965,7 @@
   },
   {
     "nome": "SENSOR VELOCIMETRO / VELOCIDADE TWISTER 250 01-08 / TORNADO  / FALCON - JECPRO",
-    "localizacao": "DEPA79",
+    "localizacao": "DEPB205",
     "preco": 160.0,
     "estoque": 1.0
   },
@@ -15564,12 +15492,6 @@
     "estoque": -9.0
   },
   {
-    "nome": "TAMPA TRASEIRA DO GUIDAO - PRETA \\ BIZ100 ES 2005(E)",
-    "localizacao": "11404",
-    "preco": 75.0,
-    "estoque": 1.0
-  },
-  {
     "nome": "TAPECEIRO",
     "localizacao": "nan",
     "preco": 0.0,
@@ -15739,7 +15661,7 @@
   },
   {
     "nome": "TORNEIRA COMBUSTIVEL GASOLINA TORNADO",
-    "localizacao": "DEPA100",
+    "localizacao": "DEPB224",
     "preco": 45.0,
     "estoque": 0.0
   },
@@ -15862,18 +15784,6 @@
     "localizacao": "nan",
     "preco": 0.0,
     "estoque": -14.0
-  },
-  {
-    "nome": "TRAVESSA GUIDAO CG/150/YBR 19CM VERMELHO",
-    "localizacao": "2500866",
-    "preco": 35.0,
-    "estoque": 0.0
-  },
-  {
-    "nome": "TRAVESSA GUIDAO CG/150/YBR 19CM VIOLETA",
-    "localizacao": "2500873",
-    "preco": 35.0,
-    "estoque": 1.0
   },
   {
     "nome": "TUBO COBRE",
@@ -16423,7 +16333,7 @@
   },
   {
     "nome": "VOLANTE MAGNETO POP 110 - ORIGINAL HONDA",
-    "localizacao": "DEPA83",
+    "localizacao": "DEPB208",
     "preco": 480.0,
     "estoque": 0.0
   },
