@@ -19,7 +19,7 @@
   },
   {
     "nome": "KIT ENGRENAGEM TENSOR / GUIA CORRENTE COMANDO POP110 / BIZ110 - GEAR",
-    "localizacao": "LOJAC22",
+    "localizacao": "DEPB193",
     "preco": 35.0,
     "estoque": -39.0
   },
@@ -93,7 +93,7 @@
     "nome": "ACELERADOR RAPIDO RACING PRETO",
     "localizacao": "211643",
     "preco": 180.0,
-    "estoque": 2.0
+    "estoque": 1.0
   },
   {
     "nome": "ACIONADOR CORRENTE COMANDO TORNADO",
@@ -189,7 +189,7 @@
     "nome": "ADESIVO GERAL",
     "localizacao": "EXPOSITOR",
     "preco": 5.0,
-    "estoque": -20.0
+    "estoque": -24.0
   },
   {
     "nome": "ADESIVO HONDA POP 100 ( MODELO GRANDE )",
@@ -201,7 +201,7 @@
     "nome": "ADESIVO HONDA POP 110 - CINZA",
     "localizacao": "DEPE149",
     "preco": 30.0,
-    "estoque": 2.0
+    "estoque": 1.0
   },
   {
     "nome": "ADESIVO MONSTER - GRANDE",
@@ -321,13 +321,13 @@
     "nome": "AMORTECEDOR BIZ100/POP",
     "localizacao": "nan",
     "preco": 140.0,
-    "estoque": -22.0
+    "estoque": -23.0
   },
   {
     "nome": "AMORTECEDOR BROS 125-150-160 / XRE190 -MAGNETI MARELLI COFAP",
     "localizacao": "nan",
     "preco": 680.0,
-    "estoque": -27.0
+    "estoque": -28.0
   },
   {
     "nome": "AMORTECEDOR LANDER 250 - MHX",
@@ -339,7 +339,7 @@
     "nome": "AMORTECEDOR TITAN 150 (UNIDADE) - MHX",
     "localizacao": "nan",
     "preco": 140.0,
-    "estoque": -19.0
+    "estoque": -21.0
   },
   {
     "nome": "AMORTECEDOR TITAN 150 (UNIDADE) - RAFAELA",
@@ -373,13 +373,13 @@
   },
   {
     "nome": "ANEL ARRUELA VEDACAO ESCAPE BIZ 100-110-125 / POP 100-110  (SS)",
-    "localizacao": "nan",
+    "localizacao": "DEPB160",
     "preco": 3.0,
     "estoque": 105.0
   },
   {
     "nome": "ANEL ARRUELA VEDACAO ESCAPE TITAN 125-150-160/ YBR / BROS125-150-160",
-    "localizacao": "nan",
+    "localizacao": "DEPB161",
     "preco": 3.0,
     "estoque": 95.0
   },
@@ -405,7 +405,7 @@
     "nome": "ANTENA CORTA PIPA SIMPLES",
     "localizacao": "DEPC113",
     "preco": 45.0,
-    "estoque": -6.0
+    "estoque": -8.0
   },
   {
     "nome": "ANTENA CORTAPIPA  CROMADA NIVERSAL",
@@ -441,13 +441,13 @@
     "nome": "ARO RODA 14 POP TRASEIRA - MODELO ORIGINAL",
     "localizacao": "DEPE",
     "preco": 160.0,
-    "estoque": -10.0
+    "estoque": -11.0
   },
   {
     "nome": "ARO RODA 17 BIZ/POP DIANTEIRO  - MODELO ORIGINAL",
     "localizacao": "DEPE",
     "preco": 160.0,
-    "estoque": -12.0
+    "estoque": -13.0
   },
   {
     "nome": "ARO RODA 17 BROS TRASEIRO - MODELO ORIGINAL",
@@ -483,7 +483,7 @@
     "nome": "ARO RODA 18 TRASEIRO TITAN  - MODELO ORIGINAL",
     "localizacao": "DEPE",
     "preco": 180.0,
-    "estoque": -9.0
+    "estoque": -10.0
   },
   {
     "nome": "ARO RODA 18 TRASEIRO TITAN - ALUMINIO",
@@ -495,7 +495,7 @@
     "nome": "ARO RODA 19 BROS DIANTEIRA  - MODELO ORIGINAL",
     "localizacao": "DEPE",
     "preco": 230.0,
-    "estoque": -10.0
+    "estoque": -11.0
   },
   {
     "nome": "ARO RODA 21 - MODELO ORIGINAL",
@@ -831,7 +831,7 @@
     "nome": "BATERIA BLINDADA 5AH  - VOLT",
     "localizacao": "nan",
     "preco": 180.0,
-    "estoque": -56.0
+    "estoque": -65.0
   },
   {
     "nome": "BATERIA ERBS (7AH) - VOLT",
@@ -1167,7 +1167,7 @@
     "nome": "BIELA COMPLETA TITAN 160 / BROS 160 / XRE 190 - VEDAMOTORS",
     "localizacao": "CX6A2",
     "preco": 140.0,
-    "estoque": -3.0
+    "estoque": -6.0
   },
   {
     "nome": "BIELA COMPLETA TITAN 99/ XR 200 / XLR/TITAN125 KS-ES 00-01/ BROS NXR150 BROS 03-05 ( PINO GROSSO )",
@@ -1179,7 +1179,7 @@
     "nome": "BIELA COMPLETA TITAN150 04-15 / BROS 150 06-15 / FAN150 10-15 - VEDAMOTORS",
     "localizacao": "CX6A1",
     "preco": 180.0,
-    "estoque": -16.0
+    "estoque": -17.0
   },
   {
     "nome": "BIELA COMPLETA XRE 300 / CB 300R",
@@ -1287,7 +1287,7 @@
     "nome": "BLOCO OTICO FAROL COMPLETO C/ LAMPADA TITAN 150 04-08 / FAN 150 - TRILHA",
     "localizacao": "nan",
     "preco": 170.0,
-    "estoque": -12.0
+    "estoque": -13.0
   },
   {
     "nome": "BLOCO OTICO FAROL H4  POP 100 / BROS 125 13-15 / BROS 150 09",
@@ -1323,7 +1323,7 @@
     "nome": "BLOCO OTICO FAROL XLR / XR 200/ BROS 125 03-05 / BROS 150 03-08 / TORNADO- MELC",
     "localizacao": "nan",
     "preco": 55.0,
-    "estoque": -17.0
+    "estoque": -18.0
   },
   {
     "nome": "BLOCO OTICO FAROL XLR / XR 200/ BROS 125 03-05 / BROS 150 03-08 / TORNADO- TRILHA",
@@ -1365,7 +1365,7 @@
     "nome": "BOBINA DE IGNICAO TITAN 150 04-08 / NXR BROS 125 03-05 / BROS 150 03-05 / XLR 125 97-02 - JECPRO",
     "localizacao": "DEPB12",
     "preco": 75.0,
-    "estoque": -5.0
+    "estoque": -6.0
   },
   {
     "nome": "BOBINA DE IGNICAO TITAN95/99 - MAGNETRON",
@@ -1437,7 +1437,7 @@
     "nome": "BOBINA IGNICAO POP 100 07-10 / NXR BROS 150 06-08",
     "localizacao": "DEPB24",
     "preco": 65.0,
-    "estoque": -18.0
+    "estoque": -19.0
   },
   {
     "nome": "BOBINA IGNICAO TITAN 00 - RT",
@@ -1449,7 +1449,7 @@
     "nome": "BOBINA LUZ BIZ/DREAM",
     "localizacao": "DEPB35",
     "preco": 65.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "BOBINA PULSO TITAN 00 125 KS-ES 02-04 / FAN 125 05-08 - AUDAX",
@@ -1695,7 +1695,7 @@
     "nome": "BORRACHA BALANÇA GUIA CORRENTE NXR BROS 125-150-160 - GEAR",
     "localizacao": "nan",
     "preco": 35.0,
-    "estoque": -72.0
+    "estoque": -74.0
   },
   {
     "nome": "BORRACHA BALANCA GUIA CORRENTE NXR BROS 125-150-160 - MHX",
@@ -1779,7 +1779,7 @@
     "nome": "BORRACHA ESTRIBO BIZ125 11-18/BIZ100 13-15/BIZ110/POP110 (2UN) - MHX",
     "localizacao": "DEPD88",
     "preco": 35.0,
-    "estoque": -11.0
+    "estoque": -12.0
   },
   {
     "nome": "BORRACHA ESTRIBO DIANTEIRO BIZ 100 98-05 / BIZ 125 06-10 / POP100 (2 UN)",
@@ -1843,9 +1843,9 @@
   },
   {
     "nome": "BRACO DO FREIO TRASEIRO BROS 125-150-160 / CRF 230",
-    "localizacao": "LOJAC3",
+    "localizacao": "DEPB148",
     "preco": 25.0,
-    "estoque": -22.0
+    "estoque": -24.0
   },
   {
     "nome": "BRACO FREIO DIANTEIRO FAN 160 / TITAN 150 09-31 / FAN 125 09 - SMART FIX",
@@ -1863,7 +1863,7 @@
     "nome": "BRAÇO FREIO TRASEIRO BIZ / POP - SCT",
     "localizacao": "DEPB51",
     "preco": 20.0,
-    "estoque": -25.0
+    "estoque": -26.0
   },
   {
     "nome": "BRACO FREIO TRASEIRO TITAN / FAN 150-160 - SCT",
@@ -1893,11 +1893,11 @@
     "nome": "BUCHA  INFERIOR AMORTECEDOR BROS 125-150-160 / XRE 190 - TRILHA",
     "localizacao": "DEPC14",
     "preco": 35.0,
-    "estoque": -37.0
+    "estoque": -38.0
   },
   {
     "nome": "BUCHA BALANCA BIZ 100-125 (PR) - TRILHA",
-    "localizacao": "LOJAC4",
+    "localizacao": "DEPB149",
     "preco": 30.0,
     "estoque": 5.0
   },
@@ -1909,15 +1909,15 @@
   },
   {
     "nome": "BUCHA BALANCA POP 100-110 (UN)",
-    "localizacao": "LOJAC1",
+    "localizacao": "DEPB146",
     "preco": 7.0,
     "estoque": 1.0
   },
   {
     "nome": "BUCHA BALANCA TODAY / TITAN125 / FAN125-150-160 /TITAN150-160 / START150-160 - TRILHA",
-    "localizacao": "nan",
+    "localizacao": "DEPB115",
     "preco": 42.0,
-    "estoque": -24.0
+    "estoque": -25.0
   },
   {
     "nome": "BUCHA BALANCA TORNADO 01-08 / XRE 300 - TRILHA",
@@ -1993,7 +1993,7 @@
   },
   {
     "nome": "BUCHA PRO LINK CRF230 C/10 -DANIDREA",
-    "localizacao": "LOJAC2",
+    "localizacao": "DEPB147",
     "preco": 180.0,
     "estoque": -1.0
   },
@@ -2023,15 +2023,21 @@
   },
   {
     "nome": "BUZINA MODELO ORIGINAL TITAN (TODAS)  - DANNIXX (SS)",
-    "localizacao": "nan",
+    "localizacao": "DEPB92",
     "preco": 45.0,
-    "estoque": -7.0
+    "estoque": -11.0
+  },
+  {
+    "nome": "CABECOTE BROS 160",
+    "localizacao": "nan",
+    "preco": 0.0,
+    "estoque": -1.0
   },
   {
     "nome": "CABECOTE COMPLETO  TITAN 150 04-08 ( CARBURADA )- RT",
     "localizacao": "DEPH16",
     "preco": 650.0,
-    "estoque": -4.0
+    "estoque": -5.0
   },
   {
     "nome": "CABECOTE COMPLETO FAN 125 14-15 - SCT",
@@ -2109,7 +2115,7 @@
     "nome": "CABO ACELERADOR  ''A'' NXR BROS 160 - TRILHA",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -29.0
+    "estoque": -31.0
   },
   {
     "nome": "CABO ACELERADOR  'A' TORNADO - ORION",
@@ -2247,7 +2253,7 @@
     "nome": "CABO ACELERADOR ''B''  BROS 160 - MHX",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -54.0
+    "estoque": -55.0
   },
   {
     "nome": "CABO ACELERADOR A CRF 230 - MHX",
@@ -2313,13 +2319,13 @@
     "nome": "CABO ACELERADOR POP 100 - MHX",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -35.0
+    "estoque": -36.0
   },
   {
     "nome": "CABO ACELERADOR TITAN 150 04-08 ( CARBURADOR )- MHX (SJ)",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -33.0
+    "estoque": -34.0
   },
   {
     "nome": "CABO ACELERADOR TITAN 150 09-13 ( INJEÇÃO ) - MAX CABOS (SJ)",
@@ -2379,7 +2385,7 @@
     "nome": "CABO DE EMBREAGEM POP 100 -110 - MHX (SJ)",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -46.0
+    "estoque": -47.0
   },
   {
     "nome": "CABO DE FREIO YBR",
@@ -2389,7 +2395,7 @@
   },
   {
     "nome": "CABO DE VELA IGNICAO - MAGNETRON (10CM)",
-    "localizacao": "nan",
+    "localizacao": "DEPB184",
     "preco": 5.0,
     "estoque": -14.0
   },
@@ -2403,7 +2409,7 @@
     "nome": "CABO DO ACELERADOR NXR BROS 150 09-14 (INJEÇÃO)",
     "localizacao": "nan",
     "preco": 20.0,
-    "estoque": -66.0
+    "estoque": -67.0
   },
   {
     "nome": "CABO DO FREIO DIANTEIRO \\ XTZ150 2014 A 2021",
@@ -2439,7 +2445,7 @@
     "nome": "CABO EMBREAGEM FAN 125 09-12 - MAXCABOS",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -24.0
+    "estoque": -25.0
   },
   {
     "nome": "CABO EMBREAGEM FAZER 250 06-12 - MHX (SJ)",
@@ -2463,7 +2469,7 @@
     "nome": "CABO EMBREAGEM NXR BROS 125-150  - MHX (SJ)",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -49.0
+    "estoque": -50.0
   },
   {
     "nome": "CABO EMBREAGEM NXR BROS 160 - MHX (SJ)",
@@ -2475,7 +2481,7 @@
     "nome": "CABO EMBREAGEM TITAN 150 04-08 / FAN 150 09-13 - MHX (SJ)",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -50.0
+    "estoque": -51.0
   },
   {
     "nome": "CABO EMBREAGEM TITAN 160 / FAN 160 16-D / START 160 18-D - MAX CABOS (SJ)",
@@ -2547,7 +2553,7 @@
     "nome": "CABO FREIO BIZ 100 ATÉ 11 - MAXCABOS",
     "localizacao": "DEPF11",
     "preco": 25.0,
-    "estoque": -7.0
+    "estoque": -8.0
   },
   {
     "nome": "CABO FREIO BIZ 125 ATE 08",
@@ -2589,7 +2595,7 @@
     "nome": "CABO FREIO TITAN 150 04-08 - MAX CABOS",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -42.0
+    "estoque": -43.0
   },
   {
     "nome": "CABO FREIO TITAN 99 - MAXCABOS",
@@ -2613,7 +2619,7 @@
     "nome": "CABO POSITIVO DA BATERIA - MAGNETRON",
     "localizacao": "DEPC246",
     "preco": 25.0,
-    "estoque": -26.0
+    "estoque": -27.0
   },
   {
     "nome": "CABO VELOCIMENTRO XTZ 125 03-11 - MAX CABOS (SJ)",
@@ -2643,13 +2649,13 @@
     "nome": "CABO VELOCIMETRO BIZ 125- 10 / BIZ 100 12-10 / BIZ 110 20-D -  MHX",
     "localizacao": "DEP70",
     "preco": 25.0,
-    "estoque": -27.0
+    "estoque": -28.0
   },
   {
     "nome": "CABO VELOCIMETRO BROS 150 ESD 06-14 - MHX (SJ)",
     "localizacao": "DEP5",
     "preco": 25.0,
-    "estoque": -23.0
+    "estoque": -25.0
   },
   {
     "nome": "CABO VELOCIMETRO CG150 KS/ES/ESD/JOB/SPORT 2008 -CONTROLFLEX MAIS",
@@ -2661,7 +2667,7 @@
     "nome": "CABO VELOCIMETRO POP 100 - MAXCABOS",
     "localizacao": "DEP55",
     "preco": 25.0,
-    "estoque": -19.0
+    "estoque": -20.0
   },
   {
     "nome": "CABO VELOCIMETRO POP 110i - MHX",
@@ -2673,13 +2679,13 @@
     "nome": "CABO VELOCIMETRO TITAN 150 09-14 - MAX CABOS",
     "localizacao": "DEP92",
     "preco": 25.0,
-    "estoque": -3.0
+    "estoque": -4.0
   },
   {
     "nome": "CABO VELOCIMETRO TITAN 150 KS-ES-ESD 04-08 / FAN 125 ES-KS 09-D",
     "localizacao": "DEP83",
     "preco": 25.0,
-    "estoque": -40.0
+    "estoque": -41.0
   },
   {
     "nome": "CABO VELOCIMETRO XLR / TORNADO / BROS NXR 125-150 / TITAN 00-04 / FAN 125 05-08 - MHX",
@@ -2707,21 +2713,21 @@
   },
   {
     "nome": "CACHIMBO VELA TITAN / POP 110 - MAGNETRON",
-    "localizacao": "nan",
+    "localizacao": "DEPB186",
     "preco": 20.0,
     "estoque": -42.0
   },
   {
     "nome": "CACHIMBO VELA TITAN 125 / POP 100-110 / YBR - GEAR (",
-    "localizacao": "nan",
+    "localizacao": "DEPB186",
     "preco": 25.0,
     "estoque": -20.0
   },
   {
     "nome": "CACHIMBO VELA TITAN 150 / BROS NXR 125 - 150 - GEAR",
-    "localizacao": "nan",
+    "localizacao": "DEPB185",
     "preco": 25.0,
-    "estoque": -44.0
+    "estoque": -45.0
   },
   {
     "nome": "CADEADO DISCO FREIO C/LEMBRETE C/ 5,5MM",
@@ -2737,9 +2743,9 @@
   },
   {
     "nome": "CAIXA DIRECAO BIZ 100-110-125 / POP 100-110 - CPL",
-    "localizacao": "LOJAC13",
+    "localizacao": "DEPB155",
     "preco": 55.0,
-    "estoque": -23.0
+    "estoque": -24.0
   },
   {
     "nome": "CAIXA DIRECAO BIZ 100-110-125 / POP 100-110 - HAMP ORIGINAL HONDA",
@@ -2749,27 +2755,27 @@
   },
   {
     "nome": "CAIXA DIRECAO TITAN 00-150-160/FAN 09/13",
-    "localizacao": "LOJAC14",
+    "localizacao": "DEPB156",
     "preco": 55.0,
     "estoque": -28.0
   },
   {
     "nome": "CAIXA DIRECAO TITAN 00-150-160/FAN 09/13 - RIFFEL",
-    "localizacao": "LOJAC14",
+    "localizacao": "DEPB156",
     "preco": 65.0,
     "estoque": -4.0
   },
   {
     "nome": "CAIXA DIRECAO TITAN 99 / CRF 230 / SHINERAY 175",
-    "localizacao": "LOJAC16",
+    "localizacao": "DEPB157",
     "preco": 65.0,
     "estoque": -1.0
   },
   {
     "nome": "CAIXA DIRECAO XLR 125 / BROS 125-150 / XR 200 / XRE 190-300 / TORNADO / CRF 230 - CPL",
-    "localizacao": "LOJAC17",
+    "localizacao": "DEPB159",
     "preco": 55.0,
-    "estoque": -64.0
+    "estoque": -66.0
   },
   {
     "nome": "CAIXA DIRECAO XLR 125 / BROS 125-150 / XR 200 / XRE 190-300 / TORNADO / CRF 230 - HAMP ORIGINAL",
@@ -2779,25 +2785,25 @@
   },
   {
     "nome": "CAIXA DIRECAO XLR125/BROS125-150/XR200 - HIFFEL",
-    "localizacao": "LOJAC17",
+    "localizacao": "DEPB159",
     "preco": 65.0,
     "estoque": -7.0
   },
   {
     "nome": "CAIXA DIREÇÃO XLR125/BROS125-150/XR200 - SCT",
-    "localizacao": "LOJAC17",
+    "localizacao": "DEPB159",
     "preco": 50.0,
     "estoque": -8.0
   },
   {
     "nome": "CAIXA DIRECAO XTZ 125/CROSSER 150 ESF",
-    "localizacao": "LOJAC10",
+    "localizacao": "DEPB183",
     "preco": 50.0,
     "estoque": -2.0
   },
   {
     "nome": "CAIXA DIREÇÃO YBR FACTOR 2009/FAZER150/MAX125 C/COLAR -CPL",
-    "localizacao": "LOJAC15",
+    "localizacao": "DEPB151",
     "preco": 50.0,
     "estoque": 1.0
   },
@@ -2823,7 +2829,7 @@
     "nome": "CALIPER CILINDRO FREIO DIANTEIRO SUPERIOR BROS 150-160 / TORNADO COM MANETE - MAX",
     "localizacao": "DEPE157",
     "preco": 130.0,
-    "estoque": -21.0
+    "estoque": -25.0
   },
   {
     "nome": "CALIPER TRASEIRO BROS SUPERIOR",
@@ -2835,19 +2841,19 @@
     "nome": "CAMARA DE AR 14 - MXX",
     "localizacao": "PN14",
     "preco": 30.0,
-    "estoque": -262.0
+    "estoque": -268.0
   },
   {
     "nome": "CAMARA DE AR 18  (LARGA) - MXX",
     "localizacao": "PN18",
     "preco": 45.0,
-    "estoque": 27.0
+    "estoque": 25.0
   },
   {
     "nome": "CAMARA DE AR 18 - MXX",
     "localizacao": "PN18",
     "preco": 35.0,
-    "estoque": -39.0
+    "estoque": -48.0
   },
   {
     "nome": "CAMARA DE AR 18 - MXX",
@@ -2859,25 +2865,25 @@
     "nome": "CAMARA DE AR 19 - MXX",
     "localizacao": "PN19",
     "preco": 45.0,
-    "estoque": -44.0
+    "estoque": -49.0
   },
   {
     "nome": "CAMARA DE AR 21  - MXX",
     "localizacao": "PN21",
     "preco": 45.0,
-    "estoque": -12.0
+    "estoque": -13.0
   },
   {
     "nome": "CAMARA DE AR BIZ 17 - MXX",
     "localizacao": "PN17",
     "preco": 35.0,
-    "estoque": -40.0
+    "estoque": -43.0
   },
   {
     "nome": "CAMARA DE AR BROS 17 - MXX",
     "localizacao": "PN17",
     "preco": 45.0,
-    "estoque": -76.0
+    "estoque": -84.0
   },
   {
     "nome": "CAMBIO COMPLETO  TITAN 150",
@@ -2973,7 +2979,7 @@
     "nome": "CAPA BANCO EMBORRACHADA 3D - PRETA BROS",
     "localizacao": "nan",
     "preco": 65.0,
-    "estoque": -7.0
+    "estoque": -9.0
   },
   {
     "nome": "CAPA BANCO EMBORRACHADA 3D - PRETA FACTOR",
@@ -3075,7 +3081,7 @@
     "nome": "CAPA BANCO MODELO ORIGINAL - PRETA BROS 160 22",
     "localizacao": "DEPD154",
     "preco": 55.0,
-    "estoque": -14.0
+    "estoque": -15.0
   },
   {
     "nome": "CAPA BANCO MODELO ORIGINAL - PRETA CB 300",
@@ -3105,7 +3111,7 @@
     "nome": "CAPA BANCO MODELO ORIGINAL - PRETA TITAN 150 09-13 / FAN 09",
     "localizacao": "DEPE34",
     "preco": 45.0,
-    "estoque": -21.0
+    "estoque": -22.0
   },
   {
     "nome": "CAPA BANCO MODELO ORIGINAL - PRETA TITAN 160",
@@ -3283,31 +3289,19 @@
   },
   {
     "nome": "CAPA MANETE EMBREAGEM  CG / TITAN / POP 100",
-    "localizacao": "nan",
+    "localizacao": "DEPB75",
     "preco": 10.0,
     "estoque": 0.0
   },
   {
-    "nome": "CAPA MANETE EMBREAGEM BROS 125-150",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -1.0
-  },
-  {
     "nome": "CAPA MANETE FREIO A DISCO BROS 160 / XRE300 / TORNADO - COMETA",
-    "localizacao": "nan",
+    "localizacao": "DEPB74",
     "preco": 20.0,
     "estoque": -17.0
   },
   {
-    "nome": "CAPA MANETE FREIO TAMBOR BROS 125-150",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -2.0
-  },
-  {
     "nome": "CAPA MANETE FREIO TAMBOR CG /TITAN / POP 100 (SS)",
-    "localizacao": "nan",
+    "localizacao": "DEPB76",
     "preco": 10.0,
     "estoque": 5.0
   },
@@ -3327,7 +3321,7 @@
     "nome": "CAPACETE GOW 56 PRETO/PRATA",
     "localizacao": "EXPOSITOR",
     "preco": 160.0,
-    "estoque": -70.0
+    "estoque": -72.0
   },
   {
     "nome": "CAPACETE GOW 56 VERMELHO",
@@ -3357,7 +3351,7 @@
     "nome": "CAPACETE GOW 58 PRETO/PRATA",
     "localizacao": "EXPOSITOR",
     "preco": 160.0,
-    "estoque": 2.0
+    "estoque": 1.0
   },
   {
     "nome": "CAPACETE GOW INTERLAGOS - 58 PRETO/AZUL",
@@ -3447,7 +3441,7 @@
     "nome": "CAPACETE SAN MARINO 58 - PRETO",
     "localizacao": "EXPOSITOR",
     "preco": 260.0,
-    "estoque": -60.0
+    "estoque": -61.0
   },
   {
     "nome": "CAPACETE SAN MARINO 58 - VERMELHO",
@@ -3555,11 +3549,11 @@
     "nome": "CARCACA ACELERADOR BIZ 100 KS",
     "localizacao": "DEPB26",
     "preco": 10.0,
-    "estoque": -11.0
+    "estoque": -12.0
   },
   {
     "nome": "CARCACA ACELERADOR BIZ 125 06-17 / BIZ 110 16-17 - TRILHA",
-    "localizacao": "CX4I4",
+    "localizacao": "DEPB118",
     "preco": 25.0,
     "estoque": -2.0
   },
@@ -3621,7 +3615,7 @@
     "nome": "CARCACA INFERIOR PAINEL TITAN 150 04-08 - MHX",
     "localizacao": "DEP66",
     "preco": 35.0,
-    "estoque": -9.0
+    "estoque": -10.0
   },
   {
     "nome": "CARCACA MOTOR DIREITO",
@@ -3699,7 +3693,7 @@
     "nome": "CARENAGEM ABA LATERAL POP 100 13-15 - PRETA",
     "localizacao": "nan",
     "preco": 450.0,
-    "estoque": -2.0
+    "estoque": -3.0
   },
   {
     "nome": "CARENAGEM ABA LATERAL POP110i - BRANCA",
@@ -3717,7 +3711,7 @@
     "nome": "CARENAGEM ABA LATERAL POP110i - VERMELHA",
     "localizacao": "nan",
     "preco": 550.0,
-    "estoque": -4.0
+    "estoque": -5.0
   },
   {
     "nome": "CARENAGEM ABA TANQUE (PR) BROS 125-150 03-08 - BRANCA",
@@ -3831,7 +3825,7 @@
     "nome": "CARENAGEM DO FAROL PRETA POP 110  - PRETA",
     "localizacao": "DEPD105",
     "preco": 60.0,
-    "estoque": -6.0
+    "estoque": -7.0
   },
   {
     "nome": "CARENAGEM FAROL (FRENTE) POP 100 07/14 PRETO (SJ)",
@@ -3891,7 +3885,7 @@
     "nome": "CARENAGEM PAINEL SUPERIOR POP110i 16-21 - TRILHA",
     "localizacao": "DEPD113",
     "preco": 55.0,
-    "estoque": 2.0
+    "estoque": 1.0
   },
   {
     "nome": "CARENAGEM PRETA BIZ 125",
@@ -3999,7 +3993,7 @@
     "nome": "CARENAGEM TAMPA PAINEL SUPERIOR POP 100 - PRETA",
     "localizacao": "DEPE160",
     "preco": 45.0,
-    "estoque": -7.0
+    "estoque": -8.0
   },
   {
     "nome": "CARENAGEM TANQUE FAN 150  - PRETA",
@@ -4161,7 +4155,7 @@
     "nome": "CDI TITAN 125 00 / XLR 125 97-02 - JECPRO",
     "localizacao": "DEPC286",
     "preco": 65.0,
-    "estoque": -4.0
+    "estoque": -5.0
   },
   {
     "nome": "CDI TITAN 150 04- 08 KS/ES - GEAR (SS)",
@@ -4173,7 +4167,7 @@
     "nome": "CDI TITAN 150 ATE 08 ES - MAGNETRON",
     "localizacao": "DEPC213",
     "preco": 180.0,
-    "estoque": -14.0
+    "estoque": -16.0
   },
   {
     "nome": "CDI TITAN150 ES-ESD 04-08 - JEC PRO",
@@ -4239,19 +4233,19 @@
     "nome": "CHAVE DE IGNIÇÃO POP 110 - GEAR (SS)",
     "localizacao": "nan",
     "preco": 65.0,
-    "estoque": -4.0
+    "estoque": -5.0
   },
   {
     "nome": "CHAVE DE IGNIÇÃO POP 110 - MAGNETRON",
     "localizacao": "nan",
     "preco": 65.0,
-    "estoque": -16.0
+    "estoque": -17.0
   },
   {
     "nome": "CHAVE DE IGNICAO POP100 - DANNIXX",
     "localizacao": "nan",
     "preco": 65.0,
-    "estoque": -11.0
+    "estoque": -12.0
   },
   {
     "nome": "CHAVE DE IGNICAO TITAN 150 04-08 (2 FIOS) - JUNKER",
@@ -4323,7 +4317,7 @@
     "nome": "CHAVE DE LUZ NXR BROS 150 06/08 KS",
     "localizacao": "228593",
     "preco": 100.0,
-    "estoque": -7.0
+    "estoque": -8.0
   },
   {
     "nome": "CHAVE DE LUZ NXR BROS 150 09/14 KS/ES/ESD",
@@ -4359,7 +4353,7 @@
     "nome": "CHAVE DE LUZ TITAN150 ES-ESD 04-08 / FAN 150 10-13 / FAN 125 ES 09-13 - MHX (SJ)",
     "localizacao": "DEPA86",
     "preco": 85.0,
-    "estoque": -2.0
+    "estoque": -4.0
   },
   {
     "nome": "CHAVE DE LUZ TORNADO250 06-08",
@@ -4389,7 +4383,7 @@
     "nome": "CHAVE IGNICAO BIZ 100 98-05 ( 4 FIOS ) - MAGNETRON",
     "localizacao": "3433",
     "preco": 80.0,
-    "estoque": 4.0
+    "estoque": 3.0
   },
   {
     "nome": "CHAVE IGNICAO BIZ 100 98-05 - DANNIX",
@@ -4407,13 +4401,13 @@
     "nome": "CHAVE IGNICAO BROS 150 06-08 ( 2 FIOS ) - MAGNETRON",
     "localizacao": "233719",
     "preco": 120.0,
-    "estoque": -20.0
+    "estoque": -21.0
   },
   {
     "nome": "CHAVE IGNICAO BROS 150 09-14 ( 4 FIOS ) - MAGNETRON",
     "localizacao": "DEPE142",
     "preco": 140.0,
-    "estoque": -20.0
+    "estoque": -21.0
   },
   {
     "nome": "CHAVE IGNICAO BROS 150 09-14 ( 4 FIOS ) - SMARTFOX",
@@ -4497,7 +4491,7 @@
     "nome": "CHAVE IGNICAO TITAN 125 00-01 KS/ES/CARGO (4 FIOS) - GEAR (SS)",
     "localizacao": "nan",
     "preco": 45.0,
-    "estoque": -23.0
+    "estoque": -24.0
   },
   {
     "nome": "CHAVE IGNICAO TITAN 125 02-03 / FAN 125 05-08 (4 FIOS) - GEAR (SS)",
@@ -4515,7 +4509,7 @@
     "nome": "CHAVE IGNICAO TITAN 125 KS-ES-KSE 02-04 / FAN 125 05-08 - JUNKUN",
     "localizacao": "15763",
     "preco": 45.0,
-    "estoque": 1.0
+    "estoque": 0.0
   },
   {
     "nome": "CHAVE IGNICAO TITAN 150 04-08 (2 FIOS) - DANNIXX",
@@ -4659,13 +4653,13 @@
     "nome": "CHICOTE COMPLETO BROS 150 06-08 KS - MAGNETRON",
     "localizacao": "DEPG64",
     "preco": 290.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "CHICOTE COMPLETO BROS 150 FLEX ESD 11-12 - MAGNETRON",
     "localizacao": "DEPG61",
     "preco": 480.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "CHICOTE COMPLETO BROS 160 15-17 ES - ZOIUL",
@@ -4689,7 +4683,7 @@
     "nome": "CHICOTE COMPLETO POP 100 07-08  - MAGNETRON",
     "localizacao": "DEPE135",
     "preco": 280.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "CHICOTE COMPLETO POP 110",
@@ -4737,7 +4731,7 @@
     "nome": "CHICOTE COMPLETO TITAN 00-02 KS - GEAR",
     "localizacao": "DEPA59",
     "preco": 140.0,
-    "estoque": -1.0
+    "estoque": -3.0
   },
   {
     "nome": "CHICOTE COMPLETO TITAN 150 04-08 ES/ESD - MAGNETRON",
@@ -4875,7 +4869,7 @@
     "nome": "CILINDRO BENGALA INTERNO  BIZ100 -05 / POP100 07-15 / POP110i - MHX",
     "localizacao": "DEPD52",
     "preco": 110.0,
-    "estoque": -8.0
+    "estoque": -10.0
   },
   {
     "nome": "CILINDRO BENGALA INTERNO BROS 125-150-160 / XRE 190 / XLR - SCT",
@@ -5085,13 +5079,13 @@
     "nome": "CILINDRO MESTRE CALIPER INFERIOR FREIO TRASEIRO BROS 160 / XRE 190 - TRILHA",
     "localizacao": "DEPH19",
     "preco": 360.0,
-    "estoque": -2.0
+    "estoque": -3.0
   },
   {
     "nome": "CILINDRO MESTRE FREIO TRASEIRO COM RESERVATORIO BROS 160 / XRE 190 - TRILHA",
     "localizacao": "DEPD151",
     "preco": 210.0,
-    "estoque": -14.0
+    "estoque": -18.0
   },
   {
     "nome": "CILINDRO MESTRE INFERIOR DIANTEIRO (PINCA ) BROS 150 ESD / XR 200 / TORNADO / BIZ 125+ 11-D - TRILHA",
@@ -5247,7 +5241,7 @@
     "nome": "COLETOR ADMISSAO BROS 150 09-15 / TITAN 150 09-15 S/ CATALIZADOR  - SCT",
     "localizacao": "DEPC249",
     "preco": 45.0,
-    "estoque": -28.0
+    "estoque": -29.0
   },
   {
     "nome": "COLETOR ADMISSAO NXR BROS 125-150 06-08  C/ CATALISADOR - SCT (SS)",
@@ -5313,7 +5307,7 @@
     "nome": "COLETOR DE ADMISSAO TODAY / TITAN 99 / TITAN125 KS-ES-KSE 00-04/  FAN125 05 - DANNIXX (SS)",
     "localizacao": "DEPC114",
     "preco": 45.0,
-    "estoque": -8.0
+    "estoque": -9.0
   },
   {
     "nome": "COLETOR DE ADMISSAO TODAY / TITAN 99 / TITAN125 KS-ES-KSE 00-04/  FAN125 05 - SCT",
@@ -5355,7 +5349,7 @@
     "nome": "COLUNA MESA DIREÇÃO POP 100-110 - FABRECK (SJ)",
     "localizacao": "DEP5",
     "preco": 390.0,
-    "estoque": -2.0
+    "estoque": -3.0
   },
   {
     "nome": "COMBUSTIVEL",
@@ -5437,7 +5431,7 @@
   },
   {
     "nome": "CONDUTOR AR XLR - TRILHA",
-    "localizacao": "nan",
+    "localizacao": "DEPB136",
     "preco": 55.0,
     "estoque": 0.0
   },
@@ -5529,7 +5523,7 @@
     "nome": "COROA TITAN 150-160 / FAN 125-150-160  - KITMAX",
     "localizacao": "nan",
     "preco": 55.0,
-    "estoque": -5.0
+    "estoque": -6.0
   },
   {
     "nome": "COROA TITAN 150-160 / FAN 125-150-160  - RIFFLE ORIGINAL",
@@ -5583,13 +5577,13 @@
     "nome": "CORRENTE 428HE X 130L C/ RETENTOR",
     "localizacao": "nan",
     "preco": 180.0,
-    "estoque": 0.0
+    "estoque": -1.0
   },
   {
     "nome": "CORRENTE 428HE X 130L S/ RETENTOR",
     "localizacao": "36237",
     "preco": 90.0,
-    "estoque": -4.0
+    "estoque": -5.0
   },
   {
     "nome": "CORRENTE 428UO 132L C/RET - KITMAX",
@@ -5649,7 +5643,7 @@
     "nome": "CORRENTE COMANDO ( 94 ELOS )  TITAN 150 / FAN125 09-18 / BROS NXR 150 - MHX",
     "localizacao": "CX6D2",
     "preco": 65.0,
-    "estoque": -15.0
+    "estoque": -16.0
   },
   {
     "nome": "CORRENTE COMANDO ( 94 ELOS ) TITAN 150 / BROS 150 / FAN 125 09-18 - SMARTFOX",
@@ -5673,7 +5667,7 @@
     "nome": "CORRENTE COMANDO 98 ELOS  BROS 160 / FAN160 / TITAN 160 / XRE 190 - WGK",
     "localizacao": "CX6D3",
     "preco": 80.0,
-    "estoque": 2.0
+    "estoque": 0.0
   },
   {
     "nome": "CORRENTE COMANDO BIZ 110/POP 110 - SCT",
@@ -5733,7 +5727,7 @@
     "nome": "COXIM BUCHA COROA (ACOPLADA) TITAN150-160",
     "localizacao": "DEPD78",
     "preco": 25.0,
-    "estoque": -27.0
+    "estoque": -28.0
   },
   {
     "nome": "COXIM BUCHA COROA 4 PECAS NYLON FAN 125 05-08 / TITAN 125 KS-ES-KSE 00-04 / TITAN 99 - VEDOX",
@@ -5745,7 +5739,7 @@
     "nome": "COXIM BUCHA COROA BIZ 125/100 - TRILHA",
     "localizacao": "DEPD76",
     "preco": 20.0,
-    "estoque": -45.0
+    "estoque": -46.0
   },
   {
     "nome": "COXIM BUCHA COROA TITAN 150 - GEAR",
@@ -5847,7 +5841,7 @@
     "nome": "CUBO RODA DIANTEIRA (TAMBOR) BIZ 100-110-125 - FABRECK",
     "localizacao": "nan",
     "preco": 220.0,
-    "estoque": 4.0
+    "estoque": 3.0
   },
   {
     "nome": "CUBO RODA DIANTEIRA (TAMBOR) BROS 125 03-15 / TITAN 99 / TODAY",
@@ -5901,7 +5895,7 @@
     "nome": "CUBO RODA TRASEIRA POP 100-110 - COBREQ",
     "localizacao": "DEPG20",
     "preco": 260.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "CUBO RODA TRASEIRA POP100-110 - FABRECK",
@@ -5931,7 +5925,7 @@
     "nome": "CUBO RODA TRASEIRO FAN 09",
     "localizacao": "230821",
     "preco": 240.0,
-    "estoque": -9.0
+    "estoque": -10.0
   },
   {
     "nome": "CUBO RODA TRASEIRO NXR BROS 125-150 / CRF 230 HAMP - ORIGINAL HONDA",
@@ -6039,7 +6033,7 @@
     "nome": "DESCANSO LATERAL (PEZINHO ) NXR BROS 125-150-160  / XRE190",
     "localizacao": "DEPD83",
     "preco": 65.0,
-    "estoque": -41.0
+    "estoque": -44.0
   },
   {
     "nome": "DESCANSO LATERAL (PEZINHO)  XRE300",
@@ -6057,7 +6051,7 @@
     "nome": "DESCANSO LATERAL SEM BORRACHA ( PEZINHO )  TITAN 125-150-160 / FAN 125-150-160",
     "localizacao": "DEPD62",
     "preco": 45.0,
-    "estoque": -13.0
+    "estoque": -14.0
   },
   {
     "nome": "DESCANSO LATERAL SEM BORRACHA \\ YBR125 2000 A 2008/FACTOR125 2009 A 2016(E)",
@@ -6097,15 +6091,9 @@
   },
   {
     "nome": "DISCO EMBREAGEM  TITAN 150 / POP 100-110 / XLR / XR 200 / XRE 190 / BROS NXR -125 -05/FAN125 -08  - DIAFRAG",
-    "localizacao": "nan",
+    "localizacao": "DEPB121",
     "preco": 55.0,
-    "estoque": -80.0
-  },
-  {
-    "nome": "DISCO EMBREAGEM  TITAN 150 / POP 100-110 / XLR / XR 200/ XRE 190 / BROS NXR -125 -05/FAN125 -08",
-    "localizacao": "nan",
-    "preco": 55.0,
-    "estoque": -2.0
+    "estoque": -85.0
   },
   {
     "nome": "DISCO EMBREAGEM BIZ 110 - WGK",
@@ -6117,7 +6105,7 @@
     "nome": "DISCO EMBREAGEM BIZ 125 - DIAFRAG",
     "localizacao": "DEPE53",
     "preco": 55.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "DISCO EMBREAGEM CRF 250F - WGK",
@@ -6141,18 +6129,6 @@
     "nome": "DISCO EMBREAGEM FAZER 250 / LANDER 250 - TRILHA",
     "localizacao": "DEPE143",
     "preco": 85.0,
-    "estoque": -4.0
-  },
-  {
-    "nome": "DISCO EMBREAGEM TITAN 00-125-150-160 / BROS 125-150-160  - GEAR",
-    "localizacao": "nan",
-    "preco": 50.0,
-    "estoque": -4.0
-  },
-  {
-    "nome": "DISCO EMBREAGEM TITAN 00-125-150-160 / BROS 125-150-160 / POP 100-110 - MHX",
-    "localizacao": "nan",
-    "preco": 55.0,
     "estoque": -4.0
   },
   {
@@ -6231,7 +6207,7 @@
     "nome": "EIXO ABRE PATIN TRASEIRO / DIANTEIRO  POP 100 / BIZ 100",
     "localizacao": "DEPB50",
     "preco": 25.0,
-    "estoque": -23.0
+    "estoque": -25.0
   },
   {
     "nome": "EIXO BALAN A XTZ150 CROSSER 2014 C/BUCHA",
@@ -6249,7 +6225,7 @@
     "nome": "EIXO BALANCA C/ PORCA POP 100 110 / EIXO RODA DIANT TITAN 99 (SS)",
     "localizacao": "DEPE61",
     "preco": 40.0,
-    "estoque": -23.0
+    "estoque": -24.0
   },
   {
     "nome": "EIXO BALANCA C/ ROLAMENTO AGULHA XR / TORNADO / XRE 300 - DANIDREA",
@@ -6273,7 +6249,7 @@
     "nome": "EIXO BALANCA COMPLETO BUCHA ESPACADORA COM ROLAMENTOS DE AGULHA E GUARDA BROS 125-150 - TRILHA",
     "localizacao": "DEPD68",
     "preco": 90.0,
-    "estoque": -48.0
+    "estoque": -49.0
   },
   {
     "nome": "EIXO BALANCA COMPLETO C/ BUCHA LANDER 250",
@@ -6423,7 +6399,7 @@
     "nome": "EIXO FREIO DESCANSO CAVALETE CENTRAL TITAN 00-150 - GEAR",
     "localizacao": "DEPC67",
     "preco": 25.0,
-    "estoque": -30.0
+    "estoque": -31.0
   },
   {
     "nome": "EIXO PEDAL DE FREIO POP 110i 16-18",
@@ -6441,7 +6417,7 @@
     "nome": "EIXO PEDAL PARTIDA BIZ100 98-05 / POP100 - MHX",
     "localizacao": "DEPC111",
     "preco": 90.0,
-    "estoque": -8.0
+    "estoque": -9.0
   },
   {
     "nome": "EIXO PEDAL PARTIDA COMPLETO BIZ100 98-05 / POP100 - SMART FOX",
@@ -6453,7 +6429,7 @@
     "nome": "EIXO PEDAL PARTIDA POP110 / BIZ110 16-17 - MHX",
     "localizacao": "DEPC183",
     "preco": 115.0,
-    "estoque": -4.0
+    "estoque": -5.0
   },
   {
     "nome": "EIXO PEDAL PARTIDA TITAN 150 04-08 / FAN 125 09-13 / BROS NXR 150 06-09  - MGA (SS)",
@@ -6525,7 +6501,7 @@
     "nome": "EIXO PIAO PINHAO SECUNDARIO POP 100 - AUDAX",
     "localizacao": "DEPC149",
     "preco": 110.0,
-    "estoque": -9.0
+    "estoque": -10.0
   },
   {
     "nome": "EIXO PIAO PINHAO SECUNDARIO POP 110 / BIZ 110 - AUDAX",
@@ -6717,7 +6693,7 @@
     "nome": "EMBREAGEM COMPLETA POP 110 - SCT",
     "localizacao": "DEPD51",
     "preco": 210.0,
-    "estoque": -7.0
+    "estoque": -8.0
   },
   {
     "nome": "EMBREAGEM COMPLETA TITAN 125 99-00-04 / FAN 125 05-08  / XR 200 / XLR 125 / BROS 125 03-05 - DANNIXX",
@@ -6798,6 +6774,12 @@
     "estoque": 2.0
   },
   {
+    "nome": "EMBREAGEM PRIMARIA EXTERNA COMPLETA BIZ 125 25 C/PESO - SMARTFOX",
+    "localizacao": "DEPB108",
+    "preco": 380.0,
+    "estoque": 0.0
+  },
+  {
     "nome": "EMBREAGEM PRIMARIA EXTERNA COMPLETA BIZ 125 C/PESO - MHX",
     "localizacao": "DEPE102",
     "preco": 380.0,
@@ -6807,17 +6789,17 @@
     "nome": "EMBREAGEM PRIMARIA EXTERNA COMPLETA BIZ 125 C/PESO - RT",
     "localizacao": "DEPE102",
     "preco": 280.0,
-    "estoque": 2.0
+    "estoque": 0.0
   },
   {
     "nome": "EMENDA CORRENTE FINA COM RETENTOR",
-    "localizacao": "LOJAC34",
+    "localizacao": "DEPB153",
     "preco": 10.0,
     "estoque": -13.0
   },
   {
     "nome": "EMENDA CORRENTE FINA SEM RETENTOR",
-    "localizacao": "LOJAB13",
+    "localizacao": "DEPB154",
     "preco": 5.0,
     "estoque": -39.0
   },
@@ -6903,13 +6885,13 @@
     "nome": "ENGRENAGEM VELOCIMETRO BIZ125-110i / POP100-110i / TITAN150 KS / FAN150-125 KS-ES 09-15 - AUDAX",
     "localizacao": "DEPC274",
     "preco": 35.0,
-    "estoque": -35.0
+    "estoque": -37.0
   },
   {
     "nome": "ENGRENAGEM VELOCIMETRO COMPLETA NXR BROS 150 ESD 03-14 - GEAR",
     "localizacao": "DEPC178",
     "preco": 45.0,
-    "estoque": -20.0
+    "estoque": -21.0
   },
   {
     "nome": "ENGRENAGEM VELOCIMETRO FERRO  BROS 125-150 KS ES / XLR",
@@ -7119,7 +7101,7 @@
     "nome": "ESCAPE POP 110 16 FORTUNA - CROMADO",
     "localizacao": "EXPOSITOR",
     "preco": 320.0,
-    "estoque": -5.0
+    "estoque": -6.0
   },
   {
     "nome": "ESCAPE POP 110 FORTUNA - PRETO",
@@ -7167,7 +7149,7 @@
     "nome": "ESCOVA MOTOR PARTIDA FAZER 150 14-21 / CROSSER  14-21 / FACTOR 150 16-21 / FACTOR 125 17-21 / CRYPTON 97-05 - MHX",
     "localizacao": "DEPC208",
     "preco": 45.0,
-    "estoque": -8.0
+    "estoque": -9.0
   },
   {
     "nome": "ESCOVA MOTOR PARTIDA FAZER 250 12-22 / LANDER 250 12-22",
@@ -7194,10 +7176,10 @@
     "estoque": 12.0
   },
   {
-    "nome": "ESCOVA MOTOR PARTIDA TITAN150-160/FAN125-150/BIZ125/BROS150-160/XRE",
-    "localizacao": "nan",
+    "nome": "ESCOVA MOTOR PARTIDA TITAN150-160/FAN125-150/BIZ125/BROS150-160/XRE - MAGNETRON",
+    "localizacao": "DEPB109",
     "preco": 45.0,
-    "estoque": -49.0
+    "estoque": -52.0
   },
   {
     "nome": "ESCOVA MOTOR PARTIDA XRE 300",
@@ -7509,7 +7491,7 @@
     "nome": "ESTATOR MAGNETO POP 100 - MHX",
     "localizacao": "DEPE12",
     "preco": 220.0,
-    "estoque": -3.0
+    "estoque": -4.0
   },
   {
     "nome": "ESTATOR MAGNETO POP110i - JECPRO",
@@ -7533,7 +7515,7 @@
     "nome": "ESTATOR MAGNETO TITAN 150 14-15 / FAN 150 14-15 / START 150 / FAN160 16-D  - JECPRO",
     "localizacao": "DEPE114",
     "preco": 240.0,
-    "estoque": 0.0
+    "estoque": -1.0
   },
   {
     "nome": "ESTATOR MAGNETO TITAN 150 14-15 / FAN 150 14-15 / START 150 / FAN160 16-D  - SCT",
@@ -7563,7 +7545,7 @@
     "nome": "ESTATOR MAGNETO XLR 125 00 / TITAN 00-01 - MAGNETRON",
     "localizacao": "DEPE126",
     "preco": 260.0,
-    "estoque": -8.0
+    "estoque": -9.0
   },
   {
     "nome": "ESTATOR MAGNETO XR 200 - JECPRO",
@@ -7585,19 +7567,19 @@
   },
   {
     "nome": "ESTICADOR  CORRENTE (UN) COMPLETO TITAN150/FAN150-125-160",
-    "localizacao": "nan",
+    "localizacao": "DEPB105",
     "preco": 7.0,
-    "estoque": -124.0
+    "estoque": -126.0
   },
   {
-    "nome": "ESTICADOR CORRENTE BROS/XLR/XR200/XRE190 - SCT",
+    "nome": "ESTICADOR CORRENTE BROS/XLR/XR200/XRE190 MODELO ANTIGO- SCT",
     "localizacao": "DEPD75",
     "preco": 30.0,
-    "estoque": -43.0
+    "estoque": -44.0
   },
   {
     "nome": "ESTICADOR CORRENTE COMPLETO BROS 125-150-160 / XLR /XRE190 -TRILHA",
-    "localizacao": "LOJAB1",
+    "localizacao": "DEPB127",
     "preco": 30.0,
     "estoque": -4.0
   },
@@ -7605,7 +7587,7 @@
     "nome": "ESTICADOR CORRENTE COMPLETO FAZER 250 / LANDER 250 - TRILHA",
     "localizacao": "DEPB13",
     "preco": 38.0,
-    "estoque": 3.0
+    "estoque": 1.0
   },
   {
     "nome": "ESTICADOR CORRENTE XTZ 125",
@@ -7621,9 +7603,9 @@
   },
   {
     "nome": "ESTICADOR DE CORRENTE COMPLETO BIZ100-110-125 /POP100-110",
-    "localizacao": "nan",
+    "localizacao": "DEPB104",
     "preco": 7.0,
-    "estoque": -66.0
+    "estoque": -67.0
   },
   {
     "nome": "ESTRIBO BIZ 125",
@@ -7647,7 +7629,7 @@
     "nome": "ESTRIBO TITAN 00-125-150-160 / FAN125-150-160",
     "localizacao": "nan",
     "preco": 90.0,
-    "estoque": -8.0
+    "estoque": -9.0
   },
   {
     "nome": "ESTRIBO TITAN 150 04-13 / FAN 125 09-03 / FAN 150 10-13 OCO",
@@ -7737,7 +7719,7 @@
     "nome": "FILTRO AR BROS 125-150-160 / POP 100-1150 - TECFIL",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -216.0
+    "estoque": -222.0
   },
   {
     "nome": "FILTRO AR BROS 160 25-D - ORIGINAL HONDA",
@@ -7803,7 +7785,7 @@
     "nome": "FILTRO AR TITAN 125-150-160 14-D - SCT",
     "localizacao": "nan",
     "preco": 35.0,
-    "estoque": -21.0
+    "estoque": -22.0
   },
   {
     "nome": "FILTRO AR TITAN 160 / FAN 160 - FILTRAN",
@@ -7833,7 +7815,7 @@
     "nome": "FILTRO COMBUSTIVEL  BICO FINO - ORIGINAL HONDA",
     "localizacao": "DEP104",
     "preco": 75.0,
-    "estoque": -10.0
+    "estoque": -13.0
   },
   {
     "nome": "FILTRO COMBUSTIVEL BICO FINO - AUTOLEX",
@@ -7849,7 +7831,7 @@
   },
   {
     "nome": "FILTRO COMBUSTIVEL UNIVERSAL",
-    "localizacao": "nan",
+    "localizacao": "DEPB113",
     "preco": 10.0,
     "estoque": -105.0
   },
@@ -7869,7 +7851,7 @@
     "nome": "FILTRO DE AR BROS 150-160/ POP 100-110 - ORIGINAL HONDA",
     "localizacao": "nan",
     "preco": 60.0,
-    "estoque": -106.0
+    "estoque": -110.0
   },
   {
     "nome": "FILTRO DE AR CRF 230F - MHX (SJ)",
@@ -7933,9 +7915,9 @@
   },
   {
     "nome": "FILTRO DE OLEO XR / XRE 300 / CB 300 / TWISTER / TORNADO / CRF 250 f - VEDAMOTORS",
-    "localizacao": "nan",
+    "localizacao": "DEPB114",
     "preco": 25.0,
-    "estoque": -3.0
+    "estoque": -5.0
   },
   {
     "nome": "FIO P/INSTALAÇÃO",
@@ -8109,7 +8091,7 @@
     "nome": "GARFO SELETOR CAMBIO BIZ 100 / POP 100 - SMART FOX",
     "localizacao": "CX2B6",
     "preco": 45.0,
-    "estoque": -2.0
+    "estoque": -3.0
   },
   {
     "nome": "GARUPEIRA CHURRASQUEIRA BROS 150 - PRETA",
@@ -8187,7 +8169,7 @@
     "nome": "GASOLINA",
     "localizacao": "nan",
     "preco": 20.0,
-    "estoque": -62.0
+    "estoque": -65.0
   },
   {
     "nome": "GASOLINA - LIMPAR PEÇAS",
@@ -8251,15 +8233,9 @@
   },
   {
     "nome": "GRAXA 80 GRAMAS BRANCA",
-    "localizacao": "nan",
+    "localizacao": "DEPB96",
     "preco": 5.0,
     "estoque": -100.0
-  },
-  {
-    "nome": "GRAXA BRANCA MULTIUSO 80 GR",
-    "localizacao": "nan",
-    "preco": 5.0,
-    "estoque": -5.0
   },
   {
     "nome": "GRAXA GRAFITADA 80G P/CORRENTES",
@@ -8293,7 +8269,7 @@
   },
   {
     "nome": "GUARDA PO BENGALA TITAN 150-160 / BROS NXR 125-150-160 / XLR",
-    "localizacao": "LOJAC30",
+    "localizacao": "DEPB196",
     "preco": 12.0,
     "estoque": -89.0
   },
@@ -8328,8 +8304,8 @@
     "estoque": -5.0
   },
   {
-    "nome": "GUARNICAO BUCHA ESCAPE NX 150",
-    "localizacao": "LOJAB15",
+    "nome": "GUARNICAO BUCHA ESCAPE BROS",
+    "localizacao": "DEPB135",
     "preco": 15.0,
     "estoque": -28.0
   },
@@ -8347,13 +8323,13 @@
   },
   {
     "nome": "GUARNIÇÃO CUBA CARBURADOR BIZ 100-125 / POP 100",
-    "localizacao": "nan",
+    "localizacao": "DEPB119",
     "preco": 10.0,
     "estoque": 25.0
   },
   {
     "nome": "GUARNICAO CUBA CARBURADOR TITAN 125-150",
-    "localizacao": "nan",
+    "localizacao": "DEPB120",
     "preco": 10.0,
     "estoque": -14.0
   },
@@ -8379,7 +8355,7 @@
     "nome": "GUARNIÇÃO ORIGINAL JUNTA TAMPA DE VALVULAS BROS 160 / TITAN 160 / XRE 190",
     "localizacao": "DEPC12",
     "preco": 45.0,
-    "estoque": -51.0
+    "estoque": -56.0
   },
   {
     "nome": "GUARNICAO TAMPA VALVULA CROSSER 150 - VEDAMOTORS",
@@ -8433,7 +8409,7 @@
     "nome": "GUIA CORRENTE COMANDO TITAN 150 04-15 / NXR BROS 150 06-15 / FAN 125-150 09-14 - GEAR",
     "localizacao": "DEPC72",
     "preco": 35.0,
-    "estoque": -15.0
+    "estoque": -17.0
   },
   {
     "nome": "GUIA CORRENTE COMANDO TITAN 150 04-15 / NXR BROS 150 06-15 / FAN 125-150 09-14 - MHX",
@@ -8613,13 +8589,13 @@
     "nome": "GUIDAO MAX BROS - PRETO",
     "localizacao": "nan",
     "preco": 450.0,
-    "estoque": -4.0
+    "estoque": -6.0
   },
   {
     "nome": "GUIDAO MODELO BAIXO TITAN 150 - CROMADO",
     "localizacao": "230274",
     "preco": 70.0,
-    "estoque": -31.0
+    "estoque": -33.0
   },
   {
     "nome": "GUIDAO MODELO ORIGINAL BIZ100",
@@ -8697,7 +8673,7 @@
     "nome": "GULF MOTOR GULF 4T 10W30",
     "localizacao": "nan",
     "preco": 55.0,
-    "estoque": -146.0
+    "estoque": -154.0
   },
   {
     "nome": "HASTE TENSOR FLAUTA POP 100 / BIZ 100",
@@ -8775,13 +8751,13 @@
     "nome": "INTERRUPTOR DA PARTIDA BROS 150 06-08 ( 5 FIOS ) - SMART FOX",
     "localizacao": "nan",
     "preco": 40.0,
-    "estoque": -25.0
+    "estoque": -26.0
   },
   {
     "nome": "INTERRUPTOR DA PARTIDA BROS 150 ES 09-15 ( 3 FIOS) - MAGNETRON",
     "localizacao": "DEPE20",
     "preco": 45.0,
-    "estoque": -45.0
+    "estoque": -47.0
   },
   {
     "nome": "INTERRUPTOR DA PARTIDA BROS 160 ESD-EDD - SMART FOX",
@@ -8805,7 +8781,7 @@
     "nome": "INTERRUPTOR DA PARTIDA \\ TITAN150 ESD-EX 2009 A 2013(E)",
     "localizacao": "19672",
     "preco": 55.0,
-    "estoque": -7.0
+    "estoque": -8.0
   },
   {
     "nome": "INTERRUPTOR DA PARTIDA \\ XRE190 2016 A 2021(E)",
@@ -9001,7 +8977,7 @@
   },
   {
     "nome": "ISOLADOR COLETOR DE ADMISSAO FAN 160 / TITAN 160 / START 160",
-    "localizacao": "LOJAC25",
+    "localizacao": "DEPB195",
     "preco": 15.0,
     "estoque": 3.0
   },
@@ -9111,7 +9087,7 @@
     "nome": "JOGO JUNTA COMPLETO POP 100 / BIZ 100 - VEDAMOTORS",
     "localizacao": "DEPF17",
     "preco": 70.0,
-    "estoque": -23.0
+    "estoque": -24.0
   },
   {
     "nome": "JOGO JUNTA COMPLETO TITAN 125 KS-ES-KSE 00-04 / XLR 00-D / FAN 125 05-08 / BROS 125 03-05 - MHX",
@@ -9141,13 +9117,13 @@
     "nome": "JOGO JUNTA COMPLETO TITAN 150 04-15/ NXR BROS 150 06-14 / FAN 150 10-15 - VEDAMOTORS",
     "localizacao": "nan",
     "preco": 65.0,
-    "estoque": -6.0
+    "estoque": -8.0
   },
   {
     "nome": "JOGO JUNTA COMPLETO TITAN 160 / BROS 160 / START 160 / FAN 160 - VEDAMOTORS",
     "localizacao": "nan",
     "preco": 65.0,
-    "estoque": -8.0
+    "estoque": -11.0
   },
   {
     "nome": "JOGO JUNTA COMPLETO TTR 230 - VEDAMOTORS (SJ)",
@@ -9183,19 +9159,19 @@
     "nome": "JOGO RAIO DIANTEIRO 4MM BIZ 100-125",
     "localizacao": "DEPD18",
     "preco": 70.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "JOGO RAIO DIANTEIRO 4MM BIZ 100-125 - MAX",
     "localizacao": "DEPD18",
     "preco": 70.0,
-    "estoque": 3.0
+    "estoque": 2.0
   },
   {
     "nome": "JOGO RAIO DIANTEIRO 4MM BROS 150 ESD FREIO DISCO",
     "localizacao": "DEPD19",
     "preco": 70.0,
-    "estoque": -12.0
+    "estoque": -15.0
   },
   {
     "nome": "JOGO RAIO DIANTEIRO 4MM BROS NXR 125-150 KS-ES / NXR160 ES  FREIO TAMBOR",
@@ -9267,13 +9243,13 @@
     "nome": "JOGO RAIO DIANTEIRO/TRASEIRO TITAN 00-125-150 / DIANTEIRO POP 100-110 - MAX",
     "localizacao": "DEPD12",
     "preco": 70.0,
-    "estoque": -49.0
+    "estoque": -50.0
   },
   {
     "nome": "JOGO RAIO DIANTEIRO/TRASEIRO TITAN 00-125-150 / DIANTEIRO POP 100-110 - TRILHA",
     "localizacao": "DEPD12",
     "preco": 70.0,
-    "estoque": 2.0
+    "estoque": 1.0
   },
   {
     "nome": "JOGO RAIO TRASEIRO 4MM  TORNADO",
@@ -9291,19 +9267,19 @@
     "nome": "JOGO RAIO TRASEIRO 4MM BIZ100-125-110i / POP100-110i",
     "localizacao": "DEPD10",
     "preco": 70.0,
-    "estoque": -16.0
+    "estoque": -17.0
   },
   {
     "nome": "JOGO RAIO TRASEIRO 4MM BROS NXR 125-150 - MAX",
     "localizacao": "DEPD5",
     "preco": 70.0,
-    "estoque": -25.0
+    "estoque": -26.0
   },
   {
     "nome": "JOGO RAIO TRASEIRO 4MM CRF 230",
     "localizacao": "DEPD11",
     "preco": 85.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "JOGO RAIO TRASEIRO 4MM CROSSER 150 14-18",
@@ -9315,7 +9291,7 @@
     "nome": "JOGO RAIO TRASEIRO 4MM LANDER 07-19 / CRF 250F",
     "localizacao": "DEPD8",
     "preco": 90.0,
-    "estoque": -17.0
+    "estoque": -18.0
   },
   {
     "nome": "JOGO RAIO TRASEIRO 4MM NXR BROS 160 / XRE 190 FREIO DISCO",
@@ -9393,7 +9369,7 @@
     "nome": "JUNTA EMBREAGEM ( DIREITA MOTOR ) BIZ 125",
     "localizacao": "CX3C5",
     "preco": 20.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "JUNTA EMBREAGEM ( DIREITA MOTOR ) CRF 250F 19-D - VEDAMOTORS",
@@ -9417,7 +9393,7 @@
     "nome": "JUNTA EMBREAGEM ( DIREITA MOTOR ) TITAN 125 00-04 / FAN 125 05-08 / BROS 125 03-05 / CRF 230 - VEDAMOTORS",
     "localizacao": "CX3C6",
     "preco": 10.0,
-    "estoque": 2.0
+    "estoque": 1.0
   },
   {
     "nome": "JUNTA EMBREAGEM ( DIREITA MOTOR ) TITAN 160 / FAN 160 / BROS 160 / XRE 190 - MHX",
@@ -9435,7 +9411,7 @@
     "nome": "JUNTA EMBREAGEM ( DIREITO MOTOR )  TITAN150 04-15 / BROS NXR150 06-14 /FAN 125 09-18 - MHX",
     "localizacao": "CX3C1",
     "preco": 10.0,
-    "estoque": -59.0
+    "estoque": -60.0
   },
   {
     "nome": "JUNTA EMBREAGEM ( DIREITO MOTOR ) TORNADO 250 / TWISTER 250",
@@ -9493,7 +9469,7 @@
   },
   {
     "nome": "JUNTA ESTATOR ( ESQUERDO MOTOR ) YBR 125 / XTZ 125 / FACTOR 125",
-    "localizacao": "DEPB127",
+    "localizacao": "CX3F1",
     "preco": 10.0,
     "estoque": -12.0
   },
@@ -9553,15 +9529,15 @@
   },
   {
     "nome": "JUNTA GUARNICAO TAMPA DE VALVULA BROS 150 / TITAN 150 / FAN  125 09-D - VEDAMOTORS",
-    "localizacao": "nan",
+    "localizacao": "DEPB107",
     "preco": 25.0,
-    "estoque": -89.0
+    "estoque": -91.0
   },
   {
     "nome": "JUNTA GUARNICAO TAMPA DE VALVULA TITAN KS/ES 99 - 00 - 125  / XLR / BROS 125",
     "localizacao": "DEPC19",
     "preco": 15.0,
-    "estoque": -45.0
+    "estoque": -46.0
   },
   {
     "nome": "JUNTA GUARNICAO TAMPA DE VALVULA XRE 300",
@@ -9597,7 +9573,7 @@
     "nome": "JUNTA SUPERIOR  KIT DESCARBONIZACAO TITAN 99 / TODAY / XLR 97- 99 - VEDAMORTS",
     "localizacao": "CX3B6",
     "preco": 30.0,
-    "estoque": -16.0
+    "estoque": -17.0
   },
   {
     "nome": "JUNTA SUPERIOR  KIT DESCARBONIZACAO YBR 125 00-08 / FACTOR 125 09-16 / XTZ125 03-16 - MHX",
@@ -9615,7 +9591,7 @@
     "nome": "JUNTA SUPERIOR KIT DESCARBONIZACAO BIZ 100 / POP 100 - VEDAMOTORS",
     "localizacao": "CX3A3",
     "preco": 35.0,
-    "estoque": -12.0
+    "estoque": -13.0
   },
   {
     "nome": "JUNTA SUPERIOR KIT DESCARBONIZACAO CRF 230 - VEDAMOTORS",
@@ -9633,7 +9609,7 @@
     "nome": "JUNTA SUPERIOR KIT DESCARBONIZACAO TITAN 160 / BROS 160 - VEDAMOTORS",
     "localizacao": "CX3A2",
     "preco": 35.0,
-    "estoque": -8.0
+    "estoque": -9.0
   },
   {
     "nome": "JUNTA SUPERIOR TITAN 125 00 / FAN 125 03-08 / BROS 125 03-05 OHC / XLR 00-02 -",
@@ -9661,13 +9637,13 @@
   },
   {
     "nome": "KIT BUCHA PRO LINK LANDER -12 (8PC) - DANIDREA",
-    "localizacao": "CX4B6",
+    "localizacao": "DEPB116",
     "preco": 120.0,
     "estoque": 0.0
   },
   {
     "nome": "KIT BUCHA PRO LINK LANDER 06-11 C/RET - MCA",
-    "localizacao": "LOJAC5",
+    "localizacao": "DEPB150",
     "preco": 130.0,
     "estoque": 2.0
   },
@@ -9807,7 +9783,7 @@
     "nome": "KIT CARENAGEM RABETA POP 110",
     "localizacao": "DEP76",
     "preco": 130.0,
-    "estoque": -14.0
+    "estoque": -15.0
   },
   {
     "nome": "KIT CARENAGEM RABETA TITAN 160 3 PECAS",
@@ -9933,13 +9909,13 @@
     "nome": "KIT MOTOR COMPLETO BROS 160 / TITAN 160 - METAL LEVE",
     "localizacao": "nan",
     "preco": 530.0,
-    "estoque": 6.0
+    "estoque": 5.0
   },
   {
     "nome": "KIT MOTOR COMPLETO BROS 160 / TITAN 160 - MHX",
     "localizacao": "nan",
     "preco": 480.0,
-    "estoque": -3.0
+    "estoque": -5.0
   },
   {
     "nome": "KIT MOTOR COMPLETO CB 300 09-15 / XRE 300 10-D",
@@ -9987,7 +9963,7 @@
     "nome": "KIT MOTOR COMPLETO POP 100 / BIZ 100 - KMP",
     "localizacao": "nan",
     "preco": 390.0,
-    "estoque": -12.0
+    "estoque": -13.0
   },
   {
     "nome": "KIT MOTOR COMPLETO POP 100 / BIZ 100 - METAL LEVE",
@@ -10035,7 +10011,7 @@
     "nome": "KIT MOTOR COMPLETO TITAN 125 02-04 / FAN 125 05-08 / BROS 125 03-05 (PINO FINO) - MHX",
     "localizacao": "nan",
     "preco": 380.0,
-    "estoque": 3.0
+    "estoque": 2.0
   },
   {
     "nome": "KIT MOTOR COMPLETO TITAN 150 / BROS 150 - DIAFRAG",
@@ -10047,7 +10023,7 @@
     "nome": "KIT MOTOR COMPLETO TITAN 150 / BROS 150 - KMP",
     "localizacao": "nan",
     "preco": 480.0,
-    "estoque": -25.0
+    "estoque": -27.0
   },
   {
     "nome": "KIT MOTOR COMPLETO TORNADO 01-08 / TWISTER 250 01-08 - METAL LEVE MAHLE",
@@ -10155,13 +10131,13 @@
     "nome": "KIT TRANSMISSÃO RELACAO BIZ 100 S/RETENTOR",
     "localizacao": "nan",
     "preco": 120.0,
-    "estoque": -20.0
+    "estoque": -21.0
   },
   {
     "nome": "KIT TRANSMISSAO RELACAO BIZ110-125/POP100-110 S/RETENTOR - KITMAX",
     "localizacao": "nan",
     "preco": 120.0,
-    "estoque": -106.0
+    "estoque": -111.0
   },
   {
     "nome": "KIT TRANSMISSAO RELACAO BROS 125 S/ RETENTOR",
@@ -10173,25 +10149,25 @@
     "nome": "KIT TRANSMISSÃO RELACAO BROS 150 C/RETENTOR - KITMAX",
     "localizacao": "nan",
     "preco": 230.0,
-    "estoque": -30.0
+    "estoque": -31.0
   },
   {
     "nome": "KIT TRANSMISSÃO RELACAO BROS 150 S/RETENTOR - KITMAX",
     "localizacao": "nan",
     "preco": 150.0,
-    "estoque": -22.0
+    "estoque": -23.0
   },
   {
     "nome": "KIT TRANSMISSÃO RELACAO BROS 160 / XRE 190 C/ RETENTOR - KITMAX",
     "localizacao": "nan",
     "preco": 230.0,
-    "estoque": -44.0
+    "estoque": -46.0
   },
   {
     "nome": "KIT TRANSMISSÃO RELACAO BROS 160 / XRE 190 S/ RETENTOR - KITMAX",
     "localizacao": "nan",
     "preco": 150.0,
-    "estoque": 26.0
+    "estoque": 24.0
   },
   {
     "nome": "KIT TRANSMISSAO RELACAO CB 300",
@@ -10245,7 +10221,7 @@
     "nome": "KIT TRANSMISSAO RELACAO TITAN 00-04 KS/ES / FAN 125 05-08 S/RETENTOR - VAZ",
     "localizacao": "nan",
     "preco": 130.0,
-    "estoque": -16.0
+    "estoque": -17.0
   },
   {
     "nome": "KIT TRANSMISSAO RELACAO TITAN/FAN 150-160 C/ RETENTOR",
@@ -10257,7 +10233,7 @@
     "nome": "KIT TRANSMISSAO RELACAO TITAN/FAN 150-160 S/ RETENTOR",
     "localizacao": "nan",
     "preco": 120.0,
-    "estoque": -54.0
+    "estoque": -55.0
   },
   {
     "nome": "KIT TRANSMISSÃO RELACAO TORNADO 520H C/ RETENTOR - KITMAX",
@@ -10363,13 +10339,13 @@
   },
   {
     "nome": "LAMPADA DE FREIO UNIVERSAL",
-    "localizacao": "nan",
+    "localizacao": "DEPB177",
     "preco": 10.0,
-    "estoque": -96.0
+    "estoque": -100.0
   },
   {
     "nome": "LAMPADA FREIO LEDS UNIDADE",
-    "localizacao": "nan",
+    "localizacao": "DEPB176",
     "preco": 20.0,
     "estoque": 3.0
   },
@@ -10377,13 +10353,13 @@
     "nome": "LAMPADA H4 - FIT PHILIPS",
     "localizacao": "nan",
     "preco": 55.0,
-    "estoque": -67.0
+    "estoque": -71.0
   },
   {
     "nome": "LAMPADA H4 - HALOWAY",
     "localizacao": "nan",
     "preco": 35.0,
-    "estoque": -68.0
+    "estoque": -70.0
   },
   {
     "nome": "LAMPADA H4 - MHX",
@@ -10401,7 +10377,7 @@
     "nome": "LAMPADA M5 - HALOWAY",
     "localizacao": "nan",
     "preco": 25.0,
-    "estoque": -35.0
+    "estoque": -37.0
   },
   {
     "nome": "LAMPADA M5 - MHX",
@@ -10417,25 +10393,25 @@
   },
   {
     "nome": "LAMPADA PAINEL SIMPLES",
-    "localizacao": "nan",
+    "localizacao": "DEPB178",
     "preco": 3.0,
     "estoque": -7.0
   },
   {
     "nome": "LAMPADA PISCA  - VIDRO BRANCA",
-    "localizacao": "nan",
+    "localizacao": "DEPB180",
     "preco": 2.0,
-    "estoque": 201.0
+    "estoque": 200.0
   },
   {
     "nome": "LAMPADA PISCA BROS LATINHA - LARANJADA",
-    "localizacao": "nan",
+    "localizacao": "DEPB179",
     "preco": 3.0,
     "estoque": 59.0
   },
   {
     "nome": "LAMPADA PISCA LATINHA - BRANCA",
-    "localizacao": "nan",
+    "localizacao": "DEPB179",
     "preco": 3.0,
     "estoque": 137.0
   },
@@ -10521,7 +10497,7 @@
     "nome": "LANTERNA FREIO TRASEIRA TITAN 125 00-04 / FAN 125 05-08 - TRILHA",
     "localizacao": "nan",
     "preco": 90.0,
-    "estoque": -10.0
+    "estoque": -11.0
   },
   {
     "nome": "LANTERNA FREIO TRASEIRA XTZ 125 06-08 / LANDER 250 06-08 - TRILHA",
@@ -10531,7 +10507,7 @@
   },
   {
     "nome": "LANTERNA FREIO XLR 125 / XR 200 - TRILHA",
-    "localizacao": "nan",
+    "localizacao": "DEPB129",
     "preco": 90.0,
     "estoque": 2.0
   },
@@ -10539,7 +10515,7 @@
     "nome": "LANTERNA PARALAMA TRASEIRO PLACA  FAN125 14-15 / FAN125i 16-18 / FAN 150 14-15 / TITAN150 14-D",
     "localizacao": "DEPB36",
     "preco": 85.0,
-    "estoque": -3.0
+    "estoque": -4.0
   },
   {
     "nome": "LANTERNA PARALAMA TRASEIRO PLACA BROS 150 09-13 - TRILHA",
@@ -10662,12 +10638,6 @@
     "estoque": 1.0
   },
   {
-    "nome": "LENTE LANTERNA FREIO XLR - VERMELHA",
-    "localizacao": "nan",
-    "preco": 0.0,
-    "estoque": -1.0
-  },
-  {
     "nome": "LENTE LANTERNA TRASEIRA VERMELHA \\ FAN125 2009 A 2013/NXR125 2013 A 2015/NXR150",
     "localizacao": "nan",
     "preco": 25.0,
@@ -10689,7 +10659,7 @@
     "nome": "LENTE PISCA AMARELA DE DIANTEIRA ESQUERDO - BROS NXR 160 / TITAN 160  - GEAR",
     "localizacao": "DEPD138",
     "preco": 15.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "LENTE PISCA BROS 125-150 / XLR / XR 200 / POP 100 - CRISTAL",
@@ -10719,7 +10689,7 @@
     "nome": "LENTE PISCA CRISTAL DE DIANTEIRA ESQUERDO - BROS NXR 160 / TITAN 160  - TRILHA",
     "localizacao": "DEPD136",
     "preco": 45.0,
-    "estoque": 12.0
+    "estoque": 11.0
   },
   {
     "nome": "LENTE PISCA DIANTEIRO DIREITO/TRASEIRO ESQUERDO FUME \\ NXR150 2012 A 2014/TITAN150 2014 A 2015/TITAN160 2016 A 2021/FA",
@@ -10831,7 +10801,7 @@
   },
   {
     "nome": "LIGA DE BORRACHA",
-    "localizacao": "nan",
+    "localizacao": "DEPB117",
     "preco": 10.0,
     "estoque": 21.0
   },
@@ -10869,7 +10839,7 @@
     "nome": "LONA DE  FREIO TRASEIRO BROS NXR125-150 / BIZ100-110-125 / POP100-110 /CRF230 - DIAFRAF",
     "localizacao": "nan",
     "preco": 42.0,
-    "estoque": -311.0
+    "estoque": -320.0
   },
   {
     "nome": "LONA DE  FREIO TRASEIRO BROS NXR125-150 / BIZ100-110-125 / POP100-110 /CRF230 - MHX",
@@ -10881,7 +10851,7 @@
     "nome": "LONA DE FREIO DIANTEITA/TRASEIRA TITAN - DIAFRAG",
     "localizacao": "nan",
     "preco": 42.0,
-    "estoque": -197.0
+    "estoque": -206.0
   },
   {
     "nome": "LONA DE FREIO DIANTEITA/TRASEIRA TITAN - HAMP ORGINAL",
@@ -10899,7 +10869,7 @@
     "nome": "LUVA MODELO ORIGINAL (PR) TITAN 00-125-150 / POP 100-110",
     "localizacao": "DEP115",
     "preco": 30.0,
-    "estoque": -35.0
+    "estoque": -36.0
   },
   {
     "nome": "LUVA MODELO ORIGINAL (PR) TITAN 00-125-150 C/ ROLDANA",
@@ -10911,7 +10881,7 @@
     "nome": "LUVA MODELO ORIGINAL BROS 125-150-160 / TORNADO / XRE 190-300",
     "localizacao": "DEPE37",
     "preco": 35.0,
-    "estoque": -49.0
+    "estoque": -50.0
   },
   {
     "nome": "MANETE (PR) C/REGULAGEM NXR150/FAL/TOR PTO",
@@ -10921,13 +10891,13 @@
   },
   {
     "nome": "MANETE EMBREAGEM BROS 150-160 / XRE 190-300 / XR200 / TORNADO - COMETA",
-    "localizacao": "nan",
+    "localizacao": "DEPB79",
     "preco": 20.0,
     "estoque": -54.0
   },
   {
     "nome": "MANETE EMBREAGEM CROMADA LANDER 250 /FAZER 250 / CROSSER - COMETA",
-    "localizacao": "nan",
+    "localizacao": "DEPB80",
     "preco": 30.0,
     "estoque": -7.0
   },
@@ -10939,55 +10909,49 @@
   },
   {
     "nome": "MANETE EMBREAGEM TITAN / POP / CG 92-95 - COMETA",
-    "localizacao": "nan",
+    "localizacao": "DEPB82",
     "preco": 20.0,
     "estoque": -22.0
   },
   {
     "nome": "MANETE EMBREAGEM XLR / BROS 125 - COMETA",
-    "localizacao": "nan",
+    "localizacao": "DEPB78",
     "preco": 20.0,
-    "estoque": -45.0
-  },
-  {
-    "nome": "MANETE EMBREAGEM YBR 125 / FACTOR - COMETA",
-    "localizacao": "nan",
-    "preco": 20.0,
-    "estoque": -10.0
+    "estoque": -46.0
   },
   {
     "nome": "MANETE EMBREAGEM YBR 125 / FACTOR - PROTEC",
-    "localizacao": "nan",
+    "localizacao": "DEPB81",
     "preco": 20.0,
     "estoque": 8.0
   },
   {
     "nome": "MANETE FREIO ( A DISCO )  BIZ",
-    "localizacao": "LOJAA28",
+    "localizacao": "DEPB144",
     "preco": 20.0,
     "estoque": 3.0
   },
   {
     "nome": "MANETE FREIO ( TAMBOR ) BIZ",
-    "localizacao": "LOJAA27",
+    "localizacao": "DEPB143",
     "preco": 15.0,
-    "estoque": -17.0
+    "estoque": -18.0
   },
   {
     "nome": "MANETE FREIO A DISCO BROS 150 / XR200 / TORNADO / XRE 190-300 COMETA",
-    "localizacao": "nan",
+    "localizacao": "DEPB85",
     "preco": 20.0,
     "estoque": -37.0
   },
   {
     "nome": "MANETE FREIO A DISCO BROS 160 - PROTEC",
-    "localizacao": "nan",
+    "localizacao": "DEPB86",
     "preco": 25.0,
-    "estoque": -24.0
+    "estoque": -25.0
   },
   {
     "nome": "MANETE FREIO A DISCO TITAN 150-160 / FAN 150-160 / TWISTER / CB 300 - TRILHA",
-    "localizacao": "LOJAA13",
+    "localizacao": "DEPB141",
     "preco": 20.0,
     "estoque": -25.0
   },
@@ -11011,31 +10975,31 @@
   },
   {
     "nome": "MANETE FREIO CROMADA XTZ 125 LANDER / XTZ 125 / FAZER 250",
-    "localizacao": "LOJAA30",
+    "localizacao": "DEPB199",
     "preco": 35.0,
     "estoque": 0.0
   },
   {
     "nome": "MANETE FREIO TAMBOR BROS 125-150 / XLR - COMETA",
-    "localizacao": "nan",
+    "localizacao": "DEPB87",
     "preco": 20.0,
-    "estoque": -43.0
+    "estoque": -45.0
   },
   {
     "nome": "MANETE FREIO TAMBOR FAN125i 16-18 / START 160 - COMETA (SS)",
-    "localizacao": "nan",
+    "localizacao": "DEPB83",
     "preco": 30.0,
     "estoque": 3.0
   },
   {
     "nome": "MANETE FREIO TAMBOR POP / TITAN (INJETADA) / CG 99 - COMETA",
-    "localizacao": "nan",
+    "localizacao": "DEPB84",
     "preco": 20.0,
     "estoque": -1.0
   },
   {
     "nome": "MANETE FREIO TAMBRO YBR 125",
-    "localizacao": "LOJAB18",
+    "localizacao": "DEPB137",
     "preco": 20.0,
     "estoque": 20.0
   },
@@ -11053,9 +11017,9 @@
   },
   {
     "nome": "MANGUEIRA DE COMBUSTIVEL GASOLINA 20CM",
-    "localizacao": "nan",
+    "localizacao": "DEPB106",
     "preco": 5.0,
-    "estoque": -41.0
+    "estoque": -42.0
   },
   {
     "nome": "MANGUEIRA DE COMBUSTIVEL GASOLINA POP 110i - MHX",
@@ -11089,21 +11053,21 @@
   },
   {
     "nome": "MANICOTO DE FREIO BIZ 100",
-    "localizacao": "LOJAB33",
+    "localizacao": "DEPB139",
     "preco": 20.0,
-    "estoque": -15.0
+    "estoque": -16.0
   },
   {
     "nome": "MANICOTO EMBREAGEM POP 100-110 / TITAN 00-150 - TRILHA",
-    "localizacao": "LOJAA14",
+    "localizacao": "DEPB142",
     "preco": 20.0,
     "estoque": -62.0
   },
   {
     "nome": "MANICOTO EMBREAGEM XLR / BROS - GEAR",
-    "localizacao": "LOJAB31",
+    "localizacao": "DEPB138",
     "preco": 20.0,
-    "estoque": -50.0
+    "estoque": -52.0
   },
   {
     "nome": "MANICOTO EMBREAGEM XTZ 125/ CROSSER 150 / FAZER 250 / LANDER 250 / TENERE 250 / TTR230 / FACTOR YBR",
@@ -11113,19 +11077,19 @@
   },
   {
     "nome": "MANICOTO FREIO POP 100-110 / TITAN  00-150-160",
-    "localizacao": "LOJAC31",
+    "localizacao": "DEPB197",
     "preco": 20.0,
-    "estoque": -40.0
+    "estoque": -42.0
   },
   {
     "nome": "MANICOTO FREIO TAMBOR YBR 125/ DT 180",
-    "localizacao": "LOJAB10",
+    "localizacao": "DEPB134",
     "preco": 20.0,
     "estoque": 2.0
   },
   {
     "nome": "MANICOTO FREIO XLR 125 / BROS 125 / TODAY",
-    "localizacao": "LOJAA29",
+    "localizacao": "DEPB145",
     "preco": 20.0,
     "estoque": 3.0
   },
@@ -11151,13 +11115,13 @@
     "nome": "MAO DE OBRA - MARCIO",
     "localizacao": "nan",
     "preco": 0.0,
-    "estoque": -1064.0
+    "estoque": -1096.0
   },
   {
     "nome": "MAO DE OBRA - OFICINA",
     "localizacao": "nan",
     "preco": 0.0,
-    "estoque": -355.0
+    "estoque": -353.0
   },
   {
     "nome": "MAO DE OBRA - ROBSON",
@@ -11169,19 +11133,19 @@
     "nome": "MAO DE OBRA - THAYSON",
     "localizacao": "nan",
     "preco": 0.0,
-    "estoque": -1236.0
+    "estoque": -1283.0
   },
   {
     "nome": "MAO DE OBRA - TONY RAMOS",
     "localizacao": "nan",
     "preco": 0.0,
-    "estoque": -913.0
+    "estoque": -943.0
   },
   {
     "nome": "MAO DE OBRA - VALDEMAR",
     "localizacao": "nan",
     "preco": 0.0,
-    "estoque": -167.0
+    "estoque": -194.0
   },
   {
     "nome": "MEIA LUA TRIPE BIZ 100-125",
@@ -11367,7 +11331,7 @@
     "nome": "MOLA DESCANSO LATERAL PEZINHO TITAN",
     "localizacao": "nan",
     "preco": 10.0,
-    "estoque": -91.0
+    "estoque": -92.0
   },
   {
     "nome": "MOLA DESCANSO LATERAL XLR 125 / BROS 125-150-160",
@@ -11418,6 +11382,12 @@
     "estoque": -2.0
   },
   {
+    "nome": "MOLA PEDAL FREIO BROS 160",
+    "localizacao": "DEPB182",
+    "preco": 10.0,
+    "estoque": 0.0
+  },
+  {
     "nome": "MOLA PEDAL PARTIDA BIZ 100 / POP 100 - ORIGINAL HONDA",
     "localizacao": "DEPC215",
     "preco": 55.0,
@@ -11427,7 +11397,7 @@
     "nome": "MOLA PEDAL PARTIDA POP 110 - ORIGINAL HONDA",
     "localizacao": "CX2A4",
     "preco": 90.0,
-    "estoque": -13.0
+    "estoque": -14.0
   },
   {
     "nome": "MOLA PEDAL PARTIDA TITAN 150 / BROS 150 - GEAR",
@@ -11445,7 +11415,7 @@
     "nome": "MOLDURA SUPORTE PLACA UNIVERSAL",
     "localizacao": "DEPE108",
     "preco": 25.0,
-    "estoque": 0.0
+    "estoque": -1.0
   },
   {
     "nome": "MOTOR DE PARTIDA BIZ125 11-21 - MHX",
@@ -11505,7 +11475,7 @@
     "nome": "MOTOR PARTIDA TITAN150 04-15 / BROS 150-125 06-15 / FAN 150 10-15 / FAN 125 09-15 - MHX",
     "localizacao": "DEPD108",
     "preco": 290.0,
-    "estoque": -25.0
+    "estoque": -27.0
   },
   {
     "nome": "MOTOR PARTIDA YBR 125 00-08 / FACTOR 125 09-16 / XTZ 125 03-16 - MAGNETRON",
@@ -11565,13 +11535,13 @@
     "nome": "OLEO ATF 20W50",
     "localizacao": "EXPOSITOR",
     "preco": 20.0,
-    "estoque": -200.0
+    "estoque": -205.0
   },
   {
     "nome": "OLEO DIESEL-LIMPEZA",
     "localizacao": "nan",
     "preco": 10.0,
-    "estoque": -46.0
+    "estoque": -47.0
   },
   {
     "nome": "OLEO MOTOR FORTOIL 20W50",
@@ -11583,13 +11553,13 @@
     "nome": "OLEO MOTOR GENUINO HONDA 10W30",
     "localizacao": "EXPOSITOR",
     "preco": 80.0,
-    "estoque": -219.0
+    "estoque": -228.0
   },
   {
     "nome": "OLEO MOTOR GP LUBRAX 4T 20W-50",
     "localizacao": "EXPOSITOR",
     "preco": 35.0,
-    "estoque": -117.0
+    "estoque": -118.0
   },
   {
     "nome": "OLEO MOTOR GULF PRIDE 4T PLUS 20W50",
@@ -11600,8 +11570,8 @@
   {
     "nome": "OLEO MOTOR HAVOLINE TEXACO 20W-50 4T",
     "localizacao": "EXPOSITOR",
-    "preco": 35.0,
-    "estoque": -311.0
+    "preco": 40.0,
+    "estoque": 86.0
   },
   {
     "nome": "OLEO MOTOR IPIRANGA 4T 20W-50 (",
@@ -11625,13 +11595,13 @@
     "nome": "OLEO MOTOR MOBIL 20W-50 4T",
     "localizacao": "EXPOSITOR",
     "preco": 40.0,
-    "estoque": -568.0
+    "estoque": -577.0
   },
   {
     "nome": "OLEO MOTOR MOTORFIX LARANJA 4T 20W50",
     "localizacao": "EXPOSITOR",
     "preco": 35.0,
-    "estoque": -190.0
+    "estoque": -224.0
   },
   {
     "nome": "OLEO MOTOR PRO HONDA 20W50",
@@ -11661,7 +11631,7 @@
     "nome": "OLEO QUEIMADO",
     "localizacao": "nan",
     "preco": 4.0,
-    "estoque": -609.0
+    "estoque": -689.0
   },
   {
     "nome": "PAINEL BIZ 125 18-D",
@@ -11949,7 +11919,7 @@
     "nome": "PARAFUSO DO AMORTECEDOR BROS 125-150-160",
     "localizacao": "nan",
     "preco": 15.0,
-    "estoque": -18.0
+    "estoque": -19.0
   },
   {
     "nome": "PARAFUSO DO BANCO DA POP 100",
@@ -11959,7 +11929,7 @@
   },
   {
     "nome": "PARAFUSO DO DESCANSO LATERAL PEZINHO COM PORCA TITAN",
-    "localizacao": "nan",
+    "localizacao": "DEPB164",
     "preco": 10.0,
     "estoque": -39.0
   },
@@ -11995,7 +11965,7 @@
   },
   {
     "nome": "PARAFUSO LONGO MANETETE/MANICOTO FREIO EMBREAGEM TITAN / POP",
-    "localizacao": "nan",
+    "localizacao": "DEPB73",
     "preco": 2.0,
     "estoque": 49.0
   },
@@ -12019,7 +11989,7 @@
   },
   {
     "nome": "PARAFUSO REGULADOR DE CABO UNIVERSAL",
-    "localizacao": "nan",
+    "localizacao": "DEPB77",
     "preco": 5.0,
     "estoque": -1.0
   },
@@ -12055,9 +12025,15 @@
   },
   {
     "nome": "PARAFUSO TAMPA BUJAO OLEO TITAN150 04-15 / TITAN160 / BIZ",
-    "localizacao": "nan",
+    "localizacao": "DEPB162",
     "preco": 5.0,
-    "estoque": -54.0
+    "estoque": -55.0
+  },
+  {
+    "nome": "PARAFUSO TAMPA BUJAO OLEO TITAN150 04-15 / TITAN160 / BIZ ( SOB MEDIDA )",
+    "localizacao": "DEPB163",
+    "preco": 5.0,
+    "estoque": 0.0
   },
   {
     "nome": "PARAFUSO TAMPA DE VALVULA  TITAN 150 / BROS NXR 150  / FAN 125 09-18 / FAN 150",
@@ -12129,7 +12105,7 @@
     "nome": "PARALAMA DIANTEIRO - AZUL TITAN 160",
     "localizacao": "nan",
     "preco": 120.0,
-    "estoque": -9.0
+    "estoque": -10.0
   },
   {
     "nome": "PARALAMA DIANTEIRO - BRANCO TITAN 160",
@@ -12183,7 +12159,7 @@
     "nome": "PARALAMA DIANTEIRO BROS 150 09-14 - PRETO",
     "localizacao": "nan",
     "preco": 120.0,
-    "estoque": -6.0
+    "estoque": -7.0
   },
   {
     "nome": "PARALAMA DIANTEIRO FACTOR - PRETO",
@@ -12201,7 +12177,7 @@
     "nome": "PARALAMA DIANTEIRO POP 100 07-08 ( FINO ) - VERMELHO",
     "localizacao": "nan",
     "preco": 110.0,
-    "estoque": -5.0
+    "estoque": -6.0
   },
   {
     "nome": "PARALAMA DIANTEIRO POP 100 07-12 ( FINO ) - PRETO",
@@ -12219,7 +12195,7 @@
     "nome": "PARALAMA DIANTEIRO POP 100 13-15 / POP 110 - VERMELHO",
     "localizacao": "nan",
     "preco": 140.0,
-    "estoque": -2.0
+    "estoque": -3.0
   },
   {
     "nome": "PARALAMA DIANTEIRO POP 110 - BRANCO",
@@ -12411,7 +12387,7 @@
     "nome": "PARALAMA TRASEIRO RABETA TITAN 160 16-18",
     "localizacao": "242847",
     "preco": 90.0,
-    "estoque": 2.0
+    "estoque": 1.0
   },
   {
     "nome": "PARALAMA TRASEIRO RABTA TITAN 160 16-18",
@@ -12501,19 +12477,19 @@
     "nome": "PASTILHA FREIO DIANTEIRA LANDER 05-15 (ANTIGA) / XTZ 125 / YES 125 - MHX",
     "localizacao": "nan",
     "preco": 45.0,
-    "estoque": -12.0
+    "estoque": -13.0
   },
   {
     "nome": "PASTILHA FREIO DIANTEIRA NXR BROS 160 18-22 / BIZ 125 18-22 - DIA-FRAG",
     "localizacao": "DEPE170",
     "preco": 45.0,
-    "estoque": -97.0
+    "estoque": -102.0
   },
   {
     "nome": "PASTILHA FREIO DIANTEIRA TITAN 00 125 ES 03-D / TITAN 150 ESD 04-08 / TITAN 150 SPORT 04-08 - COBREQ",
     "localizacao": "DEPE177",
     "preco": 45.0,
-    "estoque": -6.0
+    "estoque": -7.0
   },
   {
     "nome": "PASTILHA FREIO DIANTEIRA TITAN 160 18-D CBS (COMBINADO) / FAN 160 18-D CBS (COMBINADO) - MHX PREMIUM",
@@ -12531,7 +12507,7 @@
     "nome": "PASTILHA FREIO DIANTEIRO BROS NXR 150 03-14 / BROS160 15-17 / XR200 / TORNADO / BIZ125 (ANTIGA) - MHX",
     "localizacao": "DEPE169",
     "preco": 45.0,
-    "estoque": -49.0
+    "estoque": -52.0
   },
   {
     "nome": "PASTILHA FREIO DIANTEIRO LANDER  16-22 (NOVA) / CROSSER 14-21 - MHX",
@@ -12573,19 +12549,25 @@
     "nome": "PASTILHA FREIO TRASEIRO LANDER 07-22 / FAZER 250 11-17/ CROSSER 19-22 - DIAFRAG",
     "localizacao": "DEPE172",
     "preco": 45.0,
-    "estoque": -25.0
+    "estoque": -27.0
   },
   {
     "nome": "PASTILHA FREIO TRASEIRO NXR BROS 160 / XRE 190 / TWISTER - MHX",
     "localizacao": "DEPE168",
     "preco": 45.0,
-    "estoque": -91.0
+    "estoque": -97.0
   },
   {
     "nome": "PASTILHA FREIO TRASEIRO NXR BROS 160 / XRE 190-300 / TWISTER - DIAFRAG",
     "localizacao": "DEPE168",
     "preco": 45.0,
-    "estoque": -77.0
+    "estoque": -78.0
+  },
+  {
+    "nome": "PATINHO GUIDAO",
+    "localizacao": "DEPB92",
+    "preco": 30.0,
+    "estoque": 0.0
   },
   {
     "nome": "PEDAL CAMBIO BIZ 100 ES - GEAR",
@@ -12603,13 +12585,13 @@
     "nome": "PEDAL CAMBIO POP 100",
     "localizacao": "DEPD39",
     "preco": 45.0,
-    "estoque": -8.0
+    "estoque": -9.0
   },
   {
     "nome": "PEDAL CAMBIO TITAN 150 04/08 - SCT",
     "localizacao": "DEPD41",
     "preco": 35.0,
-    "estoque": -20.0
+    "estoque": -21.0
   },
   {
     "nome": "PEDAL CAMBIO TORNADO - SCT",
@@ -12645,7 +12627,7 @@
     "nome": "PEDAL DE PARTIDA POP 100-110 / BIZ 100",
     "localizacao": "DEPD45",
     "preco": 55.0,
-    "estoque": -27.0
+    "estoque": -29.0
   },
   {
     "nome": "PEDAL DO FREIO POP100",
@@ -12657,7 +12639,7 @@
     "nome": "PEDAL FREIO BIZ 100 -05 - DANNIXX",
     "localizacao": "nan",
     "preco": 90.0,
-    "estoque": -8.0
+    "estoque": -9.0
   },
   {
     "nome": "PEDAL FREIO BIZ 110 18",
@@ -12717,7 +12699,7 @@
     "nome": "PEDAL PARTIDA TITAN 150 00-04-08 / XLR - GEAR",
     "localizacao": "DEPD42",
     "preco": 65.0,
-    "estoque": -10.0
+    "estoque": -11.0
   },
   {
     "nome": "PEDAL PARTIDA YBR",
@@ -12735,7 +12717,7 @@
     "nome": "PEDALEIRA DIANTEIRA PRETA XLR / BROS NXR 125-150 / XR 200 (PAR) - TRILHA",
     "localizacao": "DEPD145",
     "preco": 80.0,
-    "estoque": -16.0
+    "estoque": -17.0
   },
   {
     "nome": "PEDALEIRA HONDA TITAN AZUL",
@@ -12789,7 +12771,7 @@
     "nome": "PEDALEIRA TRASEIRA (PAR) TITAN 125 / TODAY / FAN / POP 100-110",
     "localizacao": "DEPD107",
     "preco": 45.0,
-    "estoque": -17.0
+    "estoque": -19.0
   },
   {
     "nome": "PEDALEIRA TRASEIRA (PR) UNIVERSAL AMARELA",
@@ -12849,7 +12831,7 @@
     "nome": "PESO GUIDAO - PCX CROMADO",
     "localizacao": "DEPC216",
     "preco": 120.0,
-    "estoque": -15.0
+    "estoque": -17.0
   },
   {
     "nome": "PESO GUIDAO PCX PRETO",
@@ -12897,7 +12879,7 @@
     "nome": "PIAO 16D - TITAN",
     "localizacao": "nan",
     "preco": 0.0,
-    "estoque": -14.0
+    "estoque": -15.0
   },
   {
     "nome": "PIAO 17D BROS 125-150 - MHX",
@@ -12969,7 +12951,7 @@
     "nome": "PISCA COMPLETO DD DIANTEIRO DIREITO TITAN 150 14-15 / TITAN 160 - STYLU",
     "localizacao": "DEP56",
     "preco": 45.0,
-    "estoque": -3.0
+    "estoque": -4.0
   },
   {
     "nome": "PISCA COMPLETO DE DIANTEIRO ESQUERDO FAZER 150 14-22 / FACTOR 125 17-22 / XTZ 125 / LANDER 09-22 AMARELO - MHX",
@@ -13047,7 +13029,7 @@
     "nome": "PISCA COMPLETO XLR / BROS 125-150 / XR 200 / POP 100  / TORNADO - MHX",
     "localizacao": "DEP87",
     "preco": 27.0,
-    "estoque": -73.0
+    "estoque": -76.0
   },
   {
     "nome": "PISCA COMPLETO YBR 125 / XTZ 125 BRONZE - STLU",
@@ -13287,7 +13269,7 @@
     "nome": "PNEU 100/90-17 GARRA CROSS BROS - RT36 RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 450.0,
-    "estoque": -18.0
+    "estoque": -19.0
   },
   {
     "nome": "PNEU 100/90-17 INTERMEDIARIO BROS - REMOLDE",
@@ -13299,7 +13281,7 @@
     "nome": "PNEU 100/90-17 INTERMEDIARIO BROS - WH21 RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 450.0,
-    "estoque": -16.0
+    "estoque": -18.0
   },
   {
     "nome": "PNEU 100/90-17 LISO - MAGION",
@@ -13317,7 +13299,7 @@
     "nome": "PNEU 110/90-17 LISO BROS - RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 450.0,
-    "estoque": -5.0
+    "estoque": -7.0
   },
   {
     "nome": "PNEU 120/80-18 LISO - MAGION",
@@ -13347,7 +13329,7 @@
     "nome": "PNEU 2.75-18 INTERMEDIARIO TITAN - WH21 RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 260.0,
-    "estoque": -9.0
+    "estoque": -11.0
   },
   {
     "nome": "PNEU 2.75-18 LISO - REMOLDE",
@@ -13359,7 +13341,7 @@
     "nome": "PNEU 2.75-18 LISO TITAN - BS32 RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 260.0,
-    "estoque": -15.0
+    "estoque": -16.0
   },
   {
     "nome": "PNEU 21 GARRA CROSS - RINALDI",
@@ -13383,13 +13365,13 @@
     "nome": "PNEU 60/100-17 GARRA CROSS POP  - RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 210.0,
-    "estoque": -10.0
+    "estoque": -11.0
   },
   {
     "nome": "PNEU 60/100-17 INTERMEDIARIO POP - WH21 RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 220.0,
-    "estoque": -6.0
+    "estoque": -7.0
   },
   {
     "nome": "PNEU 60/100-17 LISO  - REMOLDE",
@@ -13413,19 +13395,25 @@
     "nome": "PNEU 80/100-14 INTERMEDIARIO POP - WH21 RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 240.0,
-    "estoque": -24.0
+    "estoque": -25.0
   },
   {
     "nome": "PNEU 80/100-14 LISO POP - BS32 RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 240.0,
-    "estoque": -49.0
+    "estoque": -51.0
   },
   {
     "nome": "PNEU 90 / 90 - 18 LISO - REMOLDE",
     "localizacao": "EXPOSITOR",
     "preco": 150.0,
     "estoque": 8.0
+  },
+  {
+    "nome": "PNEU 90 / 90 - 21 RINALDI LISO",
+    "localizacao": "nan",
+    "preco": 0.0,
+    "estoque": -1.0
   },
   {
     "nome": "PNEU 90/90-18 GARRA CROSS - REMOLDE",
@@ -13461,7 +13449,7 @@
     "nome": "PNEU 90/90-18 LISO TITAN - RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 260.0,
-    "estoque": -17.0
+    "estoque": -18.0
   },
   {
     "nome": "PNEU 90/90-19 GARRA CROSS - REMOLDE",
@@ -13473,13 +13461,13 @@
     "nome": "PNEU 90/90-19 GARRA CROSS BROS - RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 430.0,
-    "estoque": -19.0
+    "estoque": -20.0
   },
   {
     "nome": "PNEU 90/90-19 INTERMEDIARIO  BROS - WH21 RINALDI",
     "localizacao": "EXPOSITOR",
     "preco": 430.0,
-    "estoque": -7.0
+    "estoque": -10.0
   },
   {
     "nome": "PNEU 90/90-19 INTERMEDIARIO - REMOLDE",
@@ -13737,7 +13725,7 @@
     "nome": "PROTETOR CAPA CORRENTE NXR BROS 125-150-160 / TORNADO / XRE 190-300 - STYLU",
     "localizacao": "DEP58",
     "preco": 30.0,
-    "estoque": -45.0
+    "estoque": -47.0
   },
   {
     "nome": "PROTETOR CAPA CORRENTE TITAN 150 04-13",
@@ -13989,7 +13977,7 @@
     "nome": "REDINHA P/CAPACETE VERMELHA",
     "localizacao": "DEPE128",
     "preco": 20.0,
-    "estoque": 9.0
+    "estoque": 8.0
   },
   {
     "nome": "REETENTOR BENGALA BIZ 125 2011",
@@ -14001,7 +13989,7 @@
     "nome": "REFIL BOMBA COMBUSTIVEL ( FEMEA ) FAN TITAN 150 14-15/ BROS NXR160 / TITAN 160/ FAN 160 / BIZ 125 16-19 / XRE 190 -  ZOIUL",
     "localizacao": "DEPB19",
     "preco": 240.0,
-    "estoque": -16.0
+    "estoque": -17.0
   },
   {
     "nome": "REFIL BOMBA COMBUSTIVEL ( FEMEA ) FAN TITAN 150 14-15/ BROS NXR160 / TITAN 160/ FAN 160 / BIZ 125 16-19 / XRE 190 - SCT",
@@ -14013,7 +14001,7 @@
     "nome": "REFIL BOMBA COMBUSTIVEL (MACHO) POP110i / BIZ110 / FAN125i /FAN 160 START / BROS 160 ES - ZOIUL",
     "localizacao": "DEPB3",
     "preco": 240.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "REFIL BOMBA COMBUSTIVEL BIZ 125 12-15 MIX/FLEX - MHX",
@@ -14079,7 +14067,7 @@
     "nome": "REGULADOR ACIONADOR TENSOR CORRENTE COMANDO COM TRAVA  TITAN 150 04-15 / TITAN 160 16-21 / BROS 150 - WGK",
     "localizacao": "DEPB37",
     "preco": 130.0,
-    "estoque": -33.0
+    "estoque": -34.0
   },
   {
     "nome": "REGULADOR ACIONADOR TENSOR CORRENTE COMANDO FAZER 250 06- 20 / LANDER 250 07-20 - MHX",
@@ -14175,7 +14163,7 @@
     "nome": "REGULADOR RETIFICADOR VOLTAGEM TITAN150 04-08 / FAN125 09-12 / BROS 125 /BIZ125 06-08 / POP100 -15/BIZ100 12",
     "localizacao": "DEPC27",
     "preco": 70.0,
-    "estoque": -4.0
+    "estoque": -5.0
   },
   {
     "nome": "REGULADOR RETIFICADOR VOLTAGEM TORNADO 01-08/ TWISTER 01-08 - MONACO",
@@ -14203,15 +14191,15 @@
   },
   {
     "nome": "RELE PARTIDA (QUADRADO) CG150/BIZ125 2009/FAN125 2009/YBR125 2009 -MAGNETRON",
-    "localizacao": "nan",
+    "localizacao": "DEPB166",
     "preco": 75.0,
-    "estoque": -44.0
+    "estoque": -47.0
   },
   {
     "nome": "RELE PARTIDA (REDONDO) BIZ125 ANTIGA/XLR/TITAN/BROS150/XR200 -MAGNETRON",
-    "localizacao": "nan",
+    "localizacao": "DEPB167",
     "preco": 70.0,
-    "estoque": -3.0
+    "estoque": -4.0
   },
   {
     "nome": "RELE PARTIDA BIZ100 / BIZ110i 16-21 / BIZ125 18-21 - JEC PRO",
@@ -14220,20 +14208,26 @@
     "estoque": 6.0
   },
   {
+    "nome": "RELE PARTIDA LANDER 20-23 / FAZER 250 18-24 - MAGNETRON",
+    "localizacao": "DEPB95",
+    "preco": 90.0,
+    "estoque": 0.0
+  },
+  {
     "nome": "RELE PARTIDA YBR125 / FACTOR / XTZ - MAGNETRON",
-    "localizacao": "nan",
+    "localizacao": "DEPB152",
     "preco": 90.0,
     "estoque": -3.0
   },
   {
     "nome": "RELE PISCA 2 PINOS",
-    "localizacao": "LOJAA35",
+    "localizacao": "DEPB140",
     "preco": 25.0,
     "estoque": -67.0
   },
   {
     "nome": "RELE PISCA 3 PINOS - MAGNETRON",
-    "localizacao": "LOJAA36",
+    "localizacao": "nan",
     "preco": 30.0,
     "estoque": -24.0
   },
@@ -14299,9 +14293,9 @@
   },
   {
     "nome": "REPARO VARETA FREIO UNIVERSAL",
-    "localizacao": "nan",
+    "localizacao": "DEPB165",
     "preco": 10.0,
-    "estoque": -4.0
+    "estoque": -5.0
   },
   {
     "nome": "RESERVATORIO DO OLEO DO FREIO TRASEIRO COM MANGUEIRA TITAN150 / BROS 160  - TRILHA",
@@ -14325,13 +14319,13 @@
     "nome": "RETENTOR ACIONADOR EMBREAGEM TITAN 99 / TITAN 00 / FAN 125 05-09 - TRILHA",
     "localizacao": "CX2H5",
     "preco": 10.0,
-    "estoque": -10.0
+    "estoque": -11.0
   },
   {
     "nome": "RETENTOR ACIONADOR EMBREAGEM TITAN150-160 /NXR125-150-160 / FAN125-150-160/ XRE190 - TRILHA",
     "localizacao": "CX1A4",
     "preco": 12.0,
-    "estoque": -80.0
+    "estoque": -81.0
   },
   {
     "nome": "RETENTOR ACIONAMENTO EMBREAGEM YBR 125 / FACTOR 125-150 / TORNADO / LANDER / FAZER 150 / XRE 300 / CB 300",
@@ -14371,15 +14365,9 @@
   },
   {
     "nome": "RETENTOR BENGALA TITAN 150-160 / BROS 125-150-160 / XLR / FAN 150-160 - GEAR",
-    "localizacao": "nan",
+    "localizacao": "DEPB88",
     "preco": 12.5,
-    "estoque": -193.0
-  },
-  {
-    "nome": "RETENTOR BENGALA TITAN 150-160 / BROS 125-150-160 / XLR / FAN 150-160 - ORIGINAL HONDA",
-    "localizacao": "nan",
-    "preco": 40.0,
-    "estoque": 10.0
+    "estoque": -203.0
   },
   {
     "nome": "RETENTOR BENGALA TORNADO / XRE 300 / LANDER - CORTEGO",
@@ -14395,13 +14383,13 @@
   },
   {
     "nome": "RETENTOR BENGALA VEDACAO DUPLA  BIZ 125 11-17 / BIZ 100 13-15 / BIZ110 16-17 / CRPTON - TRILHA",
-    "localizacao": "nan",
+    "localizacao": "DEPB91",
     "preco": 15.0,
     "estoque": 29.0
   },
   {
     "nome": "RETENTOR BENGALA VEDAÇÃO DUPLA TITAN 150-160 / BROS 125-150-160 / XLR / FAN 150-160 - TRILHA",
-    "localizacao": "nan",
+    "localizacao": "DEPB89",
     "preco": 12.5,
     "estoque": -83.0
   },
@@ -14427,7 +14415,7 @@
     "nome": "RETENTOR CAMBIO POP 100 / BIZ 100-125 11,6x24x10",
     "localizacao": "CX1B2",
     "preco": 12.0,
-    "estoque": 5.0
+    "estoque": 4.0
   },
   {
     "nome": "RETENTOR CAMBIO TITAN 99  / TITAN  / XR 200 / TORNADO / XRE 300 / CB 300 / XLR",
@@ -14448,28 +14436,10 @@
     "estoque": 9.0
   },
   {
-    "nome": "RETENTOR DE BENGALA BIZ 125 11-17/BIZ 110 17/ BIZ 100 1/CRYPTO/WEB 100",
-    "localizacao": "5252",
-    "preco": 15.0,
-    "estoque": -36.0
-  },
-  {
-    "nome": "RETENTOR DE BENGALA CG/TITAN 125 /TODAY/ BIZ 100/BIZ 125 10/ POP100-110  -CORTECO",
-    "localizacao": "7281",
-    "preco": 15.0,
-    "estoque": -47.0
-  },
-  {
-    "nome": "RETENTOR DE BENGALA ORIGINAL HONDA BIZ125/BIZ100/CG125",
-    "localizacao": "nan",
-    "preco": 30.0,
-    "estoque": 0.0
-  },
-  {
     "nome": "RETENTOR DE BENGALA VEDACAO DUPLA TITAN 99 / TITAN 125 / BIZ 100-125 / POP 100 - 110 - TRILHA",
-    "localizacao": "nan",
+    "localizacao": "DEPB90",
     "preco": 12.5,
-    "estoque": -36.0
+    "estoque": -38.0
   },
   {
     "nome": "RETENTOR DE BENGALA XTZ 125 / DT 180 / NX200 - TRILHA",
@@ -14479,7 +14449,7 @@
   },
   {
     "nome": "RETENTOR DE BENGALA YBR 125 / FACTOR 125 / YES125 - TRILHA",
-    "localizacao": "LOJAA23",
+    "localizacao": "DEPB200",
     "preco": 12.5,
     "estoque": -41.0
   },
@@ -14487,13 +14457,13 @@
     "nome": "RETENTOR DE VALVULA FINA -  CORTEGO",
     "localizacao": "CX5A1",
     "preco": 25.0,
-    "estoque": -154.0
+    "estoque": -170.0
   },
   {
     "nome": "RETENTOR DO CAMBIO BROS 125-150-160 / TITAN 150-160 / FAN 125 09 / TWISTER / CB 300 / TORNADO / XLR / XRE 300 / CRF 230 / XR 200 14x28x7",
     "localizacao": "CX1A2",
     "preco": 12.0,
-    "estoque": 9.0
+    "estoque": 8.0
   },
   {
     "nome": "RETENTOR DO CAMBIO POP 110 / BIZ 110 11,6x22x7",
@@ -14505,7 +14475,7 @@
     "nome": "RETENTOR EIXO PEDAL PARTIDA BIZ 100-110 / POP100-110",
     "localizacao": "CX1B4",
     "preco": 12.0,
-    "estoque": -15.0
+    "estoque": -16.0
   },
   {
     "nome": "RETENTOR EIXO PEDAL PARTIDA YBR 125 / XTZ 125 / FACTOR 125-150 - SMARTFOX",
@@ -14517,13 +14487,13 @@
     "nome": "RETENTOR EIXO PIAO BIZ 100-110-125 / POP 100-110",
     "localizacao": "CX1B1",
     "preco": 12.0,
-    "estoque": -83.0
+    "estoque": -85.0
   },
   {
     "nome": "RETENTOR EIXO PIAO BIZ 125 06-21",
     "localizacao": "CX1B5",
     "preco": 10.0,
-    "estoque": -3.0
+    "estoque": -4.0
   },
   {
     "nome": "RETENTOR EIXO PIAO FAZER 250 / LANDER 250 / TENERE 250 - TRILHA",
@@ -14535,7 +14505,7 @@
     "nome": "RETENTOR EIXO PIAO TITAN 99-00-125-150-160 / BROS 125-150-160 / XLR / XR 200 / XRE 190 / CRF 230",
     "localizacao": "CX1A1",
     "preco": 12.0,
-    "estoque": -9.0
+    "estoque": -11.0
   },
   {
     "nome": "RETENTOR EIXO PIAO TORNADO/ XRE 300 / CB 300  / TWISTER 250 - TRILHA",
@@ -14643,13 +14613,13 @@
     "nome": "RETROVISOR MODELO ORIGINAL HONDA - AUDAX",
     "localizacao": "20149",
     "preco": 45.0,
-    "estoque": -117.0
+    "estoque": -120.0
   },
   {
     "nome": "RETROVISOR MODELO ORIGINAL \\ BIZ125 2006 A 2017/BIZ100 2012 A 2015/BIZ110i 2016 A 2017/POP100 2007 A 2015/POP110i 2016",
     "localizacao": "44451",
     "preco": 45.0,
-    "estoque": 56.0
+    "estoque": 55.0
   },
   {
     "nome": "RETROVISOR MODELO YBR MEDIO ROSCA ESQUERDA UNIVERSAL",
@@ -14695,9 +14665,9 @@
   },
   {
     "nome": "ROLAMENTO 6004",
-    "localizacao": "nan",
+    "localizacao": "DEPB103",
     "preco": 20.0,
-    "estoque": -80.0
+    "estoque": -81.0
   },
   {
     "nome": "ROLAMENTO 6006 - NACHI",
@@ -14707,15 +14677,15 @@
   },
   {
     "nome": "ROLAMENTO 6201",
-    "localizacao": "nan",
+    "localizacao": "DEPB97",
     "preco": 15.0,
-    "estoque": -230.0
+    "estoque": -234.0
   },
   {
     "nome": "ROLAMENTO 6202",
-    "localizacao": "nan",
+    "localizacao": "DEPB98",
     "preco": 15.0,
-    "estoque": -97.0
+    "estoque": -99.0
   },
   {
     "nome": "ROLAMENTO 6202 - NACHI",
@@ -14725,9 +14695,9 @@
   },
   {
     "nome": "ROLAMENTO 6203",
-    "localizacao": "nan",
+    "localizacao": "DEPB99",
     "preco": 20.0,
-    "estoque": -179.0
+    "estoque": -183.0
   },
   {
     "nome": "ROLAMENTO 6204 - NACHI",
@@ -14743,15 +14713,15 @@
   },
   {
     "nome": "ROLAMENTO 6301",
-    "localizacao": "nan",
+    "localizacao": "DEPB100",
     "preco": 15.0,
-    "estoque": -559.0
+    "estoque": -580.0
   },
   {
     "nome": "ROLAMENTO 6302",
-    "localizacao": "nan",
+    "localizacao": "DEPB101",
     "preco": 15.0,
-    "estoque": -122.0
+    "estoque": -129.0
   },
   {
     "nome": "ROLAMENTO 6302 - NACHI ORIGINAL",
@@ -14761,9 +14731,9 @@
   },
   {
     "nome": "ROLAMENTO 6303",
-    "localizacao": "nan",
+    "localizacao": "DEPB102",
     "preco": 20.0,
-    "estoque": -306.0
+    "estoque": -312.0
   },
   {
     "nome": "ROLAMENTO 6304 VIRABREQUIM DIREITO/ESQUERDO BIZ 100 - NACHI",
@@ -14797,7 +14767,7 @@
   },
   {
     "nome": "ROLAMENTO CAIXA DE DIRECAO FAZER250 -17/LANDER250/TENERE250/STX200/INTR250/XT350-600-660-6",
-    "localizacao": "LOJAC12",
+    "localizacao": "DEPB158",
     "preco": 70.0,
     "estoque": -1.0
   },
@@ -14919,7 +14889,7 @@
     "nome": "ROTOR BOMBA OLEO COMPLETO TITAN 150 /FAN 125 09-15 /FAN150 -15 / BROS NXR150 06 / TITAN 160 / BROS 160- AUDAX",
     "localizacao": "DEPE92",
     "preco": 65.0,
-    "estoque": -5.0
+    "estoque": -6.0
   },
   {
     "nome": "SANFONA BENGALA 21D BROS NXR 125-150-160 - CIRCUIT",
@@ -14931,7 +14901,7 @@
     "nome": "SANFONA BENGALA BROS 160 FINA - RR RACING",
     "localizacao": "DEPH7",
     "preco": 80.0,
-    "estoque": -74.0
+    "estoque": -78.0
   },
   {
     "nome": "SANFONA BENGALA PRETA 21D  BROS 125-150-160 / XRE 190 -  GEAR",
@@ -14955,7 +14925,7 @@
     "nome": "SANFONA BENGALA PRETA 32D TORNADO/ XRE 300 / CRF 230-250 - TRILHA",
     "localizacao": "DEPH8",
     "preco": 130.0,
-    "estoque": 1.0
+    "estoque": 0.0
   },
   {
     "nome": "SANFONA BENGALA TITAN 150 / POP 100 PRETA - SMART FOX",
@@ -15127,19 +15097,19 @@
   },
   {
     "nome": "SOQUETE DO FAROL POP 100 / BIZ 125 (CONECTOR MACHO) - MHX",
-    "localizacao": "nan",
+    "localizacao": "DEPB111",
     "preco": 15.0,
-    "estoque": -27.0
+    "estoque": -28.0
   },
   {
     "nome": "SOQUETE FAROL BROS 125-150 (CONECTOR FEMEA) - TRILHA (SS)",
-    "localizacao": "nan",
+    "localizacao": "DEPB110",
     "preco": 18.0,
     "estoque": -5.0
   },
   {
     "nome": "SOQUETE FAROL H4 -",
-    "localizacao": "nan",
+    "localizacao": "DEPB112",
     "preco": 15.0,
     "estoque": -28.0
   },
@@ -15153,7 +15123,7 @@
     "nome": "SPRAY AMARELO",
     "localizacao": "nan",
     "preco": 0.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "SPRAY AZUL",
@@ -15189,7 +15159,7 @@
     "nome": "SUPORTE COXIM DO PISCA  BROS 160 / XRE 190 - TRILHA",
     "localizacao": "DEPB56",
     "preco": 15.0,
-    "estoque": -50.0
+    "estoque": -52.0
   },
   {
     "nome": "SUPORTE COXIM PISCA TITAN 00 / XRE 300",
@@ -15273,7 +15243,7 @@
     "nome": "SUPORTE FAROL ARANHA TITAN 150 09-13",
     "localizacao": "DEPE39",
     "preco": 90.0,
-    "estoque": -1.0
+    "estoque": -2.0
   },
   {
     "nome": "SUPORTE FAROL ARANHA TITAN 160 16-21",
@@ -15309,7 +15279,7 @@
     "nome": "SUPORTE PARALAMA DIANTEIRO FAN 125 00-04 / TITAN 00",
     "localizacao": "DEPE163",
     "preco": 40.0,
-    "estoque": -3.0
+    "estoque": -4.0
   },
   {
     "nome": "SUPORTE PARALAMA DIANTEIRO TITAN 150 04/08",
@@ -15403,7 +15373,7 @@
   },
   {
     "nome": "TAMPA FUNDO MOTOR PARTIDA FAN150 09-15/TITAN150/NXR150 06-14(E)",
-    "localizacao": "LOJAC20",
+    "localizacao": "DEPB194",
     "preco": 65.0,
     "estoque": 3.0
   },
@@ -15553,9 +15523,9 @@
   },
   {
     "nome": "TAMPA REGULAR VALVULA BIZ100 / POP100",
-    "localizacao": "LOJAB5",
+    "localizacao": "DEPB94",
     "preco": 10.0,
-    "estoque": -21.0
+    "estoque": -22.0
   },
   {
     "nome": "TAMPA TANQUE BIZ 100-125 / POP100-110 - DANNIXX",
@@ -15648,8 +15618,8 @@
     "estoque": 0.0
   },
   {
-    "nome": "TENSOR KIT 3 PECAS GUIA CORRENTE COMANDO BIZ100/DREAM/POP100",
-    "localizacao": "LOJAC19",
+    "nome": "TENSOR KIT 3 PECAS GUIA CORRENTE COMANDO BIZ100 / POP100",
+    "localizacao": "DEPB192",
     "preco": 35.0,
     "estoque": -29.0
   },
@@ -15795,7 +15765,7 @@
     "nome": "TRAVA CARENAGEM FINA POP",
     "localizacao": "nan",
     "preco": 4.0,
-    "estoque": -10.0
+    "estoque": -20.0
   },
   {
     "nome": "TRAVA COROA TITAN",
@@ -15849,7 +15819,7 @@
     "nome": "TRAVA PASTILHA FREIO TRASEIRA BROS 160 - TRILHA",
     "localizacao": "CX2C4",
     "preco": 40.0,
-    "estoque": -24.0
+    "estoque": -25.0
   },
   {
     "nome": "TRAVA PIÃO POP / BIZ",
@@ -15993,7 +15963,7 @@
     "nome": "VALVULA ADMISSAO BROS 160 / TITAN 160 / FAN 160 / START 160 - VEDAMOTORS",
     "localizacao": "CX5A5",
     "preco": 70.0,
-    "estoque": -9.0
+    "estoque": -10.0
   },
   {
     "nome": "VALVULA ADMISSAO CRF 250F / CB 250F / TWISTER 250 16-D - VEDAMOTORS",
@@ -16053,7 +16023,7 @@
     "nome": "VALVULA ADMISSAO TITAN 150 04-15 / BROS 150 06-14 / FAN 150 - VEDAMOTORS",
     "localizacao": "CX5A3",
     "preco": 55.0,
-    "estoque": -40.0
+    "estoque": -41.0
   },
   {
     "nome": "VALVULA ADMISSAO TWISTER 250 01-08 / TORNADO / CB 300 09-15 / XRE 300 09-15 - AUDAX",
@@ -16215,7 +16185,7 @@
     "nome": "VARETA FREIO COMPLETA TRASEIRA BIZ 100",
     "localizacao": "DEPD126",
     "preco": 35.0,
-    "estoque": -5.0
+    "estoque": -6.0
   },
   {
     "nome": "VARETA FREIO NXR 160 ZINC 15 EM D",
@@ -16239,7 +16209,7 @@
     "nome": "VARETA FREIO TRASEIRO COMPLETA BROS 125 03-05/ BROS 150 03-14",
     "localizacao": "DEPD124",
     "preco": 35.0,
-    "estoque": -18.0
+    "estoque": -20.0
   },
   {
     "nome": "VARETA FREIO TRASEIRO COMPLETA XTZ 125 03-16",
@@ -16285,7 +16255,7 @@
   },
   {
     "nome": "VARETA NIVEL OLEO TODAY / TITAN 99 / TITAN 125 / BROS 125",
-    "localizacao": "LOJAB8",
+    "localizacao": "DEPB133",
     "preco": 15.0,
     "estoque": -2.0
   },
@@ -16303,43 +16273,43 @@
   },
   {
     "nome": "VELA IGNICAO BIZ 100 / POP 100 / YBR 125 / FACTOR / XTZ - MHX",
-    "localizacao": "nan",
+    "localizacao": "DEPB189",
     "preco": 25.0,
     "estoque": 5.0
   },
   {
     "nome": "VELA IGNICAO NGK BIZ100 /POP 100 / YBR125 / FACTOR / XTZ - SCT",
-    "localizacao": "nan",
+    "localizacao": "DEPB189",
     "preco": 30.0,
-    "estoque": -48.0
+    "estoque": -49.0
   },
   {
     "nome": "VELA IGNICAO TITAN 00 / FAN 125 05-08 / XRE 300 / BROS 125 / CRF 230 / LANDER - NGK",
-    "localizacao": "nan",
+    "localizacao": "DEPB190",
     "preco": 35.0,
     "estoque": -4.0
   },
   {
     "nome": "VELA IGNICAO TITAN 125 00 / XLR125 /XR200 - NGK",
-    "localizacao": "nan",
+    "localizacao": "DEPB190",
     "preco": 35.0,
-    "estoque": -38.0
+    "estoque": -39.0
   },
   {
     "nome": "VELA IGNICAO TITAN 150-160 / BIZ125-110 /FAN-BROS 09 EM DIANTE / XRE 190 / POP 110 - MAGNETRON",
-    "localizacao": "nan",
+    "localizacao": "DEPB188",
     "preco": 30.0,
     "estoque": -17.0
   },
   {
     "nome": "VELA IGNICAO TITAN 150-160/BIZ125-110/FAN-BROS 09 EM DIANTE/XRE 190/POP110/FALCON - NGK",
-    "localizacao": "nan",
+    "localizacao": "DEPB187",
     "preco": 40.0,
-    "estoque": -247.0
+    "estoque": -255.0
   },
   {
     "nome": "VELA IGNICAO TORNADO / TWISTER - MAGNETRON",
-    "localizacao": "nan",
+    "localizacao": "DEPB191",
     "preco": 38.0,
     "estoque": 9.0
   },
@@ -16401,7 +16371,7 @@
     "nome": "VISEIRA FUME - SAN MARINO",
     "localizacao": "DEPE30",
     "preco": 15.0,
-    "estoque": -11.0
+    "estoque": -13.0
   },
   {
     "nome": "VISEIRA FUME / CRISTAL N 62 - SAN MARINO",
@@ -16461,7 +16431,7 @@
     "nome": "VOLANTE MAGNETO \\ TITAN150 KS 2004 A 2008/NXR150 KS 2006 A 2008(E)",
     "localizacao": "35856",
     "preco": 430.0,
-    "estoque": 1.0
+    "estoque": 0.0
   },
   {
     "nome": "VOLANTE MAGNETRO POP 100 07-08 - MAGNETRON",
@@ -16480,5 +16450,11 @@
     "localizacao": "211086",
     "preco": 0.0,
     "estoque": 2.0
+  },
+  {
+    "nome": "XT 660",
+    "localizacao": "nan",
+    "preco": 0.0,
+    "estoque": 0.0
   }
 ]
