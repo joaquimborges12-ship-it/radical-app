@@ -46,7 +46,11 @@
   .secoes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
   .secao-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 12px; cursor: pointer; text-align: center; transition: border-color 0.15s, transform 0.1s; }
   .secao-card:active { transform: scale(0.96); border-color: #000; }
+  .secao-card.correto { background: #e6f4ea; border-color: #a8d5ae; }
+  .secao-card.correto:active { border-color: #1a6b1a; }
   .secao-nome { font-size: 16px; font-weight: bold; color: var(--text); font-family: monospace; letter-spacing: 0.05em; }
+  .secao-card.correto .secao-nome { color: #1a4d23; }
+  .secao-card.correto .secao-qtd { color: #3a7d44; }
   .secao-qtd { font-size: 12px; color: var(--text3); margin-top: 5px; }
   .secao-icone { font-size: 20px; margin-bottom: 8px; display: block; }
 
@@ -327,6 +331,9 @@ let secoes = {};
 let secaoAtiva = null;
 let itensSecaoAtiva = [];
 
+// Seções que estão corretas (fundo verde)
+const SECOES_CORRETAS = new Set(['DEPB','DEPC','DEPD','DEPE','DEPF','CX1','CX2','CX3','CX6','EXPOSITOR','PN']);
+
 fetch("data.json")
   .then(r => r.json())
   .then(j => {
@@ -425,7 +432,8 @@ function renderSecoes() {
     html += `<div class="grupo-titulo">${iconeSecao(lista[0])} ${familia}</div><div class="secoes-grid">`;
     lista.forEach(k => {
       const qtd = secoes[k].length;
-      html += `<div class="secao-card" onclick="abrirSecao('${k}')">
+      const correto = SECOES_CORRETAS.has(k);
+      html += `<div class="secao-card${correto ? ' correto' : ''}" onclick="abrirSecao('${k}')">
         <span class="secao-icone">${iconeSecao(k)}</span>
         <div class="secao-nome">${k}</div>
         <div class="secao-qtd">${qtd} produto${qtd !== 1 ? 's' : ''}</div>
