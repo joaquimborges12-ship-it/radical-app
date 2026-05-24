@@ -166,6 +166,23 @@
   .org-resumo-info { font-size: 13px; color: var(--text2); }
   .org-resumo-info strong { color: var(--text); }
   .org-footer { margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap; }
+
+  /* CONTAGEM */
+  .cnt-resumo { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 8px; }
+  .cnt-resumo-stat { text-align: center; }
+  .cnt-resumo-n { font-size: 20px; font-weight: bold; color: var(--text); }
+  .cnt-resumo-n.verde { color: #1a6b1a; }
+  .cnt-resumo-l { font-size: 11px; color: var(--text3); }
+  .cnt-item { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; display: flex; align-items: center; gap: 10px; }
+  .cnt-item-body { flex: 1; min-width: 0; }
+  .cnt-item-nome { font-size: 14px; font-weight: bold; color: var(--text); line-height: 1.4; }
+  .cnt-item-loc { font-size: 12px; font-family: monospace; color: #555; background: #f0f0f0; padding: 2px 8px; border-radius: 6px; border: 1px solid var(--border); display: inline-block; margin-top: 4px; }
+  .cnt-controle { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+  .cnt-btn { width: 34px; height: 34px; border-radius: 50%; border: 2px solid #ccc; background: #fff; font-size: 20px; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: transform 0.1s; }
+  .cnt-btn:active { transform: scale(0.9); }
+  .cnt-num { font-size: 16px; font-weight: bold; min-width: 26px; text-align: center; color: var(--text); }
+  .cnt-num.ok { color: #1a6b1a; }
+  .cnt-zerar-btn { font-size: 11px; padding: 4px 8px; border-radius: 6px; border: 1px solid #f5c6c2; background: transparent; color: var(--red); cursor: pointer; margin-top: 14px; }
 </style>
 </head>
 <body>
@@ -275,6 +292,43 @@
   </div>
 </div>
 
+<!-- CONTAGEM -->
+<div class="view" id="view-contagem">
+  <div class="cnt-resumo">
+    <div class="cnt-resumo-stat">
+      <div class="cnt-resumo-n" id="cnt-res-total">0</div>
+      <div class="cnt-resumo-l">locais</div>
+    </div>
+    <div class="cnt-resumo-stat">
+      <div class="cnt-resumo-n verde" id="cnt-res-conc">0</div>
+      <div class="cnt-resumo-l">concluídos</div>
+    </div>
+    <div class="cnt-resumo-stat">
+      <div class="cnt-resumo-n" id="cnt-res-itens">0</div>
+      <div class="cnt-resumo-l">itens contados</div>
+    </div>
+    <button class="btn btn-black" onclick="copiarContagem()">Copiar resumo</button>
+  </div>
+
+  <div id="cnt-tela-secoes">
+    <div id="cnt-secoes-lista"></div>
+  </div>
+
+  <div id="cnt-detalhe" style="display:none">
+    <div class="prat-back-bar">
+      <button class="prat-back-btn" onclick="voltarContagem()">← Voltar</button>
+      <span class="prat-titulo" id="cnt-titulo"></span>
+      <span class="prat-count" id="cnt-prog"></span>
+    </div>
+    <div id="cnt-lista"></div>
+    <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap;">
+      <button class="btn btn-green" style="flex:1" onclick="marcarConcluidoContagem()">✓ Marcar como concluído</button>
+      <button class="btn" onclick="desmarcarConcluidoContagem()">Desfazer</button>
+      <button class="cnt-zerar-btn" onclick="zerarSecaoContagem()">🗑️ Zerar esta seção</button>
+    </div>
+  </div>
+</div>
+
 <!-- MODAL NOVO CÓDIGO -->
 <div class="org-modal-bg" id="org-modal">
   <div class="org-modal">
@@ -308,6 +362,9 @@
   </div>
   <div class="nav-btn" id="nav-organizacao" onclick="mudarView('organizacao')">
     <span class="nav-icon">📦</span>Organização
+  </div>
+  <div class="nav-btn" id="nav-contagem" onclick="mudarView('contagem')">
+    <span class="nav-icon">🧮</span>Contagem
   </div>
 </div>
 
@@ -555,6 +612,7 @@ function mudarView(view) {
   document.getElementById('view-' + view).classList.add('active');
   document.getElementById('nav-' + view).classList.add('active');
   if (view === 'pedidos') { document.getElementById('search2').value = ''; document.getElementById('lista2').innerHTML = ''; }
+  if (view === 'contagem') { iniciarContagem(); }
 }
 
 function buscarPedidos() {
@@ -933,6 +991,166 @@ document.getElementById('org-novo-cod').addEventListener('keydown', function(e) 
 });
 
 renderOrgLista();
+
+// ---- CONTAGEM ----
+let cntContagens = JSON.parse(localStorage.getItem('rm_contagens') || '{}');
+let cntConcluidos = new Set(JSON.parse(localStorage.getItem('rm_concluidos') || '[]'));
+let cntSecaoAtiva = null;
+
+function salvarContagem() {
+  localStorage.setItem('rm_contagens', JSON.stringify(cntContagens));
+  localStorage.setItem('rm_concluidos', JSON.stringify([...cntConcluidos]));
+}
+
+function iniciarContagem() {
+  renderContagemSecoes();
+}
+
+function renderContagemSecoes() {
+  const familias = { 'Depósito': [], 'Loja': [], 'Caixas': [], 'Outros': [], 'Sem código': [] };
+  Object.keys(secoes).sort(naturalSort).forEach(k => {
+    if (k === 'SEM CÓDIGO') familias['Sem código'].push(k);
+    else if (k.startsWith('DEP')) familias['Depósito'].push(k);
+    else if (k.startsWith('LOJA')) familias['Loja'].push(k);
+    else if (k.match(/^CX\d/)) familias['Caixas'].push(k);
+    else familias['Outros'].push(k);
+  });
+
+  let html = '';
+  Object.entries(familias).forEach(([familia, lista]) => {
+    if (!lista.length) return;
+    html += `<div class="grupo-titulo">${iconeSecao(lista[0])} ${familia}</div><div class="secoes-grid">`;
+    lista.forEach(k => {
+      const prods = secoes[k] || [];
+      const conc = cntConcluidos.has(k);
+      const cont = cntContagens[k] || {};
+      const contados = prods.filter(p => (cont[p.nome] || 0) > 0).length;
+      const statusTxt = conc
+        ? '✓ Concluído'
+        : contados > 0
+          ? `${contados}/${prods.length} contados`
+          : `${prods.length} produto${prods.length !== 1 ? 's' : ''}`;
+      html += `<div class="secao-card${conc ? ' correto' : ''}" onclick="abrirContagemSecao('${k}')">
+        <span class="secao-icone">${iconeSecao(k)}</span>
+        <div class="secao-nome">${k}</div>
+        <div class="secao-qtd">${statusTxt}</div>
+      </div>`;
+    });
+    html += '</div>';
+  });
+
+  document.getElementById('cnt-secoes-lista').innerHTML = html;
+  document.getElementById('cnt-res-total').textContent = Object.keys(secoes).length;
+  document.getElementById('cnt-res-conc').textContent = cntConcluidos.size;
+  let totalItens = 0;
+  Object.values(cntContagens).forEach(c => Object.values(c).forEach(v => totalItens += v));
+  document.getElementById('cnt-res-itens').textContent = totalItens;
+}
+
+function abrirContagemSecao(k) {
+  cntSecaoAtiva = k;
+  if (!cntContagens[k]) cntContagens[k] = {};
+  document.getElementById('cnt-tela-secoes').style.display = 'none';
+  document.getElementById('cnt-detalhe').style.display = 'block';
+  document.getElementById('cnt-titulo').textContent = k;
+  renderContagemDetalhe();
+  window.scrollTo(0, 0);
+}
+
+function renderContagemDetalhe() {
+  const k = cntSecaoAtiva;
+  const prods = secoes[k] || [];
+  const cont = cntContagens[k] || {};
+  const ok = prods.filter(p => (cont[p.nome] || 0) > 0).length;
+  document.getElementById('cnt-prog').textContent = `${ok}/${prods.length} contados`;
+
+  const grupos = {};
+  prods.forEach(p => {
+    const loc = p.localizacao || '—';
+    if (!grupos[loc]) grupos[loc] = [];
+    grupos[loc].push(p);
+  });
+
+  const temGrupos = Object.keys(grupos).length > 1;
+  let html = '';
+  Object.keys(grupos).sort(naturalSort).forEach(loc => {
+    if (temGrupos) html += `<div class="subloc-titulo">📍 ${loc}</div>`;
+    grupos[loc].forEach(p => {
+      const n = cont[p.nome] || 0;
+      const nomeId = p.nome.replace(/[^a-z0-9]/gi, '_');
+      html += `<div class="cnt-item">
+        <div class="cnt-item-body">
+          <div class="cnt-item-nome">${p.nome}</div>
+          <span class="cnt-item-loc">${p.localizacao || '—'}</span>
+        </div>
+        <div class="cnt-controle">
+          <button class="cnt-btn" onclick="cntDec('${p.nome.replace(/'/g, "\\'")}')">−</button>
+          <span class="cnt-num${n > 0 ? ' ok' : ''}" id="cntnum_${k}_${nomeId}">${n}</span>
+          <button class="cnt-btn" onclick="cntInc('${p.nome.replace(/'/g, "\\'")}')">+</button>
+        </div>
+      </div>`;
+    });
+  });
+  document.getElementById('cnt-lista').innerHTML = html;
+}
+
+function cntInc(nome) {
+  const k = cntSecaoAtiva;
+  cntContagens[k][nome] = (cntContagens[k][nome] || 0) + 1;
+  salvarContagem();
+  renderContagemDetalhe();
+}
+
+function cntDec(nome) {
+  const k = cntSecaoAtiva;
+  if ((cntContagens[k][nome] || 0) > 0) cntContagens[k][nome]--;
+  salvarContagem();
+  renderContagemDetalhe();
+}
+
+function voltarContagem() {
+  document.getElementById('cnt-detalhe').style.display = 'none';
+  document.getElementById('cnt-tela-secoes').style.display = 'block';
+  renderContagemSecoes();
+  window.scrollTo(0, 0);
+}
+
+function marcarConcluidoContagem() {
+  cntConcluidos.add(cntSecaoAtiva);
+  salvarContagem();
+  voltarContagem();
+}
+
+function desmarcarConcluidoContagem() {
+  cntConcluidos.delete(cntSecaoAtiva);
+  salvarContagem();
+  voltarContagem();
+}
+
+function zerarSecaoContagem() {
+  if (!confirm('Zerar a contagem desta seção?')) return;
+  cntContagens[cntSecaoAtiva] = {};
+  cntConcluidos.delete(cntSecaoAtiva);
+  salvarContagem();
+  renderContagemDetalhe();
+}
+
+function copiarContagem() {
+  const chaves = Object.keys(cntContagens);
+  if (!chaves.length) { alert('Nenhuma contagem registrada ainda.'); return; }
+  let txt = `CONTAGEM DE ESTOQUE\n${new Date().toLocaleDateString('pt-BR')}\n\n`;
+  chaves.sort(naturalSort).forEach(k => {
+    const prods = secoes[k] || [];
+    if (!prods.length) return;
+    const conc = cntConcluidos.has(k) ? ' ✓' : '';
+    txt += `=== ${k}${conc} ===\n`;
+    prods.forEach(p => {
+      txt += `${p.nome}: ${cntContagens[k][p.nome] || 0}\n`;
+    });
+    txt += '\n';
+  });
+  navigator.clipboard.writeText(txt).then(() => alert('Contagem copiada!')).catch(() => prompt('Copie o texto:', txt));
+}
 </script>
 </body>
 </html>
