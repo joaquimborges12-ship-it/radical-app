@@ -6541,7 +6541,7 @@
   },
   {
     "nome": "EIXO RODA DIANTEIRA TORNADO / XRE 300 - TRILHA",
-    "localizacao": "CX5C5",
+    "localizacao": "nan",
     "preco": 60.0,
     "estoque": -1.0
   },
@@ -8287,7 +8287,7 @@
   },
   {
     "nome": "GUARNICAO TAMPA VALVULA CROSSER 150 - VEDAMOTORS",
-    "localizacao": "CX5A1",
+    "localizacao": "nan",
     "preco": 15.0,
     "estoque": -3.0
   },
@@ -14521,7 +14521,7 @@
   },
   {
     "nome": "ROLAMENTO 6304 VIRABREQUIM DIREITO/ESQUERDO BIZ 100 - NACHI",
-    "localizacao": "CX5A2",
+    "localizacao": "nan",
     "preco": 65.0,
     "estoque": -2.0
   },
@@ -14569,7 +14569,7 @@
   },
   {
     "nome": "ROLAMENTO VIRABREQUIM DIREITO BIZ 125 6322 CS-37 - NACHI",
-    "localizacao": "CX5A3",
+    "localizacao": "nan",
     "preco": 90.0,
     "estoque": -2.0
   },
@@ -14581,7 +14581,7 @@
   },
   {
     "nome": "ROLAMENTO VIRABREQUIM ESQUERDO BIZ 125 6322 CS-18 - NACHI",
-    "localizacao": "CX5B1",
+    "localizacao": "nan",
     "preco": 90.0,
     "estoque": 0.0
   },
@@ -14803,7 +14803,7 @@
   },
   {
     "nome": "SENSOR INDICADOR MARCHA POP110 / BIZ110i - MHX",
-    "localizacao": "CX5B3",
+    "localizacao": "nan",
     "preco": 145.0,
     "estoque": 1.0
   },
@@ -14929,7 +14929,7 @@
   },
   {
     "nome": "SUPORTE COXIM PISCA TITAN 160  / FAN 160 / START 160 - TRILHA",
-    "localizacao": "CX5B4",
+    "localizacao": "nan",
     "preco": 15.0,
     "estoque": 4.0
   },
@@ -15379,7 +15379,7 @@
   },
   {
     "nome": "TENSOR KIT 9 PECAS GUIA CORRENTE COMANDO BIZ100 / POP100",
-    "localizacao": "CX5B6",
+    "localizacao": "nan",
     "preco": 90.0,
     "estoque": -1.0
   },
