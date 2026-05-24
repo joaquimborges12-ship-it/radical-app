@@ -44,15 +44,37 @@
   .grupo-titulo { font-size: 11px; font-weight: bold; color: var(--text3); text-transform: uppercase; letter-spacing: 0.08em; margin: 20px 0 10px; padding-left: 2px; }
   .grupo-titulo:first-child { margin-top: 0; }
   .secoes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
-  .secao-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 12px; cursor: pointer; text-align: center; transition: border-color 0.15s, transform 0.1s; }
+
+  .secao-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 12px 10px 10px; cursor: pointer; text-align: center; transition: border-color 0.15s, transform 0.1s; position: relative; }
   .secao-card:active { transform: scale(0.96); border-color: #000; }
   .secao-card.correto { background: #e6f4ea; border-color: #a8d5ae; }
   .secao-card.correto:active { border-color: #1a6b1a; }
   .secao-nome { font-size: 16px; font-weight: bold; color: var(--text); font-family: monospace; letter-spacing: 0.05em; }
   .secao-card.correto .secao-nome { color: #1a4d23; }
   .secao-card.correto .secao-qtd { color: #3a7d44; }
-  .secao-qtd { font-size: 12px; color: var(--text3); margin-top: 5px; }
-  .secao-icone { font-size: 20px; margin-bottom: 8px; display: block; }
+  .secao-qtd { font-size: 12px; color: var(--text3); margin-top: 4px; }
+  .secao-icone { font-size: 20px; margin-bottom: 6px; display: block; }
+
+  /* Botão de toggle correto */
+  .secao-toggle-btn {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 4px 0;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: #f0f0f0;
+    color: #666;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .secao-toggle-btn:active { opacity: 0.75; }
+  .secao-card.correto .secao-toggle-btn {
+    background: #c8eacf;
+    border-color: #7dbf8a;
+    color: #1a4d23;
+  }
 
   .prat-back-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
   .prat-back-btn { background: #000; color: #fff; border: none; border-radius: 8px; padding: 8px 14px; font-size: 13px; cursor: pointer; }
@@ -69,6 +91,12 @@
   .prat-add-btn:active { transform: scale(0.9); }
   .prat-add-btn.adicionado { background: #1a6b1a; border-color: #1a6b1a; color: #fff; }
   .subloc-titulo { font-size: 12px; font-weight: bold; color: #555; background: #ebebeb; border-radius: 6px; padding: 5px 10px; margin: 12px 0 6px; font-family: monospace; display: inline-block; }
+
+  /* badge correto no detalhe da prateleira */
+  .prat-header-correto { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .prat-correto-badge { font-size: 12px; padding: 4px 12px; border-radius: 20px; cursor: pointer; border: 1px solid; white-space: nowrap; }
+  .prat-correto-badge.sim { background: #e6f4ea; border-color: #a8d5ae; color: #1a4d23; }
+  .prat-correto-badge.nao { background: #f0f0f0; border-color: var(--border); color: #666; }
 
   /* PEDIDOS */
   .pedido-selector { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; margin-bottom: 14px; scrollbar-width: none; }
@@ -217,6 +245,9 @@
       <button class="prat-back-btn" onclick="voltarPrateleiras()">← Voltar</button>
       <span class="prat-titulo" id="prat-titulo"></span>
       <span class="prat-count" id="prat-count"></span>
+    </div>
+    <div class="prat-header-correto">
+      <button class="prat-correto-badge nao" id="prat-correto-btn" onclick="toggleCorretoPrateleira()"></button>
     </div>
     <input class="search-box" id="prat-search" placeholder="Filtrar nesta prateleira..." oninput="filtrarPrateleira()" autocomplete="off">
     <div id="prat-lista"></div>
@@ -388,8 +419,26 @@ let secoes = {};
 let secaoAtiva = null;
 let itensSecaoAtiva = [];
 
-// Seções que estão corretas (fundo verde)
-const SECOES_CORRETAS = new Set(['DEPB','DEPC','DEPD','DEPE','DEPF','CX1','CX2','CX3','CX6','EXPOSITOR','PN']);
+// Seções corretas — agora carregadas do localStorage, com fallback para as originais
+let secoesCorretas = new Set(
+  JSON.parse(localStorage.getItem('rm_secoes_corretas') ||
+    JSON.stringify(['DEPB','DEPC','DEPD','DEPE','DEPF','CX1','CX2','CX3','CX6','EXPOSITOR','PN']))
+);
+
+function salvarSecoesCorretas() {
+  localStorage.setItem('rm_secoes_corretas', JSON.stringify([...secoesCorretas]));
+}
+
+function toggleSecaoCorreta(k, e) {
+  e.stopPropagation(); // não abre a seção ao clicar no botão
+  if (secoesCorretas.has(k)) {
+    secoesCorretas.delete(k);
+  } else {
+    secoesCorretas.add(k);
+  }
+  salvarSecoesCorretas();
+  renderSecoes();
+}
 
 fetch("data.json")
   .then(r => r.json())
@@ -489,11 +538,13 @@ function renderSecoes() {
     html += `<div class="grupo-titulo">${iconeSecao(lista[0])} ${familia}</div><div class="secoes-grid">`;
     lista.forEach(k => {
       const qtd = secoes[k].length;
-      const correto = SECOES_CORRETAS.has(k);
+      const correto = secoesCorretas.has(k);
+      const btnLabel = correto ? '✓ Correto' : '○ Marcar correto';
       html += `<div class="secao-card${correto ? ' correto' : ''}" onclick="abrirSecao('${k}')">
         <span class="secao-icone">${iconeSecao(k)}</span>
         <div class="secao-nome">${k}</div>
         <div class="secao-qtd">${qtd} produto${qtd !== 1 ? 's' : ''}</div>
+        <button class="secao-toggle-btn" onclick="toggleSecaoCorreta('${k}', event)">${btnLabel}</button>
       </div>`;
     });
     html += '</div>';
@@ -509,13 +560,34 @@ function abrirSecao(chave) {
   document.getElementById('prat-count').textContent = itensSecaoAtiva.length + ' produtos';
   document.getElementById('prat-secoes').style.display = 'none';
   document.getElementById('prat-detalhe').style.display = 'block';
+  atualizarBadgeCorreto();
   renderDetalhe(itensSecaoAtiva);
   window.scrollTo(0, 0);
+}
+
+function atualizarBadgeCorreto() {
+  const btn = document.getElementById('prat-correto-btn');
+  const correto = secoesCorretas.has(secaoAtiva);
+  btn.textContent = correto ? '✓ Localização correta' : '○ Marcar como correta';
+  btn.className = 'prat-correto-badge ' + (correto ? 'sim' : 'nao');
+}
+
+function toggleCorretoPrateleira() {
+  if (!secaoAtiva) return;
+  if (secoesCorretas.has(secaoAtiva)) {
+    secoesCorretas.delete(secaoAtiva);
+  } else {
+    secoesCorretas.add(secaoAtiva);
+  }
+  salvarSecoesCorretas();
+  atualizarBadgeCorreto();
+  // atualiza o card na lista de fundo sem fechar o detalhe
 }
 
 function voltarPrateleiras() {
   document.getElementById('prat-detalhe').style.display = 'none';
   document.getElementById('prat-secoes').style.display = 'block';
+  renderSecoes(); // re-renderiza para refletir mudanças feitas dentro do detalhe
   secaoAtiva = null;
   window.scrollTo(0, 0);
 }
